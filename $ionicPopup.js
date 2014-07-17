@@ -1,3 +1,4 @@
+//本代码来自ionic文档，主要应对GFW情况下的文档代码参考
 angular.module('mySuperApp', ['ionic'])
 .controller('PopupCtrl',function($scope, $ionicPopup, $timeout) {
 
