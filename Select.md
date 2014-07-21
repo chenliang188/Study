@@ -2,7 +2,7 @@
 - directive in module ng
 HTML SELECT element with angular data-binding.
 
-##ngOptions
+###ngOptions
 The ngOptions attribute can be used to dynamically generate a list of <option> elements for the <select> element using the array or object obtained by evaluating the ngOptions comprehension_expression.
 
 When an item in the <select> menu is selected, the array element or object property represented by the selected option will be bound to the model identified by the ngModel directive.
