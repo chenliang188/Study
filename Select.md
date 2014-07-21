@@ -13,6 +13,7 @@ Optionally, a single hard-coded <option> element, with the value set to an empty
 
 > Note: ngOptions provides an iterator facility for the <option> element which should be used instead of ngRepeat when you want the select model to be bound to a non-string value. This is because an option element can only be bound to string values at present.
 
+##Example
 ```
 <script>
 angular.module('selectExample', [])
