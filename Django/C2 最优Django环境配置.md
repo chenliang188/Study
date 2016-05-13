@@ -72,10 +72,55 @@ Pip已经包含在Python3.4以及更新版本,深度阅读以及安装指令可�
 
 就个人意见，我们一般认为不带virtualenvwrapper使用virtualenv真是一种痛苦，因为当你每次想激活一个virtualenv环境的时候，你将不得不输入以下这个长命令？
 
+```
+Example 2.1
 
+$ source  ̃/.virtualenvs/twoscoops/bin/activate
 
+```
+
+使用virtualenvwrapper，你只需要输入：
+
+```
+Example 2.2
+
+$ workon twoscoops
+
+```
+
+Virtualenvwrapper是一个pip和vituralenv的流行搭配工具，它使我们的输入更简单，但它不是绝对必须的。
 
 -----------------------
+
+图2.1：Pip、virtualenv和virtualenvwraper之间关系以雪糕的形式的说明图---图找原版看吧。
+
+
+## 2.3 通过Pip安装Django及其他依赖
+
+Django官方文档描述了几种安装Django的方式。我们推荐的方法是通过pip和必需清单文件的方法。
+
+概要描述一下工作过程：一个必需清单文件就像一个Python包的清单，包含了你想要装的所有Python包，它包含每个包的名字和版本,你可以使用pip从这个清单文件安装所需包到你的virturlenv环境。
+
+这个清单文件设置安装的内容我们将在第五章的*配置与所需清单文件*中谈及。
+
+-----------------------
+**提示：配置PYTHONPATH**
+
+如果你对命令行以及环境变量的知识掌握比较牢靠的话,你可以设置你的virtualenv环境的PYTHONPATH变量以便*django-admin.py*可以正常启动站点及执行其他任务。
+
+你也可以通过pip的最新版本设置你的PYTHONPATH变量包含当前目录。在项目的根目录运行“pip install -e .”命令是把当前目录作为适时编辑的包的一个技巧。
+
+如果你不知道如果设置或者你觉得上面内容有点复杂，别担心，坚持使用manage.py就可以了。
+
+推荐阅读：
+
+- http://cs.simons-rock.edu/python/pythonpath.html
+- https://docs.djangoproject.com/en/1.8/ref/django-admin/
+
+-----------------------
+
+## 2.4 使用版本控制系统
+
 
 
 
