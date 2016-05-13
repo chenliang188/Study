@@ -51,6 +51,8 @@
 
 如果你目前还没用这它们，我们强烈建议你熟悉这两个工具。对于Django项目来说，它们是事实上的标准配置，大多数使用Django的公司都依赖于者两个工具
 
-Pip是一个从Python包目录(Pypi)及其镜像获取Python包的工具.它用来管理和安装Python包，它和easy_install很像,不过有更多特性，关键的一个特性是支持Virtualenv
+*Pip*是一个从Python包目录(Pypi)及其镜像获取Python包的工具.它用来管理和安装Python包，它和easy_install很像,不过有更多特性，关键的一个特性是支持Virtualenv
+
+
 
 
