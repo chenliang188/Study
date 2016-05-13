@@ -66,7 +66,15 @@ Pip已经包含在Python3.4以及更新版本,深度阅读以及安装指令可�
 - virtualenv: http://virtualenv.org
 
 -----------------------
-**提示：Django+PostgreSQL组合**
+**提示：virtualenvwrapper**
+
+我们为Mac OS X和Linux系统用户高度推荐virtualenvwrapper,为Windows系统用户推荐virtualenvwrapper-win,这些项目都是由Doug Hellman 发起。
+
+就个人意见，我们一般认为不带virtualenvwrapper使用virtualenv真是一种痛苦，因为当你每次想激活一个virtualenv环境的时候，你将不得不输入以下这个长命令？
+
+
+
+
 -----------------------
 
 
