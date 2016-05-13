@@ -51,8 +51,23 @@
 
 如果你目前还没用这它们，我们强烈建议你熟悉这两个工具。对于Django项目来说，它们是事实上的标准配置，大多数使用Django的公司都依赖于者两个工具
 
-*Pip*是一个从Python包目录(Pypi)及其镜像获取Python包的工具.它用来管理和安装Python包，它和easy_install很像,不过有更多特性，关键的一个特性是支持Virtualenv
+**Pip**是一个从Python包目录(Pypi)及其镜像获取Python包的工具.它用来管理和安装Python包，它和easy_install很像,不过有更多特性，关键的一个特性是支持Virtualenv。
 
+**Virturlenv**是一个可以用来创建相互独立的Python环境的工具，这些独立的环境可以有不同的包依赖体系。当你同时开发多个项目且不同的项目依赖不同的包版本库时，你应该考虑使用Vitualenv。
+
+举个例子：假设你开发两个项目，其中一个依赖Django1.7，一个依赖Django1.8.
+
+- 如果没有使用Vituraenv(或者其他管理包依赖的替代工具),你将不得不在每次切换项目时重装Django。
+- 如果你觉得这繁琐无用,请注意：大多数实际Django生成项目至少需要依赖12个以上的包。
+
+Pip已经包含在Python3.4以及更新版本,深度阅读以及安装指令可以在以下页面找到:
+
+- pip: http://pip-installer.org
+- virtualenv: http://virtualenv.org
+
+-----------------------
+**提示：Django+PostgreSQL组合**
+-----------------------
 
 
 
