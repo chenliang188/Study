@@ -58,15 +58,19 @@ Example 3.2
 
 ### 3.2.1、顶层:版本库根目录
 
-顶层*<repositoryroot>/*根目录是项目的绝对根目录，里面除了放置*<djangoprojectroot>*目录以外，我也要放置一下关键组件：比如*README.rst*,*docs/*directory,*.gitignore*,*requirements.txt*文件，还有一些其他高等级文件，都是部署时需要的。
+顶层*<repositoryroot>/*根目录是项目的绝对根目录，里面除了放置*<djangoprojectroot>*目录以外，我也要放置一下关键组件：比如README.rst,docs/directory,.gitignore,requirements.txt文件，还有一些其他高等级文件，都是部署时需要的。
+
 -----------------------
+
 图 3.1: 为什么库目录重要的另外一个原因
+
 -----------------------
 
 -----------------------
 **提示：通用实践在这儿有所变化**
 
 有些开发者喜欢把*<djangoprojectroot>*目录作为项目的版本库根目录
+
 -----------------------
 
 ### 3.2.2、第二层:项目根目录
