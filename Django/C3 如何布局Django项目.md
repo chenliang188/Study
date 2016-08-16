@@ -134,4 +134,4 @@ icecreamratings/ | 项目的Django根目录
 
 文件或目录      | 用途   
 ----------------|--------------
-config/   |项目的配置根目录
+config/   |项目的配置根目录,里面放着项目的settings.py、urls.py和wsgi.py模块
