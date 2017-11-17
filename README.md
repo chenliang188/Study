@@ -1,8 +1,19 @@
-# cn-docs：
+# docs：
 
+## 写文档: 学习Markdown
 - Markdown Basics:https://help.github.com/articles/markdown-basics
 - Mastering Markdown：https://guides.github.com/features/mastering-markdown/
+##
 
-## Ang-docs
+## Angular
+
+- Angular中文文档:
+- Angular官方：
+- 书籍推荐
 
 ## Django
+
+- 官方文档
+- 官方文档翻译
+- 书籍推荐
+
