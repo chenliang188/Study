@@ -6,6 +6,11 @@
 
 ## JavaScript
 
+- JavaScript权威指南
+- Oreilly JS系列
+- ES6标入门
+- 深入理解ES6
+
 ## Angular
 
 - Angular中文文档:
