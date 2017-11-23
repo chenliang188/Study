@@ -17,3 +17,11 @@
 - 官方文档翻译
 - 书籍推荐
 
+## Big Data
+
+
+## OLAP
+
+## BI
+
+- 2017 Gartner数据科学魔力象限出炉，16位上榜公司花落谁家？https://www.leiphone.com/news/201703/iZGuGfnER4Sv2zRe.html
