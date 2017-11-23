@@ -33,6 +33,7 @@
 
 ## Ruby
 
+- https://www.ruby-lang.org/en/
 - Ruby基础教程
 - Ruby程序员修炼之道
 
