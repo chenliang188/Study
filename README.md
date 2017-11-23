@@ -1,8 +1,10 @@
-# Learn：
+# Learn
 
 ## 写文档: 学习Markdown
 - Markdown Basics:https://help.github.com/articles/markdown-basics
 - Mastering Markdown：https://guides.github.com/features/mastering-markdown/
+
+## JavaScript
 
 ## Angular
 
@@ -10,16 +12,22 @@
 - Angular官方：
 - 书籍推荐
 
+## Python
+
 ## Django
 
 - 官方文档
 - 官方文档翻译
 - 书籍推荐
 
+## Ruby
+
 ## Big Data
 
 
 ## OLAP
+
+## R
 
 ## BI
 
