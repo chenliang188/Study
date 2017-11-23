@@ -31,7 +31,6 @@
 
 ## Big Data
 
-
 ## OLAP
 
 ## R
