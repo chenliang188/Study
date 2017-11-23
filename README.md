@@ -13,8 +13,7 @@
 
 ## Angular
 
-- Angular中文文档:
-- Angular官方：
+- Angular官方文档:
 - 书籍推荐
 
 ## TypeScript
@@ -24,7 +23,6 @@
 ## Django
 
 - 官方文档
-- 官方文档翻译
 - 书籍推荐
 
 ## Ruby
