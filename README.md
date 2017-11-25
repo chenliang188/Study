@@ -7,15 +7,15 @@
 ## JavaScript
 
 - [廖雪峰的小白零基础JS全栈教程](https://liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
-- JavaScript权威指南
+- 《JavaScript权威指南》
 - Oreilly JS系列
-- ES6标入门
-- 深入理解ES6
+- 《ES6标入门》
+- 《深入理解ES6》
 
 ## Angular
 
 - Angular官方文档:
-- 书籍推荐:Ng-Book
+- 《Ng-Book》
 
 ## TypeScript
 
@@ -25,23 +25,24 @@
 
 - [廖雪峰的零起点Python3教程](https://liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 - 官网文档
-- Learning Python中文版
-- 流畅的Python
+- 《Learning Python中文版》
+- 《流畅的Python》
 - [Hitchhiker's Guide to Python](https://github.com/kennethreitz/python-guide)
 ## Django
 
 - 官方文档
-- 书籍推荐:Two scopes of Django
+- 《Two scopes of Django》
 
 ## Ruby
 
 - https://www.ruby-lang.org/en/
-- Ruby基础教程(第五版)
-- Ruby程序员修炼之道
+- 《Ruby基础教程(第五版)》
+- 《Ruby程序员修炼之道》
 
 ## DevOps
 
 [廖雪峰的Git教程](https://liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+《高效团队开发:工具与方法》
 
 ## Big Data
 
@@ -76,3 +77,4 @@
 
 ## CV
 
+## PT
