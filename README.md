@@ -48,6 +48,8 @@
 
 - http://www.pentest-standard.org : http://pentest-standard.readthedocs.io/en/latest/
 - [Penetration Testing Framework](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html)
+- [The PenTesters Framework](https://www.trustedsec.com/pentesters-framework/)
+- [Offensive Web Testing Framework](https://www.owasp.org/index.php/OWASP_OWTF)
 - 《Mastering Kali Linux for Advanced Penetration Testing》
 
 ## Big Data
