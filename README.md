@@ -39,6 +39,10 @@
 - 《Ruby基础教程(第五版)》
 - 《Ruby程序员修炼之道》
 
+## Languages
+
+- [Scripting Languages I: Node.js, Python, PHP, Ruby](http://hyperpolyglot.org/scripting?)
+
 ## DevOps
 
 - [廖雪峰的Git教程](https://liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
