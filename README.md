@@ -42,6 +42,7 @@
 ## Languages
 
 - [Scripting Languages I: Node.js, Python, PHP, Ruby](http://hyperpolyglot.org/scripting?)
+- [cheet sheets](https://github.com/marcusvmsa/cheatsheets)
 
 ## DevOps
 
