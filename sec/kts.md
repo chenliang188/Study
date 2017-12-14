@@ -1,5 +1,7 @@
 # Kali tools summary
 
+> Kali Linux 2017.3
+
 ## Information Gathering - 信息收集
  
 - acccheck:该工具基于SMB协议用来暴力破解Windows，它是根据smbClient这个二进制文件来构造的一小段代码，所以只对运行有smbClient这个文件的计算机终端上才有用 
