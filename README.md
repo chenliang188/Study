@@ -57,7 +57,7 @@
 - [The PenTesters Framework](https://www.trustedsec.com/pentesters-framework/)
 - [Offensive Web Testing Framework](https://www.owasp.org/index.php/OWASP_OWTF)
 - 《Mastering Kali Linux for Advanced Penetration Testing》
-- 
+- [Kali Tools Summary](https://github.com/dhcn/learn/blob/master/sec/kts.md)
 
 ## Big Data
 
