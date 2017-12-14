@@ -36,6 +36,7 @@
 ## Ruby
 
 - https://www.ruby-lang.org/en/
+- http://ruby-doc.com/
 - 《Ruby基础教程(第五版)》
 - 《Ruby程序员修炼之道》
 
@@ -56,6 +57,7 @@
 - [The PenTesters Framework](https://www.trustedsec.com/pentesters-framework/)
 - [Offensive Web Testing Framework](https://www.owasp.org/index.php/OWASP_OWTF)
 - 《Mastering Kali Linux for Advanced Penetration Testing》
+- 
 
 ## Big Data
 
