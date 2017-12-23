@@ -58,6 +58,7 @@
 - [Offensive Web Testing Framework](https://www.owasp.org/index.php/OWASP_OWTF)
 - 《Mastering Kali Linux for Advanced Penetration Testing》
 - [Kali Tools Summary](https://github.com/dhcn/learn/blob/master/sec/kts.md)
+- [kalitoolsguide](https://kalitoolsguide.com/)
 
 ## Big Data
 
@@ -70,8 +71,11 @@
 - ClickHouse
 - Palo
 
-## R
+## DATA SCIENCE
 
+- [Applied Data Science with Python](https://www.coursera.org/specializations/data-science-python)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [Anaconda](https://www.anaconda.com/)
 - [R-Project](https://www.r-project.org/)
 - R语言实战
 
