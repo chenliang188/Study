@@ -86,9 +86,9 @@
 - Alpine Data
 - [2017 Gartner数据科学魔力象限出炉，16位上榜公司花落谁家？](https://www.leiphone.com/news/201703/iZGuGfnER4Sv2zRe.html)
 
-## AI
-
 ## Data Mining
+
+## AI
 
 ## Machine Learning
 
@@ -97,5 +97,3 @@
 ## NLP
 
 ## CV
-
-## PT
