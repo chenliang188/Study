@@ -15,7 +15,7 @@
 ## Angular
 
 - Angular官方文档:
-- 《Ng-Book》
+- [ng-book](https://www.ng-book.com/2/)
 
 ## TypeScript
 
