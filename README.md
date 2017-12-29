@@ -70,6 +70,7 @@
 - GreenPlum
 - ClickHouse
 - Palo
+- [Apache HAWQ®]http://hawq.incubator.apache.org/
 
 ## DATA SCIENCE
 
