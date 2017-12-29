@@ -98,6 +98,8 @@
 
 ## Deep Learning
 
+[Deep Learning Book Chinese Translation](https://exacity.github.io/deeplearningbook-chinese/)
+
 ## NLP
 
 ## CV
