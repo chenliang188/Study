@@ -45,6 +45,11 @@
 - [Scripting Languages I: Node.js, Python, PHP, Ruby](http://hyperpolyglot.org/scripting?)
 - [cheet sheets](https://github.com/marcusvmsa/cheatsheets)
 
+## Architecture
+
+- [Istio](https://istio.io/)
+- [Kubernetes](https://kubernetes.io/)
+
 ## DevOps
 
 - [廖雪峰的Git教程](https://liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
