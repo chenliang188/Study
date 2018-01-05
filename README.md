@@ -22,7 +22,7 @@
 - 中文官网文档
 
 ## Python
-
+- [Python简明教程2017译本](https://bop.mol.uno/)
 - [廖雪峰的零起点Python3教程](https://liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 - 官网文档
 - 《Learning Python中文版》
@@ -92,7 +92,11 @@
 
 ## Data Mining
 
+
+
 ## AI
+
+[Stanford DAWN](http://dawn.cs.stanford.edu/)
 
 ## Machine Learning
 
