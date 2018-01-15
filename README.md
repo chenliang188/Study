@@ -83,6 +83,7 @@
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Anaconda](https://www.anaconda.com/)
 - [R-Project](https://www.r-project.org/)
+- [R语言实战](https://book.douban.com/subject/26785199/)
 
 ## BI
 
