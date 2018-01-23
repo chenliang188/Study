@@ -94,7 +94,7 @@
 
 ## RPA
 
-["Automate the Boring Stuff with Python"](https://automatetheboringstuff.com/)
+- ["Automate the Boring Stuff with Python"](https://automatetheboringstuff.com/)
 
 ## Data Mining
 
@@ -102,14 +102,14 @@
 
 ## AI
 
-[Stanford DAWN](http://dawn.cs.stanford.edu/)
+- [Stanford DAWN](http://dawn.cs.stanford.edu/)
 
 ## Machine Learning
 
 ## Deep Learning
 
-[Deep Learning Book Chinese Translation](https://exacity.github.io/deeplearningbook-chinese/)
-[PyTorch](http://pytorch.org/tutorials/)
+- [Deep Learning Book Chinese Translation](https://exacity.github.io/deeplearningbook-chinese/)
+- [PyTorch](http://pytorch.org/tutorials/)
 
 ## NLP
 
