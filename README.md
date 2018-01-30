@@ -64,6 +64,7 @@
 - 《Mastering Kali Linux for Advanced Penetration Testing》
 - [Kali Tools Summary](https://github.com/dhcn/learn/blob/master/sec/kts.md)
 - [kalitoolsguide](https://kalitoolsguide.com/)
+- [Nmap参考指南](https://nmap.org/man/zh/)
 
 ## Big Data
 
