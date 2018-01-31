@@ -118,8 +118,15 @@
 
 ## Audit
 
-[PCAOB](https://pcaobus.org//)
+- [PCAOB](https://pcaobus.org//)
 
 ## ERM
 
-[COSO](http://www.coso.org/)
+- [COSO](http://www.coso.org/)
+
+## BlockChain
+
+- [Bitcoin and Cryptocurrency Technologies](http://bitcoinbook.cs.princeton.edu/)
+- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
+- [数字黄金](https://www.amazon.cn/gp/product/B06XD8FKYD/)
+
