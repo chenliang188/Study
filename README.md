@@ -8,8 +8,8 @@
 
 - [廖雪峰的小白零基础JS全栈教程](https://liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 - 《JavaScript权威指南》
-- 《你不知道的JavaScript》
 - Oreilly JS系列
+- 《你不知道的JavaScript》
 - 《ES6标入门》
 - 《深入理解ES6》
 
@@ -41,10 +41,14 @@
 - 《Ruby基础教程(第五版)》
 - 《Ruby程序员修炼之道》
 
+## Java
+
+- https://spring.io/
+
 ## Languages
 
 - [Scripting Languages I: Node.js, Python, PHP, Ruby](http://hyperpolyglot.org/scripting?)
-- [cheet sheets](https://github.com/marcusvmsa/cheatsheets)
+- [Features cheet sheets](https://github.com/marcusvmsa/cheatsheets)
 
 ## Architecture
 
