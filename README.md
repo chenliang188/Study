@@ -8,6 +8,7 @@
 
 - [廖雪峰的小白零基础JS全栈教程](https://liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 - 《JavaScript权威指南》
+- 《你不知道的JavaScript》
 - Oreilly JS系列
 - 《ES6标入门》
 - 《深入理解ES6》
