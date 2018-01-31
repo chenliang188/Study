@@ -15,17 +15,17 @@
 
 ## Angular
 
-- Angular官方文档:
+- [Angular官方文档](https://angular.cn/docs)
 - [ng-book](https://www.ng-book.com/2/)
 
 ## TypeScript
 
-- 中文官网文档
+- [中文官方文档](https://www.tslang.cn/docs/home.html)
 
 ## Python
 - [Python简明教程2017译本](https://bop.mol.uno/)
 - [廖雪峰的零起点Python3教程](https://liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
-- 官网文档
+- [官网文档](https://docs.python.org/3/)
 - 《Learning Python中文版》
 - 《流畅的Python》
 - [Hitchhiker's Guide to Python](https://github.com/kennethreitz/python-guide)
