@@ -109,7 +109,6 @@
 ## Data Mining
 
 
-
 ## AI
 
 - [Stanford DAWN](http://dawn.cs.stanford.edu/)
@@ -133,7 +132,8 @@
 
 ## ERM
 
-- [COSO](http://www.coso.org/)
+- [COSO ERM](https://www.coso.org/Pages/erm.aspx)
+- [GARP FRM](http://www.garp.org/#!/frm)
 
 ## BlockChain
 
