@@ -6,7 +6,7 @@
 
 ## GitHub
 
--[awesome](https://github.com/sindresorhus/awesome)
+- [awesome](https://github.com/sindresorhus/awesome)
 
 ## JavaScript
 
