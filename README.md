@@ -33,6 +33,7 @@
 - 《Learning Python中文版》
 - 《流畅的Python》
 - [Hitchhiker's Guide to Python](https://github.com/kennethreitz/python-guide)
+
 ## Django
 
 - 官方文档
@@ -74,6 +75,7 @@
 - [Kali Tools Summary](https://github.com/dhcn/learn/blob/master/sec/kts.md)
 - [kalitoolsguide](https://kalitoolsguide.com/)
 - [Nmap参考指南](https://nmap.org/man/zh/)
+- [vulscan](https://github.com/scipag/vulscan)
 
 ## Big Data
 
