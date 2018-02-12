@@ -50,15 +50,20 @@
 
 ## Golang
 
+- [官方文档](https://golang.org/doc/)
+- Go语言实战
+
 ## Java
 
 - https://spring.io/
 
+## R
+
+- [R语言实战(第2版)]
+
 ## Languages
 
 - [Scripting Languages I: Node.js, Python, PHP, Ruby](http://hyperpolyglot.org/scripting?)
-- [Features cheet sheets](https://github.com/marcusvmsa/cheatsheets)
-
 
 ## Architecture
 
