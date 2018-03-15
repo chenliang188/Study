@@ -51,7 +51,7 @@
 ## Golang
 
 - [官方文档](https://golang.org/doc/)
-- Go语言实战
+- 《Go语言实战》
 
 ## Java
 
@@ -59,7 +59,7 @@
 
 ## R
 
-- [R语言实战(第2版)](https://www.amazon.cn/dp/B01FSXCBMS/)
+- 《R语言实战(第2版)》
 
 ## Languages
 
@@ -152,6 +152,5 @@
 
 - [Bitcoin and Cryptocurrency Technologies](http://bitcoinbook.cs.princeton.edu/)
 - [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
-- [数字黄金](https://www.amazon.cn/gp/product/B06XD8FKYD/)
 - https://cn.hyperledger.org/
 
