@@ -59,7 +59,7 @@
 
 ## R
 
-- [R语言实战(第2版)]
+- [R语言实战(第2版)](https://www.amazon.cn/dp/B01FSXCBMS/)
 
 ## Languages
 
@@ -85,6 +85,7 @@
 - [Kali Tools Summary](https://github.com/dhcn/learn/blob/master/sec/kts.md)
 - [kalitoolsguide](https://kalitoolsguide.com/)
 - [Nmap参考指南](https://nmap.org/man/zh/)
+- [Nmap Network Scanning](https://nmap.org/book/toc.html)
 - [vulscan](https://github.com/scipag/vulscan)
 
 ## Big Data
