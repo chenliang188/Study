@@ -114,7 +114,7 @@
 - H2O.ai
 - Superset
 - Alpine Data
-- [2017 Gartner数据科学魔力象限出炉，16位上榜公司花落谁家？](https://www.leiphone.com/news/201703/iZGuGfnER4Sv2zRe.html)
+- [Magic Quadrant for Data Science and Machine-Learning Platforms](https://www.gartner.com/doc/3860063/magic-quadrant-data-science-machinelearning)
 
 ## RPA
 
@@ -157,7 +157,7 @@
 
 ### Sensors
 
-[《Time-of-Flight and Structured Light Depth Cameras Technology and Applications》](http://www.doc88.com/p-5408951004705.html)
+- [《Time-of-Flight and Structured Light Depth Cameras Technology and Applications》](http://www.doc88.com/p-5408951004705.html)
 
 ## Audit
 
