@@ -110,8 +110,9 @@
 
 ## BI
 
-- Superset
 - KNIME
+- H2O.ai
+- Superset
 - Alpine Data
 - [2017 Gartner数据科学魔力象限出炉，16位上榜公司花落谁家？](https://www.leiphone.com/news/201703/iZGuGfnER4Sv2zRe.html)
 
@@ -129,15 +130,34 @@
 ## Machine Learning
 
 - [统计学习方法](https://www.amazon.cn/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%8E%E8%88%AA/dp/B00EE5IAHW/)
+- 《机器学习》(https://book.douban.com/subject/26708119/)
 
 ## Deep Learning
 
+- [《深度学习》](https://www.amazon.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Ian-Goodfellow/dp/B074TBNZLK/)
 - [Deep Learning Book Chinese Translation](https://exacity.github.io/deeplearningbook-chinese/)
 - [PyTorch](http://pytorch.org/tutorials/)
 
+
 ## NLP
 
+- [《统计自然语言处理》](https://www.amazon.cn/dp/B00P7UETQY/)
+- [《自然语言计算机形式分析的理论与方法》](https://book.douban.com/subject/27019157/)
+
 ## CV
+
+### Action Recognition
+
+- [《Human Action Recognition with Depth Cameras》](http://www.doc88.com/p-0959082506295.html)
+- [《Two-Stream Convolutional Networks for Action Recognition in Videos》](https://arxiv.org/abs/1406.2199)
+
+### 三维人体重建
+
+- [《基于Kinect的人体三维重建研究》](http://www.doc88.com/p-7045099385918.html)
+
+### Sensors
+
+[《Time-of-Flight and Structured Light Depth Cameras Technology and Applications》](http://www.doc88.com/p-5408951004705.html)
 
 ## Audit
 
