@@ -1,4 +1,4 @@
-# Learn
+# Study
 
 ## 写这个文档:Markdown
 - [Markdown Basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
