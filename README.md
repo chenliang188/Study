@@ -107,6 +107,7 @@
 - [Anaconda](https://www.anaconda.com/)
 - [R-Project](https://www.r-project.org/)
 - [R语言实战](https://book.douban.com/subject/26785199/)
+- [Magic Quadrant for Data Science and Machine-Learning Platforms](https://www.gartner.com/doc/3860063/magic-quadrant-data-science-machinelearning)
 
 ## BI
 
@@ -114,7 +115,6 @@
 - H2O.ai
 - Superset
 - Alpine Data
-- [Magic Quadrant for Data Science and Machine-Learning Platforms](https://www.gartner.com/doc/3860063/magic-quadrant-data-science-machinelearning)
 
 ## RPA
 
