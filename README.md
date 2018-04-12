@@ -129,8 +129,8 @@
 
 ## Machine Learning
 
-- [统计学习方法](https://www.amazon.cn/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%8E%E8%88%AA/dp/B00EE5IAHW/)
-- 《机器学习》(https://book.douban.com/subject/26708119/)
+- [《统计学习方法》](https://www.amazon.cn/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%8E%E8%88%AA/dp/B00EE5IAHW/)
+- [《机器学习》](https://book.douban.com/subject/26708119/)
 
 ## Deep Learning
 
