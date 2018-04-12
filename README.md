@@ -65,7 +65,7 @@
 
 - [Scripting Languages I: Node.js, Python, PHP, Ruby](http://hyperpolyglot.org/scripting?)
 
-## Architecture
+## Back-end
 
 - [Istio](https://istio.io/)
 - [Kubernetes](https://kubernetes.io/)
