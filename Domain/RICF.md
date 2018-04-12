@@ -1,1 +1,1 @@
-# Riks Information Content Framework
+# Risk Information Content Framework
