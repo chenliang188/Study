@@ -148,7 +148,8 @@
 
 ## CV
 
--[2017 A Year in Computer Vision](http://www.themtank.org/a-year-in-computer-vision)
+- [2017 A Year in Computer Vision](http://www.themtank.org/a-year-in-computer-vision)
+- [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
 
 ### Pose Estimation
 
