@@ -185,6 +185,5 @@
 ## BlockChain
 
 - [Bitcoin and Cryptocurrency Technologies](http://bitcoinbook.cs.princeton.edu/)
-- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
 - https://cn.hyperledger.org/
 
