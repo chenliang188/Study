@@ -146,12 +146,16 @@
 
 ## CV
 
+-[2017 A Year in Computer Vision](http://www.themtank.org/a-year-in-computer-vision)
+
+### Pose Estimation
+
+- [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+
 ### Action Recognition
 
 - [《Human Action Recognition with Depth Cameras》](http://www.doc88.com/p-0959082506295.html)
 - [《Two-Stream Convolutional Networks for Action Recognition in Videos》](https://arxiv.org/abs/1406.2199)
-
-### Human Pose Estimation
 
 ### 三维人体重建
 
