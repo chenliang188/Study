@@ -151,6 +151,8 @@
 - [《Human Action Recognition with Depth Cameras》](http://www.doc88.com/p-0959082506295.html)
 - [《Two-Stream Convolutional Networks for Action Recognition in Videos》](https://arxiv.org/abs/1406.2199)
 
+### Human Pose Estimation
+
 ### 三维人体重建
 
 - [《基于Kinect的人体三维重建研究》](http://www.doc88.com/p-7045099385918.html)
@@ -161,9 +163,9 @@
 
 ## Accounting
 
-- [CAAP]
-- [IASB]
-- [IFRS]
+- CAAP
+- IASB
+- IFRS
 
 ## Audit
 
