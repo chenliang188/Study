@@ -119,9 +119,11 @@
 ## RPA
 
 - ["Automate the Boring Stuff with Python"](https://automatetheboringstuff.com/)
+- UIPath
 
 ## Data Mining
 
+- 《数据挖掘导论》
 
 ## AI
 
