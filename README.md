@@ -139,6 +139,7 @@
 - [《深度学习》](https://www.amazon.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Ian-Goodfellow/dp/B074TBNZLK/)
 - [Deep Learning Book Chinese Translation](https://exacity.github.io/deeplearningbook-chinese/)
 - [PyTorch](http://pytorch.org/tutorials/)
+- [Stanford Deeplearning Wiki](http://deeplearning.stanford.edu/wiki/index.php/Main_Page)
 
 
 ## NLP
