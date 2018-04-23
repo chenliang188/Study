@@ -140,6 +140,7 @@
 - [Deep Learning Book Chinese Translation](https://exacity.github.io/deeplearningbook-chinese/)
 - [PyTorch](http://pytorch.org/tutorials/)
 - [Stanford Deeplearning Wiki](http://deeplearning.stanford.edu/wiki/index.php/Main_Page)
+- [deeplearning.ai](https://www.deeplearning.ai/)
 
 
 ## NLP
