@@ -41,6 +41,8 @@
 
 ## CPP
 
+- 《C++ Primer》
+
 ## Ruby
 
 - https://www.ruby-lang.org/en/
