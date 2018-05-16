@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "XHTML1-s.dtd" >
+<html xmlns="http://www.w3.org/TR/1999/REC-html-in-xml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+<style>
+.bodyContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.notebookFor {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    margin: 24px 0px 0px;
+    padding: 0px;
+}
+
+.bookTitle {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+    margin-top: 22px;
+    padding: 0px;
+}
+
+.authors {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    margin-top: 22px;
+    margin-bottom: 24px; 
+    padding: 0px;
+}
+
+.sectionHeading {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 24px;
+    padding: 0px;
+}
+
+.noteHeading {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.noteText {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    margin: 2px 0px 0px;
+    padding: 0px;
+}
+
+.highlight_blue {
+    color: rgb(178, 205, 251);
+}
+
+.highlight_orange {
+    color: #ffd7ae;
+}
+
+.highlight_pink {
+    color: rgb(255, 191, 206);
+}
+
+.highlight_yellow {
+    color: rgb(247, 206, 0);
+}
+
+.notebookGraphic {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.notebookGraphic img {
+    -o-box-shadow:      0px 0px 5px #888;
+    -icab-box-shadow:   0px 0px 5px #888;
+    -khtml-box-shadow:  0px 0px 5px #888;
+    -moz-box-shadow:    0px 0px 5px #888;
+    -webkit-box-shadow: 0px 0px 5px #888;
+    box-shadow:         0px 0px 5px #888; 
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 0px none;
+    height: 1px;
+    background: none repeat scroll 0% 0% rgb(221, 221, 221);
+}
+</style>
+</head>
+<body>
+<div class='bodyContainer'>
+<div class='notebookFor'>笔记本（用于）</div><div class='bookTitle'>统计自然语言处理（第2版） (中文信息处理丛书)
+</div><div class='authors'>
+宗成庆
+</div><hr/>
+<div class='sectionHeading'>第1章　绪论</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 862</div><div class='noteText'>为什么 世界上 不同 种族 的 人 在 拥有 几乎 相同 的 大脑 结构 和 语 声 工作 机理 的 情况下， 却 无法 实现 不同 语言 之间 的 相互理解？</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.2　自然语言处理研究的内容和面临的困难 &gt; 位置 1056</div><div class='noteText'>研究 歧义 消解 和 未知 语言 现象 的 处理 策略 及 实现 方法， 就成 了 自然 语言 处理 面临 的 核心 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.2　自然语言处理研究的内容和面临的困难 &gt; 位置 1078</div><div class='noteText'>这种 歧义 结构 分析 结果 的 数量 是 随 介词 短语 数目 的 增加 呈 指数 上升 的， 其 歧义 组合 的 复杂 程度 随着 介词 短语 个数 的 增加 而 不断 加深， 这个 歧义 结构 的 组合 数 称为 开 塔 兰 数（ Catalan numbers， 记作 Cn）， 即 如果 句子 中 存在 这样 n（ n 为 自然数） 个 介词 短语， Cn 可以 由 下 式 获得［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.2　自然语言处理研究的内容和面临的困难 &gt; 位置 1095</div><div class='noteText'>在 汉语 中， 似是而非、 模棱两可 的 句子 更是 司空见惯。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.2　自然语言处理研究的内容和面临的困难 &gt; 位置 1108</div><div class='noteText'>如果 实现 这个 词义 的 自动 理解， 恐怕 不是 目前 的 自然 语言 处理系统 所能 够 胜任 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.2　自然语言处理研究的内容和面临的困难 &gt; 位置 1110</div><div class='noteText'>也 绝不 是说 一个 自然 语言 处理系统 必须 具备 如此 复杂 的 歧义 消解 能力 才算 得上 是真 正 实用 的 系统， 而 只是 想 说明， 歧义 是 自然 语言 中 普遍存在 的 语言 现象， 它们 广泛 地 存在 于 词法、 句法、 语义、 语 用 和 语音 等 每一个 层面。 任何 一个 自然 语言 处理系统， 都无 法 回避 歧义 的 消解 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.3　自然语言处理的基本方法及其发展 &gt; 位置 1137</div><div class='noteText'>假定 孩子 的 大脑 一 开始 具有 处理 联想（ association）、 模式 识别（ pattern recognition） 和 通用 化（ generalization） 处理 的 能力， 这些 能力 能够使 孩子 充分 利用 感官 输入 来 掌握 具体 的 自然 语言 结构。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.3　自然语言处理的基本方法及其发展 &gt; 位置 1145</div><div class='noteText'>Chomsky 的 生成 语言学 理论 试图 刻 画的 是 人类 思维（ I- language） 的 模式 或 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.3　自然语言处理的基本方法及其发展 &gt; 位置 1147</div><div class='noteText'>经验主义 方法 则 直接 关心 如何 刻画 这些 真实 的 语言 本身（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.3　自然语言处理的基本方法及其发展 &gt; 位置 1176</div><div class='noteText'>基于 语料 库 的 机器翻译（ corpus- based machine translation） 方法 得到 了 充分 发展， 尤其是 IBM 的 研究人员 提出 的 基于 噪声 信道 模型（ noisy channel model） 的 统计 机器翻译（ statistical machine translation） 模型［ Brown et al., 1990, 1993］ 及其 实现 的 Candide 翻译 系统［ Berger et al., 1994］， 为 经验主义 方法 的 复苏 和 兴起 吹响 了 号角， 并 成为 机器翻译 领域 的 里程碑。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.3　自然语言处理的基本方法及其发展 &gt; 位置 1189</div><div class='noteText'>很多 自然 语言 处理 的 研究 任务， 包括 汉语 自动 分词 和 词性 标注、 文字 识别、 拼音 法 汉字 输入 等， 都可 以用 噪声 信道 模型 来 描述 和 实现。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.3　自然语言处理的基本方法及其发展 &gt; 位置 1195</div><div class='noteText'>基于 统计 方法 的 汉语 自动 分词 与 词性 标注 系统、 句法 解析 器、 信息 检索 系统 和 自动 文摘 系统 等。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.3　自然语言处理的基本方法及其发展 &gt; 位置 1207</div><div class='noteText'>对于 句法 分析， 基于 单一 标记 的 短语 结构 规则 是 不充分 的； ② 短语 结构 规则 在 真实 文本 中的 分布 呈现 严重 的 扭曲。 换言之， 有限 数目 的 短语 结构 规则 不能 覆盖 大规模 真实 语料 中的 语法 现象， 这与 原先 的 预期 大相径庭。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.4　自然语言处理的研究现状 &gt; 位置 1235</div><div class='noteText'>许多 重要的 问题 仍未 得到 彻底、 有效 的 解决， 如 语义 理解 问题、 句法 分析 问题、 指 代 歧义 消解 问题、 汉语 自动 分词 中的 未 登录 词（ unknown word） 识别 问题 等。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.4　自然语言处理的研究现状 &gt; 位置 1243</div><div class='noteText'>不应该 忽略 从内 层 揭示 人类 理解 语言 机制 的 秘密， 从 人类 认知 机理 和 智能 的 本质 上为 自然 语言 处理 寻求 依据。</div>
+<div class='sectionHeading'>第2章　预备知识</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1397</div><div class='noteText'>一个 随机 变量 的 熵 越大， 它的 不确定性 越大， 那么， 正确 估计 其 值 的 可能性 就 越小。 越不 确定 的 随机 变量 越 需要 大的 信息量 用以 确定 其 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1401</div><div class='noteText'>在 只 掌握 关于 未知 分布 的 部分 知识 的 情况下， 符合 已知 知识 的 概率 分布 可能有 多个， 但 使 熵值 最大 的 概率 分布 最 真实 地 反映 了 事件 的 分布 情况， 因为 熵 定义 了 随机 变量 的 不确定性， 当 熵 最大 时， 随机 变量 最不 确定， 最难 准确 地 预测 其 行为。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1403</div><div class='noteText'>在 已知 部分 知识 的 前提下， 关于 未知 分布 最 合理 的 推断 应该 是 符合 已知 知识 最不 确定 或 最大 随机 的 推断。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1411</div><div class='noteText'>联合 熵 实际上 就是 描述 一对 随机 变量 平均 所需 要的 信息量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1433</div><div class='noteText'>定义 这种 语言 L 的 熵 作为 其 随机 过程 的 熵 率，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1434</div><div class='noteText'>我们 之所以 把 语言 L 的 熵 率 看作 语言 样本 熵 率 的 极限， 因为 理论上 样本 可以 无 限长。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1439</div><div class='noteText'>I（ X； Y） 反映 的 是在 知道 了 Y 的 值 以后 X 的 不确定 性的 减少量。 可以 理解 为 Y 的 值 透露 了 多少 关于 X 的 信息量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1444</div><div class='noteText'>这一 方面 说明了 为什么 熵 又称 为 自 信息， 另一方面 说明了 两个 完全 相互 依赖 的 变量 之间 的 互信 息 并不是 一个 常量， 而是 取决于 它们 的 熵。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1446</div><div class='noteText'>互信 息 体现 了 两 变量 之间 的 依赖 程度：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1449</div><div class='noteText'>互 信息 在 词 汇聚 类（ word clustering）、 汉语 自动 分词、 词义 消 歧 等 问题 的 研究 中 具有 重要 用途。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1452</div><div class='noteText'>简称 KL 距离， 是 衡量 相同 事件 空间 里 两个 概率 分布 相对 差距 的 测度。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1462</div><div class='noteText'>交叉 熵 的 概念 就是 用来 衡量 估计 模型 与 真实 概率 分布 之间 差异 情况 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1474</div><div class='noteText'>交叉 熵 与 模型 在 测试 语料 中 分配 给 每个 单词 的 平均 概率 所 表达 的 含义 正好 相反， 模型 的 交叉 熵 越小， 模型 的 表现 越好。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1476</div><div class='noteText'>在 设计 语言 模型 时， 我们 通常用 困惑 度（ perplexity） 来 代替 交叉 熵 衡量 语言 模型 的 好坏。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1484</div><div class='noteText'>香 农 为了 模型 化 信道 的 通信 问题， 在 熵 这一 概念 的 基础上 提出 了 噪声 信道 模型（ noisy channel model）， 其 目标 就是 优化 噪声 信道 中 信号 传输 的 吞吐量 和 准确率， 其 基本 假设 是一 个 信道 的 输出 以 一定 的 概率 依赖于 输入。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1494</div><div class='noteText'>信息论 中 另一个 重要的 概念 是 信道 容量（ capacity）， 其 基本 思想 是 用 降低 传输 速率 来 换取 高保真 通信 的 可能性。 其 定义 可以 根据 互信 息 给出：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1496</div><div class='noteText'>根据 这个 定义， 如果 能够 设计 一个 输入 编码 X， 其 概率 分布 为 p（ X）， 使其 输入 与 输出 之间 的 互信 息 达到 最大值， 那么， 我们 的 设计 就 达到 了 信道 的 最大 传输 容量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1502</div><div class='noteText'>模拟 信道 模型， 在 自然 语言 处理 中， 很多 问题 都可以 归结 为 在给 定 输出 O（ 可能 含有 误传 信息） 的 情况下， 如何 从 所有 可能 的 输入 I 中 求解 最有 可能 的 那个， 即 求出 使 p（ I| O） 最大 的 I 作为 输入。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2　信息论基本概念 &gt; 位置 1510</div><div class='noteText'>噪声 信道 模型 在 自然 语言 处理 中有 着 非常 广泛 的 用途， 除了 机器翻译 以外， 还用 于 词性 标注、 语音 识别、 文字 识别 等 很多 问题 的 研究。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1513</div><div class='noteText'>是在 高 维特 征 空间 使用 线性函数 假设 空间 的 学习 系统，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1516</div><div class='noteText'>SVM 广泛 应用于 短语 识别、 词义 消 歧、 文本 自动 分类 和 信息 过滤 等 方面。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1523</div><div class='noteText'>该 分类 方法 的 几何 解释 是， 方程式〈 w· x〉 ＋ b ＝ 0 定义 的 超 平面 将 输入 空间 X 分成 两半， 一半 为 负 类， 一半 为 正 类，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1534</div><div class='noteText'>其 几何 意义 是： 给 每个 类 关联 一个 超 平面， 然后， 将 新 点 x 赋予 超 平面 离 其 最远 的 那 一类。 输入 空间 分为 m 个 简单 相连 的 凸 区域。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1538</div><div class='noteText'>也就是说， 建立 非线性 分类器 需要 分 两步： 首先 使用 一个 非线性 映射 函数 将 数据 变换 到 一个 特征 空间 F， 然后 在这 个 特征 空间 上 使用 线性 分类器。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1544</div><div class='noteText'>将 两个 步骤 融合 到一起 建立 一个 非线性 分类器。 这样， 在 高 维 空间 内 实际上 只需 要 进行 内 积 运算， 而 这种 内 积 运算 是 可以 利用 原 空间 中的 函数 实现 的， 我们 甚至 没有 必要 知道 变换 的 形式。 这种 直接 计算 的 方法 称为 核（ kernel） 函数 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1549</div><div class='noteText'>一旦 有了 核 函数， 决策 规则 就可以 通过 对 核 函数 的 l 次 计算 得到：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1551</div><div class='noteText'>这种 方法 的 关键 就是 如何 找到 一个 可以 高效 计算 的 核 函数。 核 函数 要 适合 某个 特征 空间 必须 是 对称 的，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3　支持向量机 &gt; 位置 1557</div><div class='noteText'>根据 泛 函 的 有关 理论， 只要 一种 核 函数 满足 Mercer 条件， 它 就 对应 某一 空间 中的 内 积［</div>
+<div class='sectionHeading'>第3章　形式语言与自动机</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2　形式语言 &gt; 位置 1618</div><div class='noteText'>（1） 穷 举法： 把 语言 中的 所有 句子 都 枚举 出来。 显然， 这种 方法 只 适合 句子 数目 有限 的 语言。 （2） 文法（ 产生 式 系统） 描述： 语言 中的 每个 句子 用 严格 定义 的 规则 来 构造， 利用 规则 生成 语言 中 合法 的 句子。 （3） 自动机 法： 通过 对 输入 的 句子 进行 合法性 检验， 区别 哪些 是 语言 中的 句子， 哪些 不是 语言 中的 句子。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2　形式语言 &gt; 位置 1626</div><div class='noteText'>形式 语言 是 用来 精确 地 描述 语言（ 包括 人工 语言 和 自然 语言） 及其 结构 的 手段。 形式 语言学 也称 代数 语言学。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2　形式语言 &gt; 位置 1675</div><div class='noteText'>1 型 文法 可 识别 的 语言 集合 比 2 型 文法 可 识别 的 语言 集合 更大。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1732</div><div class='noteText'>NFA 与 DFA 的 重要 区别 是： 在 NFA 中 δ（ q, a） 是一 个 状态 集合， 而在 DFA 中 δ（ q, a） 是一 个 状态。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1734</div><div class='noteText'>NFA M 在 状态 q 时， 接受 输入 符号 a 时， M 可以 选择 状态 集 q1， q2，…， qk 中的 任何 一个 状态 作为 下一个 状态， 并将 输入 头 向右 边 移动 一个 字符 的 位置。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1741</div><div class='noteText'>由于 DFA 与 NFA 接受 同样 的 语言， 所以 一般 情况下 无需 区分 它们， 二者 统称 为 有限 自动机（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1762</div><div class='noteText'>对于 任意 一个 正 则 文法 所 产生 的 语言， 总可 以 构造 一个 确定 的 有限 自动机 识别 它。 也就是说， 对于 任意 一个 正 则 文法， 总可 以 构造 一个 确定 的 有限 自动机。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1774</div><div class='noteText'>当 Z 被 γ i 取代 时， γ i 的 符号 按照 从左到右 的 顺序 依次 从下 向上 推入 到 存储器。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1776</div><div class='noteText'>意味着 下推 自动机 处于 状态 q 时 没有 接受 任何 输入 符号， 因此， 输入 头 位置 不 移动， 只用于 处理 下推 存储器 内部 的 操作， 自动机 进入 到 qi（ i ＝ 1, 2，…， m） 状态， 并以 γ i 来 代替 下推 存储器（ 栈） 顶端 符号 Z。 这个 操作 叫做“ ε 移动”。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1796</div><div class='noteText'>图 灵机 与 有限 自动机 的 区别 在于 图 灵机 可以 通过 其 读写 头 改变 输入 带上 的 字符， 而 有限 自动机 不能 做到 这一点。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1819</div><div class='noteText'>线性 界限 自动机 是一 个 确 定的 单 带 图 灵机， 其 读／ 写 头 不能 超越 原 输入 带上 字符串 的 初始 和 终止 位置， 即 线性 界限 自动机 的 存储 空间 被 输入 符号 串 的 长度 所 限制。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1832</div><div class='noteText'>归纳 起来， 各类 自动机 之间 的 主要 区别 是 它们 能够使 用的 信息 存储 空间 的 差异： 有限 状态 自动机 只能 用 状态 来 存储 信息； 下推 自动机 除了 使用 状态 以外， 还可 以用 下推 存储器（ 堆栈）； 线性 界限 自动机 可以 利用 状态 和 输入／ 输出 带 本身， 因为 输入／ 输出 带 没有“ 先进 后 出” 的 限制， 因此， 其 功能 大于 堆栈； 而 图 灵机 的 存储 空间 没有 任何 限制。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.3　自动机理论 &gt; 位置 1835</div><div class='noteText'>有限 自动机 等价 于 正 则 文法； 下推 自动机 等价 于 上下文 无关 文法； 线性 界限 自动机 等价 于 上下文 有关 文法， 而 图 灵机 等价 于 无约束 文法。</div>
+<div class='sectionHeading'>第4章　语料库与语言知识库</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.1　语料库技术 &gt; 位置 2045</div><div class='noteText'>基于 规则 的 句法— 语义 分析 方法 赖以 利用 的 语言 知识 无论是 词典 信息 还是 语法 规则， 主要 通过 语言学家 的 内省 来 获取 的， 而 实际上 这种 知识 不可能 覆盖 真实 文本 中 出现 的 所有 语言 事实；（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.1　语料库技术 &gt; 位置 2232</div><div class='noteText'>其 目标 是 开展 语音 翻译 的 国际 合作 研究， 开发 实用 的 语音 翻译 技术。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2334</div><div class='noteText'>WordNet 是一 个 按语 义 关系 网络 组织 的 巨大 词库， 多种 词汇 关系 和 语义 关系 被用 来 表示 词汇 知识 的 组织 方式。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2346</div><div class='noteText'>其 目的 是 通过 样本 句子 的 计算机 辅助 标注 和 标注 结果 的 自动 表格 化 显示， 来 验证 每个 词 在 每种 语义 下 语义 和 句法 结合 的 可能性（ 配 价， valence） 范围。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2365</div><div class='noteText'>面向 自然 语言 处理 的 词典。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2392</div><div class='noteText'>规模 最大 且 获得 广泛 认可 的 汉语 语言 知识 资源，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2450</div><div class='noteText'>是， 部件 和 属性 这 两个 基本 单位 在 知 网 的 哲学体系 中 占据 着 非常重 要的 地位。 关于 对 部件 的 认识 是： 每一个 事物 都 可能 是 另一个 事物 的 部件，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2451</div><div class='noteText'>同时 每一个 事物 也可能 是 另外 一个 事物 的 整体。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2471</div><div class='noteText'>知 网 是一 个 知识 系统， 而 不是 一部 语义 词典。 知 网 用 概念 与 概念 之间 的 关系 以及 概念 的 属性 与 属性 之间 的 关系 形成 一个 网状 的 知识 系统， 这是 它与 其他 树状 词汇 数据库 的 本质 不同。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2487</div><div class='noteText'>知 网 的 建设 方法 的 一个 重要 特点 是 采用 自下而上 的 归纳 方法。 它是 通过 对 全部 的 基 本义 原 进行 观察 分析 并 形成 义 原 的 标注 集， 然后 再用 更多 的 概念 对 标注 集 进行 考核， 据此 建立 完善 的 标注 集。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2515</div><div class='noteText'>知 网 是一 个 具有 丰富 内容 和 严密 逻辑 的 语言 知识 系统， 它 作为 自然 语言 处理 技术， 尤其是 中文 信息处理 技术 研究 和 系统 开发 重要的 基础 资源， 在 实际 应用 中 发挥 着 越来越 重要的 作用， 它可 以 广泛 地 应用于 词汇 语义 相似性 计算、 词汇 语义 消 歧、 名词 实体 识别 和 文本 分类 等 许多方面。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2520</div><div class='noteText'>面向 整个 自然 语言 理解 的 理论 框架。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2525</div><div class='noteText'>把 概念 分为 抽象概念 和 具体 概念， 对 抽象概念 用语 义 网络 和 五元 组 来 表达， 对 具体 概念 采取 挂靠 展开 近似 表达 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2541</div><div class='noteText'>HNC 用语 义 网络 表达 概念， 其 首要 目标 和 价值 在于 给出 概念 关联 性 知识 和</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2541</div><div class='noteText'>联想 脉络 的 线索， 而 不是 给出 概念 的 精确 表示。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2542</div><div class='noteText'>中心任务 是 解 模糊， 如同 音 模糊 消解、 一 词 多义 模糊 消解 等， 这些 模糊 的 消解 统称 为 多义 选 一 处理。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2544</div><div class='noteText'>对这 一 操作 过程 的 形式 模拟 不在 于 并行 处理 或 快速 计算， 而在于 以什么 巧妙 的 方式 完成 大量 语义 距离 的 计算。 语义 网络 层次 符号 的 构造 方式 把 最 频繁、 最 基本 的 语义 距离 计算 变 成了 对 层次 符号 的 简单 逐 层 比较。 这是 HNC 用语 义 网络 层次 符号 表达 概念 的 基本 出发点。 层次 符号 是一 种 灵活 的 分层 结构， 它 到任 一层 都 代表 一个 概念， 至于 这个（ 些） 概念 与 相应 的 语言 概念 之间， 究竟 谁是 谁的 近似 已 无关紧要。 重要的 是， 层次 网络 符号 对 概念 的 局部 联想 脉络 给出 了 明确 的 表示。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2　语言知识库 &gt; 位置 2553</div><div class='noteText'>HNC 理论 从根本上 改变 了 这一 状况，“ 根本” 的 具体 表现 就是 建立 了 表述 自然 语言 概念 和 语句 的 两套 数学 表示 式［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2563</div><div class='noteText'>本体论 关注 的 是“ 存在”， 即 世界 在 本质上 有 什么样 的 东西 存在， 或者 世界 存在 哪些 类别 的 实体。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2570</div><div class='noteText'>必须 考虑 在 一个 领域 中 哪些 知识 是 可以 复 用的 或 共享 的， 以及 怎样 获取 和 描述 一个 领域 中的 一般性 知识 等 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2575</div><div class='noteText'>而 本体论 是对 某一 概念化 所作 的 一种 显 式 解释 说明。 本体论 中的 对象 以及 它们 之间 的 关系 是 通过 知识 表达 语言 的 词汇 来 描述 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2578</div><div class='noteText'>本体 是一 个 逻辑 理论 的 陈述 性 描述。 本体论 则是 一个 逻辑 理论， 用来 说明 一个 正规（ formal） 词汇表 的 预定 含义。 简单 一点 讲， 本体 就是 一个 描述 特定 领域 概念 的 知识 库， 其内 容 不仅 包括 领域 的 主要 概念， 还包括 它们 之间 的 关系。 面向 不同 应用 的 系统 都可以 利用 本体 所 提供 的 领域 知识 完成 特定 的 任务， 例如 事件 信息 抽取， 信息 检索 等。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2583</div><div class='noteText'>本体 的 核心 概念 是 知识 共享， 通过 减少 概念 和 术语 上 的 歧义， 建立 一个 统一 的 框架 或 规范 模型， 使得 来自 不同 背景、 持不 同 观点 和 目的 的 人员 之间 的 理解 和 交流， 以及 不同 系统 之 间的 互 操作 或 数据 传输 成为 可能， 并 保持 语义上 的 一致。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2585</div><div class='noteText'>在 一个 领域 中， 本体 构 成了 该 领域 任意 知识 表达 系统 的 核心［ Chandrasekaran et al., 1999］， 而 领域 概念 要 通过 领域 中 必 用的 一些 词 项 来 表达， 这些 被称为 术语（ terminology） 的 领域 词 项， 是 领域 的 基本 知识 和 信息 的 承载 单位。 一个 领域 知识 空间 中的 本体 大多 是由 术语 及 不同 术语 之间 相关 概念 的 关系 所 构成 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2589</div><div class='noteText'>本体 可分 为 三个 层次： 上位 本体（ upper ontology）、 领域 本体（ domain ontology） 和 面向 应用 的 本体（ application- oriented ontology）。 上位 本体 是 跨 领域 可 复 用的 通用 本体。 领域 本体 有时 也 称为 中 位 本体（ mid- level ontology）， 用于 描述 某一个 特定 学科、 专业 或 领域 里 最 广泛 使用 的 概念 和 关系， 例如 信息 科技 领域 和 医学 等 学科 的 概念 及 概念 之间 的 关系。 面向 应用 的 本体 则是 为 某个 应用 而 定制 的 本体 知识 库， 例如 体育运动 领域 中 关于 足球 比赛 的 知识。 有些 应用 可能 需要 跨 领域 的 知识 信息， 例如 有关 电子 消费 产品 的 知识 就 同时 涉及 信息 科技 和 商业 贸易 两个 领域。 就 面向 应用 的 领域 本体 而言， 上位 本体 和 相关 的 领域 本体 可 同时 被称为 上层 本体。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2610</div><div class='noteText'>术语 提取（ 或称 术语 抽取）（ terminology extraction） 可被 认为是 本体 构建 的 一个 必要 的 预处理 步骤。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2611</div><div class='noteText'>关系 发现（ relationship discovery）， 用以 识别 和 提取 概念 之间 的 关系。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2614</div><div class='noteText'>概念 语义 关系 来 构建 一个 结 构化 的 知识 空间， 则是 非常 困难 的 问题， 这也 是 目前 本体 学习 及 本体 适用性 研究所 面临 的 主要 挑战。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2615</div><div class='noteText'>核心 领域 本体 是对 领域 中的 核心 概念 进行 建模。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2617</div><div class='noteText'>他们的 研究工作 涉及 领域 最 基本概念 的 核心 术语 提取［ Chen et al., 2006; Ji et al., 2007］、 从 特定 领域 的 语料 中 提取 领域 术语［ Yang et al., 2010］ 和 识别 领域 中 概念 术语 的 关系［ Cui et al., 2008］， 以及 核心 本体 构建 算法 的 建立 等［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3　语言知识库与本体论 &gt; 位置 2627</div><div class='noteText'>从 本体论 的 角度 出发 建立 一个 适用于 自然 语言 处理 的 语言 知识 库 必须 解决 两方 面的 问题： 一是 本体 的 描述 问题， 即 通过 形式化 语义 描述 手段 尽量 合理 地、 完备 地 描写 世界知识； 二 是 根据 常识 推理 的 需要， 建立 统一 的 描述 形式， 既 便于 用户 实现 推理、 语义 计算 和 其他 操作， 同时 又 便于 系统 维护。</div>
+<div class='sectionHeading'>第5章　语言模型</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2668</div><div class='noteText'>目前 主要 采 用的 是 n 元 语法 模型（ n- gram model）， 这种 模型 构建 简单、 直接， 但 同时 也 因为 数据 缺乏 而 必须 采取 平滑（ smoothing） 算法。 在过</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1　n元语法 &gt; 位置 2675</div><div class='noteText'>需要 注意 的 是， 与 语言学 中 不同， 语言 模型 与 句子 是否 合乎 语法 是 没有关系 的， 即使 一个 句子 完全 合乎 语法 逻辑， 我们 仍然 可以 认为 它 出现 的 概率 接近 为零。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1　n元语法 &gt; 位置 2694</div><div class='noteText'>当 n ＝ 1 时， 即 出 现在 第 i 位 上 的 词 wi 独立 于 历史 时， 一元 文法 被 记作 unigram， 或 uni- gram， 或 monogram；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1　n元语法 &gt; 位置 2708</div><div class='noteText'>用于 构建 语言 模型 的 文本 称为 训练 语料（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1　n元语法 &gt; 位置 2708</div><div class='noteText'>corpus）。 对于 n 元 语法 模型， 使用 的 训练 语料 的 规模 一般 要有 几百 万个 词。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2　语言模型性能评价 &gt; 位置 2721</div><div class='noteText'>交叉 熵（ cross- entropy） 和 困惑 度（ perplexity） 等 派生 测度。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2　语言模型性能评价 &gt; 位置 2733</div><div class='noteText'>显然， 交叉 熵 和 困惑 度 越小 越好， 这是 我们 评估 一个 语言 模型 的 基本 准则。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3　数据平滑 &gt; 位置 2742</div><div class='noteText'>必须 分配 给 所有 可能 出现 的 字符串 一个 非零 的 概率 值 来 避免 这种 错误 的 发生。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3　数据平滑 &gt; 位置 2743</div><div class='noteText'>平滑（ smoothing） 技术 就是 用来 解决 这类 零 概率 问题 的。 术语“ 平滑” 指的 是 为了 产生 更 准确 的 概率（ 在 式（ 5- 4） 和 式（ 5- 6） 中） 来 调整 最大 似 然 估计 的 一种 技术， 也 常 称为 数据 平滑（ data smoothing）。“ 平滑” 处理 的 基本 思想 是“ 劫富济贫”， 即 提高 低 概率（ 如 零 概率）， 降低 高 概率， 尽量 使 概率 分布 趋于 均匀。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3　数据平滑 &gt; 位置 2756</div><div class='noteText'>数据 平滑 是 语言 模型 中的 核心 问题，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3　数据平滑 &gt; 位置 2807</div><div class='noteText'>用 类似 的 方法 可定义 高阶 n 元 语法 模型 的 Katz 平滑 算法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3　数据平滑 &gt; 位置 2812</div><div class='noteText'>Katz 平滑 方法 属于 后备（ back- off） 平滑 方法。 这种 方法 的 中心思想 是， 当某 一 事件 在 样本 中 出现 的 频率 大于 k 时， 运用 最大 似 然 估计 经过 减值 来 估计 其 概率。 当某 一 事件 的 频率 小于 k 时， 使用 低阶 的 语法 模型 作为 代替 高阶 语法 模型 的 后备， 而这 种 代替 必须 受 归一 化 因子 α 的 作用。 对于 这种 方法 的 另一种 解释 是， 根据 低阶 的 语法 模型 分配 由于 减值 而 节省 下来 的 剩余 概率 给 未见 事件， 这 比 将 剩余 概率 平均 分配 给 未见 事件 要 合理［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3　数据平滑 &gt; 位置 2922</div><div class='noteText'>大多数 平滑 算法 可以 用 下面 的 等式 表示：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3　数据平滑 &gt; 位置 2935</div><div class='noteText'>这种 形式 的 模型 称为 插值 模型（ interpolated model）。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3　数据平滑 &gt; 位置 2936</div><div class='noteText'>后备 模型 和 插值 模型 的 根本 区别 在于， 在 确定 非零 计数 的 n 元 文法 的 概率 时， 插值 模型 使用 低阶 分布 的 信息， 而后 备 模型 却不 是 这样。 但 不管 是 后备 模型 还是 插值 模型， 都 使用 了 低阶 分布 来 确定 计数 为零 的 n 元 语法 的 概率。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4　其他平滑方法 &gt; 位置 2963</div><div class='noteText'>这种 平滑 方法 对于 二元 文法 的 语言 模型 效果 较好， 但 难以 扩展到 三元 文法 模型［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 2996</div><div class='noteText'>对于 二元 语法 和 三元 语法 而言， Kneser- Ney 平滑 方法 和 修正 的 Kneser- Ney 平滑 方法 的 效果 都好 于 其他 所有 的 平滑 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 2998</div><div class='noteText'>在 稀疏 数据 的 情况下， Jelinek- Mercer 平滑 方法 优于 Katz 平滑 方法；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 2998</div><div class='noteText'>而在 有大 量 数据 的 情况下， Katz 平滑 方法 则 优于 Jelinek- Mercer 平滑 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 3000</div><div class='noteText'>最差。 除了 对于 很小 的 数据 集 以外， 插值 的 绝对 减值 平滑 方法 一般 优于 基线 算法，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 3006</div><div class='noteText'>影响 最大 的 因素 是 采用 修正 的 后备 分布， 例如 Kneser- Ney 平滑 方法 所 采用 的 后备 分布。 这 可能 是 Kneser- Ney 平滑 方法 及其 各种 版本 的 平滑 算法 优于 其他 平滑 方法 的 基本 原因。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 3008</div><div class='noteText'>绝对 减值 优于 线性 减值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 3009</div><div class='noteText'>从 性能 上 来看， 对于 较低 的 非零 计数， 插值 模型 大大 地 优于 后备 模型， 这是 因为 低阶 模型 在 为 较低 计数 的 n 元 语法 确定 恰当 的 减值 时 提供 了 有价值 的 信息。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 3011</div><div class='noteText'>增加 算法 的 自由 参数， 并在 留存 数据 上 优化 这些 参数， 可以 改进 算法 的 性能。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5　平滑方法的比较 &gt; 位置 3012</div><div class='noteText'>修正 的 Kneser- Ney 平滑 方法 之所以 获得 了 最好 的 平滑 效果， 就是 得益 于 上述 各方面 因素 的 综合。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3015</div><div class='noteText'>模型 对 跨 领域 的 脆弱 性（ brittleness across domains） 和 独立性 假设 的 无效 性（ false independence assumption） 是 两个 最 明显 的 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3019</div><div class='noteText'>香 农 实验（ Shannon- style experiments） 表明， 相对而言， 人 更容易 运用 特定 领域 的 语言 知识、 常识 和 领域 知识 进行 推理 以 提高 语言 模型 的 性能（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3021</div><div class='noteText'>为了 提高 语言 模型 对 语料 的 领域、 主题、 类型 等 因素 的 适应性，［ Kupiec, 1989］ 和［ Kuhn and De Mori, 1990］ 等 提 出了 自 适应 语言 模型（ adaptive language model） 的 概念。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3028</div><div class='noteText'>在 文本 中 刚刚 出现 过 的 一些 词 在 后边 的 句子 中 再次 出现 的 可能性 往往 较大， 比 标准 的 n 元 语法 模型 预测 的 概率 要 大。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3041</div><div class='noteText'>黄 非等（ 1999） 提出 了 利用 特定 领域 中 少量 自 适应 语料， 在 原 词表 中 通过 分离 通用 领域 词汇 和 特定 领域 词汇， 并 自动检测 词典 外 领域 关键 词 实现 词典 自 适应， 然后 结合 基于 缓存 的 方法 实现 语言 模型 的 自 适应 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3050</div><div class='noteText'>基于 混合 方法 的 自 适应 语言 模型 的 基本 思想 是， 将 语言 模型 划分 成 n 个子 模型 M1， M2，…， Mn， 整个 语言 模型 的 概率 通过 下面 的 线性 插值 公式 计算 得到：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3053</div><div class='noteText'>基于 这种 思想， 该 适应 方法 针对 测试 语料 的 实现 过程 包括 下列 步骤［ Rosenfeld, 2000］： （1） 对 训练 语料 按 来源、 主题 或 类型 等（ 不妨 按 主题） 聚 类； （2） 在 模型 运行时 识别 测试 语料 的 主题 或 主题 的 集合； （3） 确定 适当 的 训练 语料 子集， 并 利用 这些 语料 建立 特定 的 语言 模型； （4） 利用 针对 各个 语料 子集 的 特定 语言 模型 和 线性 插值 公式（ 5- 29）， 获得 整个 语言 模型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3062</div><div class='noteText'>基于 最大 熵 的 语言 模型 却 采用 不同 的 实现 思路， 即 通过 结合 不同 信息 源 的 信息 构建 一个 语言 模型。 每个 信息 源 提供 一组 关于 模型 参数 的 约束 条件， 在 所有 满足 约束 的 模型 中， 选择 熵 最大 的 模型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6　语言模型自适应方法 &gt; 位置 3071</div><div class='noteText'>如果 约束 条件 是 一致 的（ 相互 之间 不 矛盾）， 那么， 总有 模型 满足 这些 条件。 下一步 要做 的 就是 利用 通用 迭代 算法（ generalized iterative scaling, GIS）［ Darroch and Ratcliff, 1972］ 选择 使 熵 最大 的 模型。</div>
+<div class='sectionHeading'>第6章　概率图模型</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1　概述 &gt; 位置 3105</div><div class='noteText'>隐 马 尔 可 夫 模型（ hidden Markov model, HMM） 在 语音 识别、 汉语 自动 分词 与 词性 标注 和 统计 机器翻译 等 若干 语音 语言 处理 任务 中 得到 了 广泛 应用；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1　概述 &gt; 位置 3106</div><div class='noteText'>卡 尔 曼 滤波器 则在 信号 处理 领域 有 广泛 的 用途。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1　概述 &gt; 位置 3107</div><div class='noteText'>马 尔 可 夫 网络 下 的 条件 随机 场（ conditional random field, CRF） 广泛 应用于 自然 语言 处理 中的 序列 标注、 特征 选择、 机器翻译 等 任务， 波 尔 兹 曼 机（ Boltzmann machine） 近年来 被用 于 依存 句法 分析［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1　概述 &gt; 位置 3121</div><div class='noteText'>这类 模型 的 优点 是： 处理 单 类 问题 时 比较 灵活， 模型 变量 之间 的 关系 比较 清楚， 模型 可以 通过 增量 学习</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1　概述 &gt; 位置 3122</div><div class='noteText'>学习 获得， 可用 于 数据 不 完整 的 情况。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1　概述 &gt; 位置 3126</div><div class='noteText'>处理 多类 问题 或 分辨 某一 类 与 其他 类 之间 的 差异 时 比较 灵活， 模型 简单， 容易 建立 和 学习。 其 弱点 在于 模型 的 描述 能力 有限， 变量 之间 的 关系 不清楚， 而且 大多数 区分 式 模型 是有 监督 的 学习方法， 不能 扩展 成 无 监督 的 学习方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2　贝叶斯网络 &gt; 位置 3153</div><div class='noteText'>构造 贝 叶 斯 网络 是一 项 复杂 的 任务， 涉及 表示、 推断 和 学习 三个 方面 的 问题［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2　贝叶斯网络 &gt; 位置 3172</div><div class='noteText'>由于 贝 叶 斯 网络 是一 种 不定 性 因果 关联 模型， 能够 在 已知 有限 的、 不 完整、 不确定 信息 的 条件下 进行 学习 和 推理， 因此 广泛 应用于 故障 诊断 和 维修 决策 等 领域。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2　贝叶斯网络 &gt; 位置 3173</div><div class='noteText'>自然 语言 处理 中 已有 专家 将其 应用于 汉语 自动 分词 和 词义 消 歧 等 任务［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.3　马尔可夫模型 &gt; 位置 3195</div><div class='noteText'>马 尔 可 夫 模型 又可 视为 随机 的 有限 状态 机。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.3　马尔可夫模型 &gt; 位置 3198</div><div class='noteText'>从 图 可以 看出， 马 尔 可 夫 模型 可以 看作 是一 个 转移 弧 上有 概率 的 非确定 的 有限 状态 自动机。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3236</div><div class='noteText'>（1） 估计 问题： 给定 一个 观察 序列 O ＝ O1O2… OT 和 模型 μ ＝（ A， B， π）， 如何 快速 地 计算 出 给定 模型 μ 情况下， 观察 序列 O 的 概率， 即 P（ O| μ）？</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3238</div><div class='noteText'>（2） 序列 问题： 给定 一个 观察 序列 O ＝ O1O2… OT 和 模型 μ ＝（ A， B， π）， 如何 快速 有效地 选择 在 一定 意义 下“ 最优” 的 状态 序列 Q ＝ q1q2… qT， 使得 该 状态 序列“ 最好 地 解释” 观察 序列？</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3240</div><div class='noteText'>（3） 训练 问题 或 参数 估计 问题： 给定 一个 观察 序列 O ＝ O1O2… OT， 如何 根据</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3241</div><div class='noteText'>根据 最大 似 然 估计 来 求 模型 的 参数 值？ 即 如何 调节 模型 μ ＝（ A， B， π） 的 参数， 使得 P（ O| μ） 最大？</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3243</div><div class='noteText'>给定 一个 观察 序列 O ＝ O1O2… OT 和 模型 μ ＝（ A， B， π）， 要 快速 地 计算 出 给定 模型 μ 情况下 观察 序列 O 的 概率， 即 P（ O| μ）。 这就 是 解码（ decoding） 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3253</div><div class='noteText'>HMM 中的 动态规划 问题 一般用 格 架（ trellis 或 lattice） 的 组织 形式 描述。 对于 一个 在某 一时间 结束 在 一定 状态 的 HMM， 每一个 格 能够 记录 该 HMM 所有 输出 符号 的 概率， 较长 子 路径 的 概率 可以 由 较短 子 路径 的 概率 计算 出来，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3269</div><div class='noteText'>从 初始 时间 开始 到 t ＋ 1， HMM 到达 状态 sj， 并 输出 观察 序列 O1O2… Ot ＋ 1 的 过程 可以分 解 为 以下 两个 步骤： （1） 从 初始 时间 开始 到 时间 t， HMM 到达 状态 si， 并 输出 观察 序列 O1O2… Ot； （2） 从 状态 si 转移 到 状态 sj， 并在 状态 sj 输出 Ot ＋ 1。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3290</div><div class='noteText'>对于 求解 HMM 中的 第一个 问题， 即在 给定 一个 观察 序列 O ＝ O1O2… OT 和 模型 μ ＝（ A， B， π） 情况下， 快速 计算 P（ O| μ） 的 问题 还可以 采用 另外 一种 实现 方法， 即 后 向 算法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3296</div><div class='noteText'>（1） 从 时间 t 到 时间 t ＋ 1， HMM 由 状态 si 到 状态 sj， 并从 sj 输出 Ot ＋ 1； （2） 在 时间 t ＋ 1 的 状态 为 sj 的 条件下， HMM 输出 观察 序列 Ot ＋ 2… OT。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3313</div><div class='noteText'>维特 比（ Viterbi） 算法 用于 求解 HMM 中的 第二个 问题， 即 给定 一个 观察 序列 O ＝ O1O2… OT 和 模型 μ ＝（ A， B， π）， 如何 快速 有效地 选择 在 一定 意义 下“ 最优” 的 状态 序列 Q ＝ q1q2… qT， 使得 该 状态 序列“ 最好 地 解释” 观察 序列。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3326</div><div class='noteText'>在给 定 模型 μ 和 观察 序列 O 的 条件下， 使 条件 概率 P（ Q| O， μ） 最大 的 状态 序列，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3327</div><div class='noteText'>根据 这种 理解， 优化 的 不是 状态 序列 中的 单个 状态， 而是 整个 状态 序列， 不合法 的 状态 序列 的 概率 为 0， 因此， 不可能 被选为 最优 状态 序列。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3329</div><div class='noteText'>维特 比 算法 运用 动态规划 的 搜索 算法 求解 这种 最优 状态 序列。 为了 实现 这种 搜索， 首先 定义 一个 维特 比 变量 δ t（ i）。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3354</div><div class='noteText'>是， 期望 最大化（ expectation maximization, EM） 算法 可以 用于 含有 隐 变量 的 统计 模型 的 参数 最大 似 然 估计。 其 基本 思想 是， 初始 时 随机 地 给 模型 的 参数 赋值， 该 赋值 遵循 模型 对 参数 的 限制， 例如， 从 某一 状态 出发 的 所有 转移 概率 的 和 为 1。 给 模型 参数 赋 初值 以后， 得到 模型 μ 0， 然后， 根据 μ 0 可以 得到 模型 中 隐 变量 的 期望 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3370</div><div class='noteText'>算法 6- 4 　 前 向后 向 算法（ forward- backward algorithm）</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4　隐马尔可夫模型 &gt; 位置 3380</div><div class='noteText'>多个 概率 连乘 引起 的 浮点 数 下溢 问题。 在 Viterbi 算法 中 只 涉及 乘法 运算 和 求 最大值 问题， 因此， 可以 对 概率 相乘 的 算式 取 对数 运算， 使 乘法 运算 变成 加法 运算， 这样 一方面 避免 了 浮点 数 下溢 的 问题，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.7　最大熵模型 &gt; 位置 3479</div><div class='noteText'>最大 熵 模型 的 基本 原理 是： 在 只 掌握 关于 未知 分布 的 部分 信息 的 情况下， 符合 已知 知识 的 概率 分布 可能有 多个， 但 使 熵值 最大 的 概率 分布 最 真实 地 反映 了 事件 的 分布 情况， 因为 熵 定义 了 随机 变量 的 不确定性， 当 熵 最大 时， 随机 变量 最不 确定， 最难 准确 地 预测 其 行为。 也就是说， 在 已知 部分 信息 的 前提下， 关于 未知 分布 最 合理 的 推断 应该 是 符合 已知 信息 最不 确定 或 最大 随机 的 推断。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.8　最大熵马尔可夫模型 &gt; 位置 3546</div><div class='noteText'>被 广泛 应用于 处理 序列 标注 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.8　最大熵马尔可夫模型 &gt; 位置 3574</div><div class='noteText'>MEMM 是 有向 图 和 无向 图 的 混合 模型， 其 主体 还是 有向 图 框架。 与 HMM 相比， MEMM 的 最大 优点 在于 它 允许 使用 任意 特征 刻画 观察 序列， 这一 特性 有利于 针对 特定 任务 充分 利用 领域 知识 设计 特征。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.8　最大熵马尔可夫模型 &gt; 位置 3577</div><div class='noteText'>MEMM 的 缺点 在于 存在 标记 偏 置 问题（ label bias problem）， 其中 一个 原因 是 熵 低 的 状态 转移 分布 会 忽略 它们 的 观察 输出， 而 另一个 原因 是 MEMM 像 HMM 一样， 其 参数 训练过 程 是 自 左向 右 依据 前面 已经 标注 的 标记 进行 的， 一旦 在 实际 测试 时 前面 的 标记 不能 确定 时， MEMM 往往 难以 处理。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.9　条件随机场 &gt; 位置 3584</div><div class='noteText'>CRF 也可以 看作 一个 无向 图 模型 或者 马 尔 可 夫 随机 场（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.9　条件随机场 &gt; 位置 3609</div><div class='noteText'>条件 随机 场 模型 也需 要 解决 三个 基本 问题： 特征 的 选取、 参数 训练 和 解码。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.9　条件随机场 &gt; 位置 3613</div><div class='noteText'>问题。 CRF 具有 MEMM 的 一切 优点， 两者 的 关键 区别 在于， MEMM 使用 每一个 状态 的 指数 模型 来 计算 给定 前一 个 状态 下 当前 状态 的 条件 概率， 而 CRF 用 单个 指数 模型 来 计算 给定 观察 序列 与 整个 标记 序列 的 联合 概率。 因此， 不同 状态 的 不同 特征 权 重 可以 相互 交替 代换［</div>
+<div class='sectionHeading'>第7章　自动分词、命名实体识别与词性标注</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 3628</div><div class='noteText'>自动 分词 问题 就成 了 计算机 处理 孤立 语 和 黏 着 语 文本 时 面临 的 首要 基础性 工作，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3638</div><div class='noteText'>主要 困难 出自 两个 方面： 一方面 是 单 字词 与 词素 之间 的 划界， 另一方面 是 词 与 短语（ 词组） 的 划界。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3653</div><div class='noteText'>都对 分词 单位 有“ 结合 紧密、 使用 稳定” 的 要求。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3654</div><div class='noteText'>使得《 规范》 并没有 从根本上 统一 国人 对 汉 语词 的 认识， 哪怕 只是 在 信息处理 界。 在 这种 情况下， 建立 公平 公开 的 自动 分词 评测 标准 的 努力 也 一样 步履维艰［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3685</div><div class='noteText'>名称： 称 交集 型 切分 歧义 为“ 偶发 歧义”， 称多 义 组合 型 切分 歧义 为“ 固有 歧义”。“ 两者 的 区别 在于： 造成 前者 歧义 的 前后 语境 是 非常 个性化 的、 偶然 的、 难以 预测 的”，“ 而 后者 是 可以 预测 的”。 这个 表述 相当 深刻 地点 明了 两类 歧义 的 性质， 耐人寻味。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3700</div><div class='noteText'>处理 这类 歧义 字段 时 必须 分 两步 走， 首先 处理 交集 型 字段，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3700</div><div class='noteText'>如果 匹配 不成功， 在 短语 层面 再按 组合 型 字段 处理。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3715</div><div class='noteText'>在 真实 文本 的 切分 中， 未 登录 词 总数 的 大约 九成 是 专有 名词（ 人名、 地名、 组织 机构 名）， 其余 的 为 新词（ 包括 专业 术语）。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3716</div><div class='noteText'>对于 大规模 真实 文本 来说， 未 登录 词 对于 分词 精度 的 影响 远远 超过 了 歧义 切分。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3722</div><div class='noteText'>集 外 词 是 造成 分词 错误 的 主要原因， 其中， 超过 一半 的 错误（ 55％） 是由 于 命名 实体 造成 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1　汉语自动分词中的基本问题 &gt; 位置 3727</div><div class='noteText'>说明， 在 汉语 分词 系统 中 对于 未 登录 词 的 处理， 尤其 是对 命名 实体 的 处理， 远比 对 切分 歧义 词 的 处理 重 要得 多。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3778</div><div class='noteText'>为 基于 词表 的 分词 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3778</div><div class='noteText'>基于 统计 模型（ 包括 基于 HMM 和 n 元 语法） 的 分词 方法，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3779</div><div class='noteText'>规则 方法 与 统计 方法 相结合 的 分词 技术，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3781</div><div class='noteText'>尤其是 基于 词表 的 分词 方法 和 传统 的 基于 HMM 和 n 元 语法 的 分词 方法，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3784</div><div class='noteText'>有 专家 将 分词 过程 分成 两个 阶段： 首先 采用 切分 算法 对句 子 词语 进行 初步 切分， 得到 一个 相对 最 好的 粗 分 结果， 然后， 再进 行 歧义 排除 和 未 登录 词 识别。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3788</div><div class='noteText'>这种 方法 的 基本 思想 是： 根据 词典， 找出 字串 中 所有 可能 的 词， 构造 词语 切分 有向 无 环 图。 每个 词 对应 图中 的 一条 有向 边， 并 赋 给 相应 的 边 长（ 权值）。 然后 针对 该 切分 图， 在 起点 到 终点 的 所有 路径 中， 求出 长度 值 按 严格 升序 排列（ 任何 两个 不同 位置 上 的 值 一定 不等， 下同） 依次为 第 1、 第 2、…、 第 i、…、 第 N（ N ≥ 1） 的 路径 集合 作为 相应 的 粗 分 结果 集。 如果 两条 或 两条 以上 路径 长度 相等， 那么， 它们 的 长度 并列 第 i， 都要 列入 粗 分 结果 集， 而且 不 影响 其他 路径 的 排列 序号， 最 后的 粗 分 结果 集合 大小 大于 或 等于 N。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3802</div><div class='noteText'>分为 非 统计 粗 分 模型 和 统计 粗 分 模型 两种。 所谓 的 非 统计 粗 分 模型 即 假定 切分 有向 无 环 图 G 中 所有 词 的 权 重 都是 对等 的， 即 每个 词 对应 的 边 长 均设 为 1。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3844</div><div class='noteText'>基于 词 的 n 元 文法 模型 是 一个 典型的 生成 式 模型，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3845</div><div class='noteText'>首先 根据 词典（ 可以 是 从 训练 语料 中 抽取 出来 的 词典， 也可以 是 外部 词典） 对句 子 进行 简单 匹配， 找出 所有 可能 的 词典 词， 然后， 将 它们 和 所有 单个 字 作为 结点， 构造 的 n 元 的 切 分词 图， 图中 的 结点 表示 可能 的 词 候选， 边 表示 路径， 边上 的 n 元 概率 表示 代价， 最后 利用 相关 搜索 算法（ 如 Viterbi 算法） 从 图中 找到 代价 最小 的 路径 作为 最后 的 分词 结果。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3885</div><div class='noteText'>模型 的 训练 由 以下 三步 组成： ① 在上 述 两个 词表 的 基础上， 用 正向 最大 匹配 法（ FMM） 切分 训练 语料， 专有 名词 通过 一个 专门 模块 标注， 实体 名词 通过 相应 的 规则 和有 限 状态 自动机 标注， 由此 产生 一个 带 词类 别 标记 的 初始 语料； ② 用带 词类 别 标记 的 初始 语料， 采用 最大 似 然 估计 方法 估计 统计 语言 模型 的 概率 参数； ③ 采用 得到 的 语言 模型 对 训练 语料 重新 进行 切分 和 标注（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3897</div><div class='noteText'>该 系统 自动 分词 的 正确 率 和 召回 率 均 优于 正向 最大 分词 方法， 经过 对 实体 名词、 人名、 地名 和 组织 机构 名 识别 处理 后， 该 系统 自动 分词 的 正确 率 和 召回 率 分别 达到 了 96. 3％ 和 97. 4％［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3906</div><div class='noteText'>其 未 登录 词 的 召回 率 仍然是 该项 比赛 中最 高的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3914</div><div class='noteText'>由 字 构词 的 分词 方法 认为 每个 字 在 构造 一个 特定 的 词语 时 都 占据 着 一个 确定 的 构词 位置（ 即 词 位）。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3920</div><div class='noteText'>分词 结果 表示 成 字 标注 形式 之后， 分词 问题 就 变成 了 序列 标注 问题。 对于</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3933</div><div class='noteText'>词。 有了 这些 特征 以后， 我们 就可以 利用 常用 的 判别式 模型， 如 最大 熵、 条件 随机 场、 支持 向量 机 和 感知 机（ 感知 器） 等 进行 参数 训练， 然后 利用 解码 算法 找到 最优 的 切分 结果。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3952</div><div class='noteText'>基本 思路 是， 对于 任意 给定 的 一个 输入 句子， 解码 器 每次 读 一个 字， 生成 所有 的 候 选词。 生成 候 选词 的 方式 有 两种： ① 作为 上一个 候 选词 的 末尾， 与 上一个 候选 词组 合成 一个 新的 候 选词； ② 作为 下一个 候 选词 的 开始。 这种 方式 可以 保证 在 解码 过程中 穷尽 所有 的 分词 候选。 在 解码 的 过程中， 解码 器 维持 两个 列表： 源 列表 和 目标 列表。 开始时， 两个 列表 都为 空。 解码 器 每 读入 一个 字， 就 与 源 列表 中的 每个 候选 组合 生成 两个 新的 候选（ 合并 为 一个 新的 词 或者 作为 下一个 词 的 开始）， 并将 新的 候选 词 放入 目标 列表。 当 源 列表 中的 候选 都 处理 完成 之后， 将 目标 列表 中的 所有 候选 复制 到 源 列表 中， 并 清空 目标 列表。 然后， 读入 下一个 字， 如此 循环往复 直到 句子 结束。 最后， 从 源 列表 中 可以 获取 最终 的 切分 结果。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 3987</div><div class='noteText'>在 汉语 分词 中 基于 词 的 n 元 语法 模型（ 生成 式 模型） 和 基于 字 的 序列 标注 模型（ 区分 式 模型） 是 两大 主流 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 4029</div><div class='noteText'>应该 看到 将 句法 分析 方法 与 自动 分词 算法 相结合 的 实现 策略，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 4030</div><div class='noteText'>词法 与 句法 相互作用 的 一体化 处理 思路。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 4042</div><div class='noteText'>基于 字 的 判别式 模型 仍然是 汉语 分词 的 主流 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 4044</div><div class='noteText'>将 汉语 分词 与 词性 标注 两项 任务 同时 进行， 以 达到 同时 提升 两项 任务 性能 的 目的， 一直是 这一 领域 研究 的 一个 重要 方向， 这种 方法 往往 需要 耗费 更多 的 时间 代价。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.2　汉语分词方法 &gt; 位置 4077</div><div class='noteText'>特别 是在 一些 通用 的 书面 文本 上， 如 新闻 语料， 领域 内 测试（ 训练 语料 和 测试 语料 来自 同一个 领域） 的 性能 已经 达到 相当 高的 水平。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.3　命名实体识别 &gt; 位置 4098</div><div class='noteText'>实体 概念 在 文本 中的 引用（ entity mention， 或称“ 指称 项”） 有三种 形式： 命名 性 指称、 名词 性 指称 和 代词 性 指称。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.3　命名实体识别 &gt; 位置 4142</div><div class='noteText'>微软 亚洲 研究院 和 上海 交通 大 学的 赵 海 分别 开发 了 汉语 命名 实体 识别 系统，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.3　命名实体识别 &gt; 位置 4195</div><div class='noteText'>基于 多 特征 相 融合 的 汉语 命名 实体 识别 方法， 该 方法 是在 分词 和 词性 标注 的 基础上 进一步 进行 命名 实体 的 识别， 由 词形 上下文 模型、 词性 上下文 模型、 词形 实体 模型 和 词性 实体 模型 4 个子 模型 组成 的。 其中， 词形 上下文 模型 估计 在给 定 词形 上下文 语境 中产 生 实体 的 概率； 词性 上下文 模型 估计 在给 定 词性 上下文 语境 中产 生 实体 的 概率； 词形 实体 模型 估计 在给 定 实体 类型 的 情况下 词形 串 作为 实体 的 概率； 词性 实体 模型 估计 在给 定 实体 类型 的 情况下 词性 串 作为 实体 的 概率［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.3　命名实体识别 &gt; 位置 4350</div><div class='noteText'>基于 多 特征 模型 的 命名 实体 识别 方法 综合 运用 了 词形 特征 和 词性 特征 的 作用， 针对 不同 实体 的 结构 特点， 分别 建立 实体 识别 模型， 并 利用 专家 知识 限制 明显 不合理 的 实体 候选 的 产生， 从而 提高 了 识别 性能 和 系统 效率。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.5　词性标注 &gt; 位置 4480</div><div class='noteText'>然而， 随着 标注 语料 库 规模 的 逐步 增大， 可利用 资源 越来越多， 以 人工 提取 规则 的 方式 显然 是 不现实 的， 于是， 人们 提出 了 基于 机器 学习 的 规则 自动 提取 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.5　词性标注 &gt; 位置 4510</div><div class='noteText'>是， 对 汉语 句子 的 初始 标注 结果（ 每个 词 带有 所有 可能 的 词类 标记）， 首先 经过 规则 排 歧， 排除 那些 最 常见 的、 语言 现象 比较 明显 的 歧义 现象，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.5　词性标注 &gt; 位置 4512</div><div class='noteText'>通过 统计 排 歧， 处理 那些 剩余 的 多类 词 并 进行 未 登录 词 的 词性 推断， 最后 再进 行人 工 校对， 得到 正确 的 标注 结果。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.6　词性标注的一致性检查与自动校对 &gt; 位置 4641</div><div class='noteText'>该 方法 的 基本 思路 是 通过 机器 学习， 从 大规模 训练 语料 中 抽取 每个 兼 类 词 在 特定 上下文 语境 中 被 标注 的 词性 信息， 形成 一个 词性 校对 决策 表。 对于 被 校对 的 标注 语料， 首先 检测 每个 兼 类 词 的 上下文 语境 与 决策 表中 的 对应 语境 是否 匹配， 若 匹配， 则 认为 该 校对 语料 中的 兼 类 词 的 语境 与 决策 表中 的 条件 一致， 其 兼 类 词 的 词性 也应该 一致。</div>
+<div class='sectionHeading'>第8章　句法分析</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 4726</div><div class='noteText'>它 往往 是 实现 最终 目标 的 重要 环节， 甚至 是 关键 环节。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 4728</div><div class='noteText'>句法 结构 分析（ syntactic structure parsing） 和 依存 关系 分析（ dependency parsing） 两种。 句法 结构 分析 又可 称为 成分 结构 分析（ constituent structure parsing） 或 短语 结构 分析（ phrase structure parsing）。 以 获取 整个 句子 的 句法 结构 为 目的 的 句法 分析 称为 完全 句法 分析（ full syntactic parsing） 或者 完全 短语 结构 分析（ full phrase structure parsing）（ 有时 简称 full parsing）， 而以 获得 局部 成分（ 如 基本 名词 短语（ base NP）） 为 目的 的 句法 分析 称为 局部 分析（ partial parsing） 或称 浅层 分析（ shallow parsing）。 依存 关系 分析 又称 依存 句法 分析 或 依存 结构 分析， 简称 依存 分析。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4750</div><div class='noteText'>句法 结构 歧义 的 识别 和 消解 是 句法 分析 面临 的 主要 困难。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4751</div><div class='noteText'>一部分 是 语法 的 形式化 表示 和 词条 信息 描述 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4753</div><div class='noteText'>另一 部分 工作 是 分析 算法 的 设计。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4793</div><div class='noteText'>基于 规则 的 句法 分析 算法 之所以 能够 成功 地 运用于 计算机 程序设计 语言 的 编译器 中， 而 面对 自然 语言 的 句法 解析 任务 始终 难以 摆脱困境， 其 主要原因 在于： 一方面 是 形式化 文法 的 生成 能力 问题。 程序设计 语言 中 使用 的 只是 严格 限制 的 上下文 无关 文法（ CFG） 的 子类（ subclass）， 而 自然 语言 处理 中 所 使用 文法 的 表达 能力 更 强， 这种 强大 的 表达 能力 在下面 例句 中 十分 明显 地 体现 出来：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4801</div><div class='noteText'>许多 自然 语言 处理系统 中 所 使用 的 形式化 描述 方法 远远 超过 了 上下文 无关 文法 的 表达 能力。 这样， 形式化 文法 过于 强大 的 表达 能力 使 句法 分析 算法 面临 更多 复杂 的 可能 派生 的 句法 结构。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4808</div><div class='noteText'>随着 英语 句子 中介 词 短语 组合 个数 的 增加， 介词 引起 的 歧义 结构 的 复杂 程度 不断 加深， 这个 组合 个数 即为 开 塔 兰 数（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4813</div><div class='noteText'>自然 语言 处理 实现 的 是 机器 追踪 和服 从 人的 语言、 从 语言 的 有限 集 到 无限 集 推演 的 过程。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4814</div><div class='noteText'>句法 分析 算法 之所 以在 实际 应用 中常 常会 遇到 难以克服 的 障碍， 其实 际 性能 离 真正 实用 化 要求 还有 相当 的 距离， 其 主要原因 在于 在 语言学 理论 和 实际 的 自然 语言 应用 之间 存在 着 巨大 的 差距， 我们 所 缺少 的 正是 弥补 这个 差距 的 桥梁， 而这 些 桥梁 就是 有效 的 解析 算法、 语言 知识 工程、 语言学 理论 或 形式化 方法 的 实现 方法 以及 随机 的（ 概率 的） 处理 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4820</div><div class='noteText'>在 句法 分析 的 过程中， 当 遇到 歧义 情况 时， 统计数据 用于 对 多种 分析 结果 的 排序 或 选择。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4821</div><div class='noteText'>的 短语 结构 分析 方法 可以 说是 目前 最 成功 的 语法 驱动 的 统计 句法 分析 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.1　句法结构分析概述 &gt; 位置 4822</div><div class='noteText'>词汇 化 的 概率 模型（ lexicalized probabilistic model） 和 非 词汇 化 的 概率 模型（ unlexicalized probabilistic model） 两种。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.2　基于PCFG的基本分析方法 &gt; 位置 4903</div><div class='noteText'>选择 句法 结构 树 t 使其 具有 最大 概率，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.2　基于PCFG的基本分析方法 &gt; 位置 4903</div><div class='noteText'>韦 特 比 算法（ Viterbi algorithm） 求解。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.2　基于PCFG的基本分析方法 &gt; 位置 4920</div><div class='noteText'>该 算法 只 给出 一 棵 概率 最大 的 句法 结构 树。 如果 需要 输出 多个 句法 分析 树， 需 做 适当 修改。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.2　基于PCFG的基本分析方法 &gt; 位置 4923</div><div class='noteText'>EM 迭代 算法：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.3　词汇化的短语结构分析器 &gt; 位置 4964</div><div class='noteText'>对 句法 树 中的 每个 非 终结 符 都 利用 其 中心词（ 及其 词性） 进行 标注， 每条 CFG 规则 的 概率 都 依据 中心词 信息 进行 估计。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.3　词汇化的短语结构分析器 &gt; 位置 5018</div><div class='noteText'>词汇 化 句法 结构 分析 模型 的 提出 有效地 提升 了 基于 PCFG 的 句法 分析器 的 能力， 获得 了 较高 的 句法 分析 性能。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.4　非词汇化句法分析器 &gt; 位置 5021</div><div class='noteText'>而在 自然 语言 中， 生成 每个 非 终结 符 的 概率 往往 是与 其上 下文 结构 有关系 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.4　非词汇化句法分析器 &gt; 位置 5024</div><div class='noteText'>细化 非 终结 符 的 方法， 为 每个 非 终结 符 标注 上 其父 结点 的 句法 标记 信息，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.4　非词汇化句法分析器 &gt; 位置 5027</div><div class='noteText'>从 语言 学的 角度 出发， 对 非 终结 符 进行 了 一系列 的 手工 标注， 使 句法 分析器 的 准确率 得到 了 进一步 提升， 但是 该 方法 需要 大量 的 人工 标注 工作， 而且 很难 控制 非 终结 符 的 细化 程度。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.5　其他相关研究 &gt; 位置 5158</div><div class='noteText'>汉语 是一 种 语义 驱动 的 语言， 其 表达方式 往往 以 语义 为 中心， 而 不是 语法，</div>
+<div class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.6　短语结构分析器性能评价 &gt; 位置 5222</div><div class='noteText'>对于 汉语 句法 分析 技术 的 研究 仍 任重 而 道远。</div>
+<div class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.7　层次化汉语长句结构分析 &gt; 位置 5258</div><div class='noteText'>李 幸（ 2005） 和 李 幸 等（ 2006） 从 研究 汉语 标点符号 在 句子 中的 作用 和 使用 规律 入手， 提出 了 一种 针对 汉语 长 句 句法 分析 的 分层 处理 方法， 该 方法 根据 一些 特定 标点符号 将 长 句 切分 为 子句 或 短语 序列， 然后 对 切分 单元 分别 处理， 得到 各个 部分 的 分析 子 树， 最后 将 子 树 合并， 形成 完整 的 句法 分析</div>
+<div class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.8　浅层句法分析 &gt; 位置 5412</div><div class='noteText'>完全 句法 分析 要求 通过 一系列 的 分析 过程， 最终 得到 句子 的 完整 句法 分析 树， 而 浅层 句法 分析 只要 求 识别 句子 中 某些 结构 相对 简单 的 独立 成分， 例如：</div>
+<div class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.8　浅层句法分析 &gt; 位置 5426</div><div class='noteText'>关于 汉语 语 块 的 定义， 至今 没有 一个 公认 的 权威 解释，</div>
+<div class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.8　浅层句法分析 &gt; 位置 5429</div><div class='noteText'>目前 的 基本 短语 识别 研究 主要 集中 在 基本 名词 短语 的 识别 分析（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.10　依存句法分析 &gt; 位置 5800</div><div class='noteText'>生成 式、 判别式 和 确定性 三类 依存 分析 方法 提出 以后， 关于 依存 分析 的 研究工作 基本上 都是 在此 基础上 完善 或 改进 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.11　依存分析器性能评价 &gt; 位置 5982</div><div class='noteText'>为 句法 分析 技术 研究 向着 实用 化 方向 发展 产生 积极 的 推动 作用。</div>
+<div class='sectionHeading'>第9章　语义分析</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 6048</div><div class='noteText'>自然 语言 处理 的 最终目的 是在 语义 理解 的 基础上 实现 相应 的 操作， 一般来说， 一个 自然 语言 处理系统， 如果 完全 没有 语义 分析 的 参与， 能够 获得 很好 的 系统性 能 是 不可想像 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 6050</div><div class='noteText'>自然 语言 的 语义 计算 问题 十分困难， 如何 模拟 人脑 思维 的 过程， 建立 语言、 知识 与 客观 世界 之间 可计算 的 逻辑 关系， 并 实现 具有 高 区分 能力 的 语义 计算 模型， 至今 仍是 个 未能 解决 的 难题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 6052</div><div class='noteText'>对于 不同 的 语言 单位， 语义 分析 的 任务 各不相同。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 6052</div><div class='noteText'>词义 消 歧（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 6053</div><div class='noteText'>语义 角色 标注（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 6054</div><div class='noteText'>指 代 消 歧（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 6054</div><div class='noteText'>篇章 语义 分析</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.1　词义消歧概述 &gt; 位置 6063</div><div class='noteText'>中间 任务（ intermediate task）。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.1　词义消歧概述 &gt; 位置 6070</div><div class='noteText'>一个 词 的 不同 语义 一般 发生 在 不同 的 上下 文中。 在</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.1　词义消歧概述 &gt; 位置 6072</div><div class='noteText'>多义词 的 词义 识别 问题 实际上 就是 该 词 的 上下文 分类 问题， 一旦 确定 了 上下文 所属 的 类别， 也就 确 定了 该 词 的 词义 类型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.2　有监督的词义消歧方法 &gt; 位置 6111</div><div class='noteText'>算法 终止 的 条件 自然 是 互信 息 I（ P； Q） 不再 增加 或者 增加 甚少。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.2　有监督的词义消歧方法 &gt; 位置 6117</div><div class='noteText'>当 基于 互 信息 的 词义 消 歧 方法 引入 机器翻译 系统 以后， 翻译 系统 的 性能 提高 了 大约 20％。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.2　有监督的词义消歧方法 &gt; 位置 6145</div><div class='noteText'>基于 互 信息 的 词义 消 歧 方法 和 基于 贝 叶 斯 分类器 的 消 歧 方法， 都 需要 借助 双语 语料 库， 利用 另外 一种 语言 提供 的 信息 实现 本 语言 的 词义 消解，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.2　有监督的词义消歧方法 &gt; 位置 6147</div><div class='noteText'>利用 双语 语料 库 进行 词义 消 歧 的 方法 主要 存在 如下 问题： 获得 多义词 消 歧 知识 的 前提 是 一个 多义词 在另 一种 语言 中 具有 不同 的 翻译 词， 并且 翻译 词 在另 一种 语言 中 必须 是 单义 词， 这样 必然 限定 了 多义词 的 处理 范围。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.2　有监督的词义消歧方法 &gt; 位置 6154</div><div class='noteText'>利用 最大 熵 模型 进行 词义 消 歧 的 基本 思想 是把 词义 消 歧 看作 一个 分类 问题， 即对 于 某个 多义词 根据 其 特定 的 上下文 条件（ 用 特征 表示） 确定 该 词 的 义 项。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.2　有监督的词义消歧方法 &gt; 位置 6168</div><div class='noteText'>张 仰 森 等（ 2012） 针对 基于 最大 熵 的 词义 消 歧 方法 只能 利用 上下文 中的 显性 统计 特征 构建 语言 模型 的 弱点， 提出 了 采用 隐 最大 熵 原理 构建 汉语 词义 消 歧 模型 的 思想。 他们</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.3　基于词典的词义消歧方法 &gt; 位置 6194</div><div class='noteText'>其 基本 思想 是： 多义词 的 不 同义 项 在 使用 时 往往 具有 不同 的 上下文 语义 类， 也就是说， 通过 上下文 的 语义 范畴 可以 判断 多义词 的 使用 义 项。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.3　基于词典的词义消歧方法 &gt; 位置 6199</div><div class='noteText'>只要 确定 多义词 的 上下文 词 的 义 类 范畴， 也就 确定 了 多义词 的 词义。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.3　基于词典的词义消歧方法 &gt; 位置 6200</div><div class='noteText'>基于 义 类 辞典 的 消 歧 方法 实际上 是 通过 对 多义词 所处 语境 的“ 主题 领域” 的 猜测 来 判断 多义词 的 语义。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.3　基于词典的词义消歧方法 &gt; 位置 6245</div><div class='noteText'>不仅 需要 从 词典、 语料 库 等 多 知识 源 中 获取 词义 信息， 而且 更重 要的 是， 在 词类 划分 的 基础上 增加 词义 的 语法 功能 分析 和 词汇 搭配 描写， 从 多 知识 源 中 综合 提取 多义词 的 每个 意义 在 不同 层级 上 的 各种 组合 特征。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.4　无监督的词义消歧方法 &gt; 位置 6292</div><div class='noteText'>朱 靖 波 等（ 2001） 在 分析 了 高频率 词义、 指示 词、 特定 领域、 固定 搭配 和 固定 用法 信息 对 名词 和 动词 词义 消 歧 影响 的 基础上， 提出 并 实现 了 基于 对数 模型（ logarithm model） 的 词义 消 歧 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.4　无监督的词义消歧方法 &gt; 位置 6297</div><div class='noteText'>基于 最大 熵 模型 的 词义 消 歧 方法 最 稳定， 性能 表现 也 最好； 基于 贝 叶 斯 分类器 的 词义 消 歧 方法 相对 较 稳定， 性能 比 最大 熵 方法 略见 逊色； 基于 决策 树 模型 的 消 歧 方法 在 句子 范围内 表现 很差， 在（- 2，+ 2） 窗口 范围内 取 词性 特征 时， 性能 略好 一点； 而 向量 空间 模型 在 句子 范围内 的 特征 上 可取得 较好 的 结果（ 略好 于 贝 叶 斯 模型， 但 仍 比 最大 熵 方法 逊色）， 但在（- 2，+ 2） 范围内 的 特征 上表 现 很不 理想。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.6　语义角色标注概述 &gt; 位置 6325</div><div class='noteText'>语义 角色 标注 的 任务 就是 以 句子 的 谓词 为 中心， 研究 句子 中 各 成分 与 谓词 之间 的 关系， 并且 用语 义 角色 来 描述 它们 之间 的 关系。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.6　语义角色标注概述 &gt; 位置 6342</div><div class='noteText'>鉴于 上述 原因， 目前 语义 角色 标注 的 鲁 棒 性 非常 有限， 很大 地 限制 了 该 技术 的 应用。 因此， 如何 提高 语义 角色 标注 的 鲁 棒 性 已经 成为 当前 研究 的 首要 问题， 这也 是 目前 很多 学者 的 共识［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.7　语义角色标注基本方法 &gt; 位置 6353</div><div class='noteText'>自动 语义 角色 标注 是在 句法 分析 的 基础 上进 行的， 而 句法 分析 包括 短语 结构 分析、 浅层 句法 分析 和 依存 关系 分析， 因此， 语义 角色 标注 方法 也 分为 基于 短语 结构 树 的 语义 角色 标注 方法、 基于 浅层 句法 分析 结果 的 语义 角色 标注 方法 和 基于 依存 句法 分析 结果 的 语义 角色 标注 方法 三种。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.8　语义角色标注的领域适应性问题 &gt; 位置 6509</div><div class='noteText'>领域 适应性 是 目前 语义 角色 标注 研究 中的 一个 重要 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.8　语义角色标注的领域适应性问题 &gt; 位置 6550</div><div class='noteText'>因此， 要使 语义 角色 标注 方法 适应 目标 领域 的 变化， 首先 需要 使 句法 分析器 适应 目标 领域 的 变化， 否则 难以 在 较差 的 句法 分析 结果 上 获得 较好 的 语义 角色 标注 结果。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 9.8　语义角色标注的领域适应性问题 &gt; 位置 6565</div><div class='noteText'>庄 涛（ 2012） 提出 了 一种 基于 深层 信念 网（ deep belief network, DBN） 的 语义 角色 标注 的 领域 适应 方法， 该 方法 通过 建立 DBN 模型， 根据 一个 数据 样本 的 原始 特征 向量 进行 推断， 将其 表示 成 一个 隐含 特征 向量。 该 DBN 模型 的 训练过 程 是 无 监督 的， 其 训练 数据 包括 源 领域 的 所有 数据 和 目标 领域 的 未标 注 数据。</div>
+<div class='sectionHeading'>第10章　篇章分析</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 6758</div><div class='noteText'>篇章 分析 的 最终目的 是 从 整体 上 理解 篇章， 最重要的 任务 之一 是 分析 篇章 结构。 篇章 结构 包括 逻辑 语义 结构、 指 代 结构、 话题 结构 等 范畴。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 10.1　基本概念 &gt; 位置 6785</div><div class='noteText'>篇章 具有 衔接 性（ cohesion）、 连贯性（ coherence）、 意图 性（ intentionality）、 信息 性（ informativity）、 可接受性（ acceptability）、 情景 性（ situationality） 和 跨 篇章 性（ intertextuality） 等 7 个 基本 特征。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 10.1　基本概念 &gt; 位置 6792</div><div class='noteText'>无论 西方 语言 或者 汉语， 篇章 的 衔接 性 和 连贯性 都是 最 需要 关注 的 两个 问题， 是 篇章 的 两个 最 基本 特征。 从 本质上 讲， 衔接 性 和 连贯性 分别 从 内容 和 表达 这 两个 方面 保证 了 篇章 的 正确性 和 可理解 性， 反映 了 内容 平面 和 表达 平面 的 本质。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 10.2　基本理论 &gt; 位置 6810</div><div class='noteText'>认为， 人们说 话 时 同时 表达 三种 不同 的 含义 或 行为， 即 言 内行 为（ locutionary act）、 言外 行为（ illocutionary act） 和 言 后行 为（ perlocutionary act）。 言 内行 为是 说话 人 通过 词汇、 语法 和 音位 所 表达 的 字面 意思。 言外 行为 表示 言语 者 的 交际 意图 或者 试图 完成 某个 行为 的 功能， 而言 后行 为 表示 某些 话语 所 导致 的 行为， 是 话语 所 产生 的 后果 或 所 引起 的 变化。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 10.2　基本理论 &gt; 位置 6837</div><div class='noteText'>言语 行为 理论 可以 解释 句法 学、 真实 条件 语义学 等 无能为力 的 很多 语言 现象， 可见， 其 贡献 是 不可否认 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 10.2　基本理论 &gt; 位置 6842</div><div class='noteText'>话语 序列 结构（ 亦称“ 语言 结构（ linguistic structure）”）、 目的 结构（ 亦称“ 意图 结构（ intentional structure）”） 和 关注 焦点 状态（ 亦称“ 关注 状态（ attentional</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 10.6　关于汉语篇章分析 &gt; 位置 7182</div><div class='noteText'>适用于 英语 等 西方 语言 的 篇章 理论 和 分析 方法 未必 适用于 汉语， 因此， 迫切需要 建立 适合于 汉语 篇章 结构 分析 的 理论体系， 并 制定 高水平 的 篇章 语料 标注 规范， 建立 大规模 的 汉语 篇章 语料 库。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 10.6　关于汉语篇章分析 &gt; 位置 7216</div><div class='noteText'>另外， 在 已有 工作 的 基础上， 如何 进一步 开展 实体 指 代 和 事件 指 代 的 消 歧 研究， 并 建立 汉语 篇章 的 衔接 性 和 连贯性 分析 理论 以及 实现 模型 和 方法 等，</div>
+<div class='sectionHeading'>第11章　统计机器翻译</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 7235</div><div class='noteText'>实现 不同 语言 之间 的 自动 翻译， 蕴藏 着 巨大 的 经济 利益。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 7236</div><div class='noteText'>从 理论上 讲， 研究 不同 语言 之间 的 翻译 涉及 计算机 科学、 语言学 以及 数学 与 逻辑学 等 若干 学科 和 技术， 是 目前 国际上 最 具 挑战 性的 前沿 研究 课题 之一，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7253</div><div class='noteText'>自 1990 年 统计 机器翻译 模型 提出 以来， 基于 大规模 语料 库 的 统计 翻译 方法 迅速发展， 取得 了 一系列 令人 瞩目 的 成果， 机器翻译 再次 成为 人们 关注 的 热门 研究 课题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7263</div><div class='noteText'>其 翻译 过程 分成 三个 阶段： ① 对 输入 文本 进行 分析， 形成 源 语言 抽象 的 内部 表达； ② 将 源 语言 内部 表达 转换 成 抽象 的 目标 语言 内部 表达； ③ 根据 目标 语言 内部 表达 生成 目标 语言 文本。 这种 翻译 方法 的 主要 环节 可以 归纳 为“ 独立 分析— 独立 生成— 相关 转换”。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7284</div><div class='noteText'>基于 记忆 的 翻译 方法（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7286</div><div class='noteText'>找到 最 相似 的 句子 或 片段 所 对应 的 目标 语言 句子 或 片段 作为 翻译 结果， 最后 将 这些 目标 语言 片段 组合 成 一个 完整 的 句子［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7290</div><div class='noteText'>首先 对 翻译 句子 进行 适当 的 预处理， 然后 将其 与 实例 库 中的 翻译 实例 进行 相似性 分析， 最后， 根据 找到 的 相似 实例 的 译文 得到 翻译 句子 的 译文。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7294</div><div class='noteText'>输出）。 翻译 问题 实际上 就是 如何 根据 观察 到 的 句子 S， 恢复 最有 可能 的 输入 句子 T。 这种 观点 认为， 任何 一种 语言 的 任何 一个 句子 都有 可能 是 另外 一种 语言 的 某个 句子 的 译文， 只是 可能性 大小 不同 而已［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7297</div><div class='noteText'>其 网络 模型 可以 经 语料 库 训练 得到［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7306</div><div class='noteText'>机器翻译 仍 处于 技术 研究 阶段（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7306</div><div class='noteText'>机器翻译 已经 在某 些 限定 领域 为人 们 提供 了 快捷 方便 的 翻译 服务，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7309</div><div class='noteText'>机器翻译 既是 一门 学问， 又是 一门 技术， 它 既不 像 有些 人 批评 的 那么 一无是处， 也不 像 有些 人 吹捧 的 那么 完美无缺。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 11.1　机器翻译概述 &gt; 位置 7313</div><div class='noteText'>人类 对于 自身 大脑 翻译 的 思维 过程 都 还没有 彻底 弄 明白 以前， 要求 计算机 高质量 地 自动 翻译 成语、 小说、 散文 甚至 诗歌 等 文学作品 是 完全 不现实 的。</div>
+<div class='sectionHeading'>第13章　文本分类与情感分类</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 10007</div><div class='noteText'>是 模式 识别 与 自然 语言 处理 密切 结合 的 研究 课题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 10010</div><div class='noteText'>对 带有 情感 色彩 的 主观性 文本 进行 分析、 处理、 归纳 和 推理［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 10011</div><div class='noteText'>情感 分析 包含 较多 的 任务， 如 情感 分类（ sentiment classification）、 观点 抽取（ opinion extraction）、 观点 问答 和 观点 摘要 等。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 10013</div><div class='noteText'>判别 文本 的 倾向性， 可以 将其 看作 是一 个 分类 任务；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 10013</div><div class='noteText'>要从 观点 句 中 抽取 相关 的 要素（ 观点 持有 者、 观点 评价 对象 等）， 则是 一个 信息 抽取 任务；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 10014</div><div class='noteText'>要从 海量 文本 中 找到 对 某一 事物 的 观点， 则 可以 看作 是一 个 检索 任务。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.1　文本分类概述 &gt; 位置 10018</div><div class='noteText'>文本 分类 研究 涉及 文本 内容 理解 和 模式 分类 等 若干 自然 语言 理解 和 模式 识别 问题， 一个 文本 分类 系统 不仅 是一 个 自然 语言 处理系统， 也是 一个 典型的 模式 识别 系统， 系统 的 输入 是 需要 进行 分类 处理 的 文本， 系统 的 输出 则是 与 文本 关联 的 类别。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.1　文本分类概述 &gt; 位置 10021</div><div class='noteText'>而且 可以 丰富 模式 识别 和 人工智能 理论研究 的 内容， 具有 重要的 理论 意义 和 实用 价值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.1　文本分类概述 &gt; 位置 10027</div><div class='noteText'>文本 分类 中有 两个 关键 问题： 一个 是 文本 的 表示， 另一个 就是 分类器 设计。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.1　文本分类概述 &gt; 位置 10028</div><div class='noteText'>一个 文本 分类 系统 可以 简略 地 用图 13- 1 表示。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.1　文本分类概述 &gt; 位置 10034</div><div class='noteText'>第三 阶段（ 1975— 1989）： 进入 实用 化 阶段； 第四 阶段（ 1990 年 至今）： 面向 互 联网 的 文本 自动 分类 研究 阶段。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.1　文本分类概述 &gt; 位置 10039</div><div class='noteText'>文本 自动 分类 系统 大致 可分 为 两种 类型： 基于 知识 工程（ knowledge engineering, KE） 的 分类 系统 和 基于 机器 学习（ machine learning, ML） 的 分类 系统。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.1　文本分类概述 &gt; 位置 10042</div><div class='noteText'>这种 方法 在 准确率 和 稳定性 方面 具有 明显 的 优势。 系统 使用 训练 样本 进行 特征 选择 和 分类器 参数 训练， 根据 选择 的 特征 对待 分类 的 输入 样本 进行 形式化， 然后 输入 到 分类器 进行 类别 判定， 最终 得到 输入 样本</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.1　文本分类概述 &gt; 位置 10044</div><div class='noteText'>的 类别。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.2　文本表示 &gt; 位置 10074</div><div class='noteText'>采用 向量 空间 模型 进行 文本 表示 时， 需要 经过 以下 两个 主要 步骤： ① 根据 训练 样本 集 生成 文本 表示 所需 要的 特征 项 序列 D ＝{ t1， t2，…， td}； ② 依据 文本 特征 项 序列， 对 训练 文本 集 和 测试 样本 集中 的 各个 文档 进行 权 重 赋值、 规范化 等 处理， 将其 转化 为 机器 学习 算法 所需 的 特征 向量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10092</div><div class='noteText'>基于 文档 频率（ document frequency, DF） 的 特征 提 取法、 信息 增益（ information gain, IG） 法、 χ 2 统 计量（ CHI） 法 和 互信 息（ mutual information, MI） 方法 等［ Yang and Pedersen, 1997； 代 六 玲 等， 2004］。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10099</div><div class='noteText'>基于 文档 频率 的 特征 选择 方法 可以 降低 向量 计算 的 复杂度， 并可 能 提高 分类 的 准确率， 因为 按 这种 选择 方法 可以 去掉 一部分 噪声 特征。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10103</div><div class='noteText'>某 特征 项 ti 为整 个 分类 所能 提供 的 信息量 多少 来 衡量 该 特征 项 的 重要 程度， 从而 决定 对 该 特征 项 的 取舍。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10105</div><div class='noteText'>信息量 的 多少 由 熵 来 衡量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10105</div><div class='noteText'>信息 增益 即 不考虑 任何 特征 时 文档 的 熵 和 考虑 该 特征 后 文档 的 熵 的 差值：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10111</div><div class='noteText'>从 信息 增益 的 定义 可知， 一个 特征 的 信息 增益 实际上 描述 的 是它 包含 的 能够 帮助 预测 类别 属性 的 信息量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10111</div><div class='noteText'>从 理论上 讲， 信息 增益 应该 是最 好的 特征 选取 方法， 但 实际上 由于 许多 信息 增益 比较 高的 特征 出现 频率 往往 较低， 所以， 当 使用 信息 增益 选择 的 特征 数目 比较 少时， 往往 会 存在 数据 稀疏 问题， 此时 分类 效果 也比 较差。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10132</div><div class='noteText'>互信 息（ MI） 法 的 基本 思想 是： 互信 息 越大， 特征 ti 和 类别 Cj 共 现 的 程度 越大。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10136</div><div class='noteText'>也有 最大值 方法 和平 均值 方法 两种 方法：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.3　文本特征选择方法 &gt; 位置 10147</div><div class='noteText'>实验 结果 表明， 多类 优势 率 方法 和 文献［ 周 茜 等， 2004）］ 中 提出 的 类别 区分 词 方法 取得 了 最好 的 选择 效果。 不过 需要 说明 的 是， 这些 比较 都是 通过 实验 方法 进行 的， 由于 实验 语料、 分类器 方法 等 各种 因素 的 差异， 得出 的 结论 并非 完全 一致， 所以， 这些 结论 可以 作为 特征 选择 的 参考， 并非 绝对 的 定论。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.4　特征权重计算方法 &gt; 位置 10183</div><div class='noteText'>权 重计 算方 法 存在 与 特征 提取 方法 类似 的 问题， 就是 缺少 理论上 的 推导 和 验证， 因而， 表现 出 来的 非 一般性 结果 无法 得到 合理 的 解释。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.5　分类器设计 &gt; 位置 10187</div><div class='noteText'>由于 文本 分类 本身 是一 个 分类 问题， 因此， 一般 的 模式 分类 方法 都可 用于 文本 分类 研究。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10330</div><div class='noteText'>有其 特殊性， 如 情感 信息 表达 的 隐蔽 性、 多义性 和 极性 不明显 等。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10331</div><div class='noteText'>这些 方法 可以 按 机器 学习方法 归类， 也可以 按 情感 文本 的 特点 划分。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10337</div><div class='noteText'>主观 句 摘要（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10338</div><div class='noteText'>极性 转移（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10346</div><div class='noteText'>通过 计算 文本 中 候选 单词 与 种子 情感 词 之 间的 点 互信 息（ point- wise mutual information, PMI） 来 计算 文本 的 情感 倾向性，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10351</div><div class='noteText'>根据 情感 文本 分类 中 侧重 关注 的 问题， 可以 将 情感 分类 研究 划分 为 领域 相关性 研究 和 数据 不平衡 问题 研究 两类。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10356</div><div class='noteText'>Aue and Gamon（ 2005） 针对 领域 适应 中的 特征 选择、 分类器 融合 和 训练 集 的 组合 等 问题 做了 详细 分析。 Blitzer et al.（ 2007） 提出 了 一种 基于 结构 共 现 学习（ structural correspondence learning， SCL） 的 情感 分类 领域 适应 方法， 在 跨 领域 情感 分类 中 取得 了 较好 的 性能。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10360</div><div class='noteText'>情感 分类 往往 牵涉 样本 的 正负 类别 分布 不平衡 的 问题。 Li et al.（ 2011b） 对 实际情况 中的 样本 不平衡 问题 做了 深入分析。 假设 在 情感 分类 中有 N 个 样本 的 训练 数据， 其中 包含 N+ 个 正 类 样本 和 N－个 负 类 样本。 目前 大多数 研究 总是 假设 正 类 样本 数 和 负 类 样本 数 是 平衡 的， 即 N+ ＝ N－， 但 实际情况 并非如此， 更 一般 的 情况 是 训练 数据 中 一类 样本 要 远远 多于 另一 类 样本， 即 N+ ≫ N－或者 N+ ≪ N－。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 13.7　情感分类 &gt; 位置 10390</div><div class='noteText'>确定性 和 不确定性 分布 由 两个 分开 的 特征 子 空间 进行 控制， 不确定性 用于 选择 信息量 大的 样本， 确定性 用于 选择 尽量 平衡 的 数据。</div>
+<div class='sectionHeading'>第14章　信息检索与问答系统</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 14.1　信息检索概要 &gt; 位置 10442</div><div class='noteText'>估计 用户 查询 标引 和 候选 查询 文本 之间 相关 度 的 模型（ 不妨 称之为“ 检索 模型”） 通常 有： 布尔（ Boolean） 模型、 向量 空间 模型、 概率 模型 和 语言 模型 等。</div>
+<div class='sectionHeading'>第15章　自动文摘与信息抽取</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.1　自动文摘技术概要 &gt; 位置 10891</div><div class='noteText'>刘 挺 等（ 1999） 曾将 自动 文摘 方法 概括 为 四种： 自动 摘录、 基于 理解 的 自动 文摘、 信息 抽取 和 基于 结构 的 自动 文摘。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.1　自动文摘技术概要 &gt; 位置 10900</div><div class='noteText'>在 基于 句子 抽 取的 多 文档 文摘 系统 中， 其 基本 思想 是 通过 计算 句子 之间 的 相似性， 抽取 文 摘句， 然后 对 文摘 句 排序 的 方法 生成 最后 的 文摘，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.1　自动文摘技术概要 &gt; 位置 10901</div><div class='noteText'>核心 技术 集中 在 句子 相似性 计算、 文摘 句 抽取 和 文摘 句 排序 三个 问题 上， 并不 需要 经过 文摘 表示 这一 中间环节。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10904</div><div class='noteText'>多 文档 摘要 就是 将同 一 主题 下 的 多个 文本 描述 的 主要 信息 按压 缩比 提炼 出 一个 文本 的 自然 语言 处理 技术［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10910</div><div class='noteText'>无论是 单 文档 文摘 还是 多 文档 文摘， 目前 采用 的 方法 一般 为 基于 抽取 的 方法（ extracting method） 或称 摘录 型 方法 和 基于 理解 的 方法（ abstracting method）。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10912</div><div class='noteText'>单 文档 摘要 系统 中， 一般 都 采用 基于 抽取 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10912</div><div class='noteText'>多 文档 而言， 由于 在 同一 主题 中的 不同 文档 中 不可避免 地 存在 信息 交叠 和 信息 差异， 因此， 如何 避免 信息 冗余， 同时 反映 出来 自不 同 文档 的 信息 差异 是 多 文档 文摘 中的 首要 目标， 而要 实现 这个 目标 通常 意味着 要在 句子 层 以下 做工 作， 如对 句子 进行 压缩、 合并、 切分 等。 所以， 多 文档 摘要 系统 所 面临 的 问题 更加 复杂。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10916</div><div class='noteText'>如何 准确 地 得到 每个 句子 的 时间 信息， 也是 多 文档 文摘 中 需要 解决 的 一个 重要 问题。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10919</div><div class='noteText'>但 无论 采用 什么样 的 方法， 都 必须 面对 三个 关键 问题： ① 文档 冗余 信息 的 识别 和 处理； ② 重要 信息 的 辨认； ③ 生成 文摘 的 连贯性。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10920</div><div class='noteText'>一种 是 聚 类 的 方法， 测量 所有 句子 对之 间的 相似性， 然 后用 聚 类 方法 识别 公共 信息 的 主题，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10922</div><div class='noteText'>系统 首先 测量 候 选文 段 与 已 选文 段 之间 的 相似 度， 仅 当 候选 段 有 足够 的 新 信息 时 才将 其 入选。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10924</div><div class='noteText'>先 识别 待 判断 的 两个 句子 中 所有 谓词 的 语义 角色， 然后 计算 两个 句子 间 对应 语义 角色 的 相似 度， 最后 结合 传统 的 句子 相似 度 计算 方法 来 进行 句子 相似性 计算。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10938</div><div class='noteText'>摘录 型 的 摘要 方法 仍是 实用性 自动 摘要 的 主流 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10938</div><div class='noteText'>摘录 型 方法 的 主要 思路 是 从 文章 中 提取 特征， 然后 采用 有 监督 或者 无 监督 的 机器 学习方法 对句 子 进行 分类、 打 分， 并进 行 句子 抽取 和 排序。 特征 提取 的 基本 单位 是 句子。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10941</div><div class='noteText'>方法 将 自动 摘要 看作“ 段 标注” 问题，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10941</div><div class='noteText'>优点 在于 提取 特征 的 单位 不仅 来自 句子， 也可 来自于 段。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10943</div><div class='noteText'>该 方法 扩大 了 特征 来源 的 范围， 因此 与 单纯 以 句子 为 单位 进行 特征 提取 的 方法 相比 有 明显 优势。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10946</div><div class='noteText'>流 形 排序 过程 能够 充分 利用 文档 中 所有 句子 之间 的 关系 和 句子 与 给定 主题 之间 的 关系， 通过 流 形 排序 算法 能够 获得 每个 句子 的 重要性 得分， 最后 可利用 贪心 算法 对 句子 的 冗余 性 进行 惩罚， 选择 信息 含量 高 且有 新 内容 的 句子 构成 摘要。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10958</div><div class='noteText'>将 查询 返回 的 文档 集合 表示 为 以 文本、 段落 为 结点 的 双层 复杂 网络 结构 以 发现 子 主题， 在此 基础上 除 采用 传统 的 摘要 模式 以外 又 设计 了 概括 摘要、 局部 摘要、 全局 摘要 和 详细 摘要 四种 摘要 模式， 并给 出了 各种 摘要 的 生成 方法。 这种 处理 方式 支持 用户 以 主题 为 线索 的 自主 漫游， 可按 照 一定 的 逻辑 顺序 浏览 信息。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.2　多文档摘要 &gt; 位置 10967</div><div class='noteText'>文摘 的 合乎 语法 性（ grammaticality）、 非 冗余 性（ non- redundancy）、 指 代 的 清晰 程度（ referential clarity）、 聚焦 情况（ focus） 和 结构 及 一致性（ structure and coherence）［ Dang, 2005］。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 10996</div><div class='noteText'>面对 日益 增多 的 海量 信息， 人们 迫切需要 一种 自动化 工具 来 帮助 自己 从中 快速 发现 真正 需要 的 信息， 并将 这些 信息 自动 地 进行 分类、 提取 和 重 构。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11002</div><div class='noteText'>文本 信息 抽取 指的 是 这样 一类 文本 处理 技术， 它 从 自然 语言 文本 中 自动 抽取 指定 类型 的 实体（ entity）、 关系（ relation）、 事件（ event） 等 事实 信息， 并 形成 结构 化 数据 输出［ Grishman, 1997］。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11005</div><div class='noteText'>自动 处理 非 结 构化 的 自然 语言 文本；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11005</div><div class='noteText'>选择性 抽取 文本 中指 定的 信息；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11005</div><div class='noteText'>抽取 的 信息 形成 结 构化 数据 表示［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11006</div><div class='noteText'>与 自动 文摘 相比， 信息 抽取 一般 是有 目的地 从 文本 中 寻找 所要 的 信息， 并将 找到 的 信息 转化 成 结构 化 格式 表示， 一般 采用 类似 框架 的 表示 形式。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11020</div><div class='noteText'>场景 模板 填充（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11021</div><div class='noteText'>命名 实体（ named entity, NE） 识别：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11022</div><div class='noteText'>共 指（ co- reference, CR） 关系 确定：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11023</div><div class='noteText'>模板 元素（ template element, TE） 填充：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11025</div><div class='noteText'>模板 关系（ template relation, TR）： 确定 实体 之间 与 特定 领域 无关 的 关系。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11032</div><div class='noteText'>场景 模板” 的 得分 普遍 较差，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11032</div><div class='noteText'>命名 实体 识别 的 结果 较好， 相对而言， 英语 的 结果 要比 汉语 的 好。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11039</div><div class='noteText'>ACE 旨在 定义 一种 通用 的 信息 抽取 标准， 不再 限定 领域 和 场景， 而是 从 语义 的 角度 制订 一套 更为 系统化 的 信息 抽取 框架， 这个 框架 将 信息 抽取 归结 为 建立 在 一定 本体论（ ontology） 基础上 的 实体、 关系、 事件 的 抽取， 从而 适用于 更 广泛 的 领域 和 不同 类型 的 文本［</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11042</div><div class='noteText'>实体 检测 与 跟踪（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11042</div><div class='noteText'>数值 检测 与 识别（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11043</div><div class='noteText'>时间 识别 和 规范化（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11043</div><div class='noteText'>关系 检测 与 描述（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11044</div><div class='noteText'>RDC）、 事件 检测 与 描述（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11044</div><div class='noteText'>实体 翻译（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11045</div><div class='noteText'>基于 一种 通用 意义上 的 知识 本体， 在 实现 开放 领域 信息 抽取 的 道路 上 迈出 了 关键 性的 一步。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11055</div><div class='noteText'>命名 实体 识别；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11056</div><div class='noteText'>句法 分析，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11056</div><div class='noteText'>共 指 分析 和 歧义 消解；</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11056</div><div class='noteText'>实体 关系 识别：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11057</div><div class='noteText'>事件 识别：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11060</div><div class='noteText'>传统 的 信息 抽取 评测 任务 是 面向 限定 领域 文本 的、 限定 类别 实体、 关系 和 事件 等 的 抽取，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11083</div><div class='noteText'>等）， 侧重于 识别，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11084</div><div class='noteText'>列表， 侧重于 抽取。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11084</div><div class='noteText'>抽取 比 识别 在 任务 上 更加 底层， 实体 抽取 的 结果 可以 作为 列表 支撑 实体 的 识别。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11085</div><div class='noteText'>开放 式 实体 抽取 技术 对于 知识 库 构建、 网络 内容 管理、 语义 搜索、 问答 系统 等 都 具有 重要的 应用 价值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11097</div><div class='noteText'>刘 晓 华 等在 面向 微 博 的 命名 实体 识别 研究 方面 做了 大量 工作，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11105</div><div class='noteText'>实体 聚 类 消 歧 法：</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11117</div><div class='noteText'>链接 系统 根据 指称 项 和 候选 实体 之间 的 相似 度 等 特征， 选择 实体 指称 项 的 目标 实体。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11121</div><div class='noteText'>实体 链接 的 核心 任务 仍是 计算 实体 指称 项 和 候选 实体 之间 的 相似 度， 选择 相似 度 最大 的 候选 实体 作为 链接 的 目标 实体。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11138</div><div class='noteText'>开放 式 实体 关系 抽取 的 目标 就是 要 突破 封闭 的 关系 类型 限制 和 训练 语料 的 约束， 从 海量 的 网络 文本 中 抽取 实体 关系。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 15.3　信息抽取 &gt; 位置 11146</div><div class='noteText'>Web 上 存在 着 大量 结构 化 知识 源， 其中 蕴含 着 大量 易于 获取 的 实体 语义 关系 类别（ 如 维 基 百科 的 Infobox）， 挖掘 和 利用 Web 知识 源 中的 语义 知识， 并 充分 利用 数据 冗余 性 进行 知识 验证 是 可行 的 解决 方案。 对于</div>
+</div> 
+</body> 
+</html> 
