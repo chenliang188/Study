@@ -127,6 +127,8 @@
 - H2O.ai
 - Superset
 - Alpine Data
+- ETL:Kettle\PETL\Bubbles\Bonobo
+
 
 ## Data Mining
 
