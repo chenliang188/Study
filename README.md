@@ -16,6 +16,7 @@
 - 《你不知道的JavaScript》
 - 《ES6标入门》
 - 《深入理解ES6》
+- 《Mastering Node.js》
 
 ## Angular
 
