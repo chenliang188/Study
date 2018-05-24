@@ -1,5 +1,7 @@
 # Node.js API文档阅读笔记
 
+> V10.1.0文档中文版
+
 ## assert断言
 
 - 当使用 strict 模式时，任何 assert 函数都会使用严格函数模式的等式。 所以 assert.deepEqual() 会等同于 assert.deepStrictEqual()。除此以外，涉及对象的错误信息会产生一个错误差异比较，而不是展示双方的对象。 legacy 模式则不会这样。
