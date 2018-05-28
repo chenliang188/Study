@@ -80,7 +80,7 @@
   - Partitioning support
   - A pluggable Binder SPI
   
-- Spring Cloud Stream provides a #Binder# abstraction for use in connecting to physical destinations at the external middleware. 
+- Spring Cloud Stream provides a **Binder** abstraction for use in connecting to physical destinations at the external middleware. 
 
 ### Binder Implementations
 
