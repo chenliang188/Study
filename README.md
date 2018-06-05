@@ -62,7 +62,7 @@
 
 ## R
 
-- 《R语言实战(第2版)》
+- [《R语言实战(第2版)》](https://www.amazon.cn/dp/B071F75FQZ/)
 
 ## Languages
 
