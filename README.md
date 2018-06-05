@@ -52,9 +52,9 @@
 - 《Ruby程序员修炼之道》
 
 ## Golang
-
+- [The Way to Go中文版](https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md)
 - [官方文档](https://golang.org/doc/)
-- 《Go语言实战》
+- [《Go语言实战》](https://www.amazon.cn/dp/B074C6SGLW/)
 
 ## Java
 
