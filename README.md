@@ -54,7 +54,7 @@
 
 ## Golang
 - [The Way to Go中文版](https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md)
-- [官方文档](https://golang.org/doc/)
+- [官方入门指南](https://tour.go-zh.org/list)
 - [《Go语言实战》](https://www.amazon.cn/dp/B074C6SGLW/)
 
 ## Java
