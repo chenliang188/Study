@@ -86,7 +86,7 @@
 
 ### Nginx
 
-- [(Openresty最佳实践)]https://github.com/moonbingbing/openresty-best-practices
+- [Openresty最佳实践](https://github.com/moonbingbing/openresty-best-practices)
 
 
 
