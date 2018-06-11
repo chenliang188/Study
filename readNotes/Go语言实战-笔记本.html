@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "XHTML1-s.dtd" >
+<html xmlns="http://www.w3.org/TR/1999/REC-html-in-xml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+<style>
+.bodyContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.notebookFor {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    margin: 24px 0px 0px;
+    padding: 0px;
+}
+
+.bookTitle {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+    margin-top: 22px;
+    padding: 0px;
+}
+
+.authors {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    margin-top: 22px;
+    margin-bottom: 24px; 
+    padding: 0px;
+}
+
+.sectionHeading {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 24px;
+    padding: 0px;
+}
+
+.noteHeading {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.noteText {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    margin: 2px 0px 0px;
+    padding: 0px;
+}
+
+.highlight_blue {
+    color: rgb(178, 205, 251);
+}
+
+.highlight_orange {
+    color: #ffd7ae;
+}
+
+.highlight_pink {
+    color: rgb(255, 191, 206);
+}
+
+.highlight_yellow {
+    color: rgb(247, 206, 0);
+}
+
+.notebookGraphic {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.notebookGraphic img {
+    -o-box-shadow:      0px 0px 5px #888;
+    -icab-box-shadow:   0px 0px 5px #888;
+    -khtml-box-shadow:  0px 0px 5px #888;
+    -moz-box-shadow:    0px 0px 5px #888;
+    -webkit-box-shadow: 0px 0px 5px #888;
+    box-shadow:         0px 0px 5px #888; 
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 0px none;
+    height: 1px;
+    background: none repeat scroll 0% 0% rgb(221, 221, 221);
+}
+</style>
+</head>
+<body>
+<div class='bodyContainer'>
+<div class='notebookFor'>笔记本（用于）</div><div class='bookTitle'>Go语言实战（异步图书）
+</div><div class='authors'>
+威廉·肯尼迪（William Kennedy）; 布赖恩·克特森（ian Ketelsen）; 埃里克·圣马丁（BrErik St. Martin）
+</div><hr/>
+<div class='sectionHeading'>第1章 关于Go语言的介绍</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 321</div><div class='noteText'>Go 开发者 使用 组合（ composition） 设计 模式， 只需 简单 地 将 一个 类型 嵌入 到 另一个 类型， 就能 复 用 所有 的 功能。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 322</div><div class='noteText'>其他 语言 也能 使用 组合， 但是 不得 不和 继承 绑在 一起 使用， 结果 使 整个 用法 非常 复杂， 很难 使用。 在 Go 语言 中， 一个 类型 由 其他 更 微小 的 类型 组合 而成， 避免 了 传统 的 基于 继承 的 模型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 346</div><div class='noteText'>而 Go 语言 的 接口 一般 只会 描述 一个 单一 的 动作。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 346</div><div class='noteText'>Go 语言 中， 最 常使 用的 接口 之一 是 io. Reader。 这个 接口 提供 了 一个 简单 的 方法， 用来 声明 一个 类型 有数 据 可以 读取。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 354</div><div class='noteText'>这 和 传统 的 面向 对象 编程 语言 的 接口 系统 有 本质 的 区别。 Go 语言 的 接口 更小， 只 倾向于 定义 一个 单一 的 动作。 实际 使用 中， 这 更有 利于 使用 组合 来 复 用 代码。</div>
+<div class='sectionHeading'>第2章 快速开始一个Go程序</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 395</div><div class='noteText'>标准 库 提供 了 构建 实际 的 基于 Web 和 基于 网络 的 程序 所需 的 所有 核心 库。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 434</div><div class='noteText'>每个 可执行 的 Go 程序 都有 两个 明显 的 特征。 一个 特征 是 第 18 行 声明 的 名为 main 的 函数。 构建 程序 在 构建 可执行 文件 时， 需要 找到 这个 已经 声明 的 main 函数， 把 它 作为 程序 的 入口。 第二个 特征 是 程序 的 第 01 行的 包 名 main，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 458</div><div class='noteText'>所有 处于 同一个 文件夹 里 的 代码 文件， 必须 使用 同一个 包 名。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 459</div><div class='noteText'>按照 惯例，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 459</div><div class='noteText'>惯例， 包 和 文件夹 同名。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 466</div><div class='noteText'>这个 技术 是 为了 让 Go 语言 对 包 做 初始化 操作， 但是 并不 使用 包里 的 标识符。 为了 让 程序 的 可读性 更 强， Go 编译器 不允许 声明 导入 某个 包 却不 使用。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 468</div><div class='noteText'>下划线 让 编译器 接受 这类 导入， 并且 调用 对应 包内 的 所有 代码 文件 里 定义 的 init 函数。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 477</div><div class='noteText'>程序 中 每个 代码 文件 里 的 init 函数 都会 在 main 函数 执行 前 调用。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 534</div><div class='noteText'>在 Go 语言 里， 标识符 要么 从 包里 公开， 要么 不 从 包里 公开。 当代 码 导入 了 一个 包 时， 程序 可以 直接 访问 这个 包 中 任意 一个 公开 的 标识符。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 535</div><div class='noteText'>这些</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 535</div><div class='noteText'>标识符 以 大写字母 开头。 以 小写 字母 开头 的 标识符 是 不 公开 的， 不能 被 其他 包 中的 代码 直接 访问。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 627</div><div class='noteText'>在 Go 语言 中， 通道（ channel） 和 映射（ map） 与 切片（ slice） 一样， 也是 引用 类型， 不过 通道 本身 实现 的 是 一组 带 类型 的 值， 这 组 值 用于 在 goroutine 之间 传递 数据。 通道 内置 同步 机制， 从而 保证 通信安全。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 637</div><div class='noteText'>写 并发 程序 的 时候， 最佳 做法 是， 在 main 函数 返回 前， 清理 并 终止 所有 之前 启动 的 goroutine。 编写 启动 和 终止 时 的 状态 都很 清晰 的 程序， 有助 减少 bug， 防止 资源 异常。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 641</div><div class='noteText'>非常 推荐 使用 WaitGroup 来 跟踪 goroutine 的 工作 是否 完成。 WaitGroup 是一 个 计数 信号 量， 我们 可以 利用 它来 统计 所有 的 goroutine 是不是 都 完成 了 工作。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 712</div><div class='noteText'>在 Go 语言 中， 所有 的 变量 都以 值 的 方式 传递。 因为 指针 变量 的 值 是 所 指向 的 内存 地址， 在 函数 间 传递 指针 变量， 是在 传递 这个 地址 值， 所以 依旧 被 看作 以 值 的 方式 在 传递。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 731</div><div class='noteText'>Go 语言 支持 闭 包， 这里 就应 用了 闭 包。 实际上， 在 匿名 函数 内 访问 searchTerm 和 results 变量， 也是 通过 闭 包 的 形式 访问 的。 因为 有了 闭 包， 函数 可以 直接 访问 到那 些 没有 作为 参数 传入 的 变量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 735</div><div class='noteText'>因为 matcher 和 feed 变量 每次 调用 时值 不 相同， 所以 并没有 使用 闭 包 的 方式 访问 这 两个 变量，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 745</div><div class='noteText'>除非 我们 以 函数 参数 的 形式 传 值 给 函数， 否则 绝大部分 goroutine 最终 都会 使用 同一个 matcher 来 处理 同一个 feed—— 这个 值 很有可能 是 feeds 切片 的 最后 一个 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 847</div><div class='noteText'>关键字 defer 会 安排 随后 的 函数 调用 在 函数 返回 时 才 执行。 在使 用完 文件 后， 需要 主动 关闭 文件。 使用 关键字 defer 来安 排调 用 Close 方法， 可以 保证 这个 函数 一定 会被 调用。 哪怕 函数 意外 崩溃 终止， 也能 保证 关键字 defer 安排 调用 的 函数 会被 执行。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 941</div><div class='noteText'>如果 声明 函数 的 时候 带有 接收者， 则 意味着 声明 了 一个 方法。 这个 方法 会 和 指定 的 接收者 的 类型 绑在 一起。 在 我们 的 例子 里， Search 方法 与 defaultMatcher 类型 的 值 绑在 一起。 这 意味着 我们 可以 使用 defaultMatcher 类型 的 值 或者 指向 这个 类型 值 的 指针 来 调用 Search 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 945</div><div class='noteText'>无论 我们 是 使用 接收者 类型 的 值 来 调用 这个 方， 还是 使用 接收者 类型 值 的 指针 来 调用 这个 方法， 编译器 都会 正确地 引用 或者 解 引用 对应 的 值， 作为 接收者 传递 给 Search 方法，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 959</div><div class='noteText'>与 直接 通过 值 或者 指针 调用 方法 不同， 如果 通过 接口 类型 的 值 调用 方法， 规则 有很 大 不同，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 960</div><div class='noteText'>使用 指针 作为 接收者 声明 的 方法， 只能 在 接口 类型 的 值 是一 个 指针 的 时候 被 调用。 使用 值 作为 接收者 声明 的 方法， 在 接口 类型 的 值 为 值 或者 指针 时， 都可以 被 调用。</div>
+<div class='sectionHeading'>第3章 打包和工具链</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2 导入 &gt; 位置 1355</div><div class='noteText'>编译器 会首 先 查找 Go 的 安装 目录， 然后 才会 按 顺序 查找 GOPATH 变量 里 列出 的 目录。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2 导入 &gt; 位置 1390</div><div class='noteText'>而 Go 开发 团队 认为， 与其 让 编译器 告警， 不如 直接 失败 更有意义。 每个 编译 过 大型 C 程序 的 人都 知道， 在 浩如烟海 的 编译器 警告 里 找到 一条 有用 的 信息 是 多么 困难 的 一 件事。 这种 情况下 编译 失败 会 更加 明确。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2 导入 &gt; 位置 1392</div><div class='noteText'>有时， 用户 可能 需要 导入 一个 包， 但是 不需要 引用 这个 包 的 标识符。 在这 种 情况， 可以 使用 空白 标识符_ 来 重命名 这个 导入。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1628</div><div class='noteText'>&quot;github. ardanstudios. com/ myproject/ Godeps/_ workspace/ src/ 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 bitbucket. org/ ww/ goautoneg&quot;</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1631</div><div class='noteText'>在 路径 重写 之前， import 语句 使 用的 是 包 的 正常 路径。 包 对应 的 代码 存放 在 GOPATH 所指 定的 磁盘 目录 里。 在 依赖 管理 之后， 导入 路径 需要 重写 成 工程 内部 依赖 包 的 路径。 可以 看到 这些 导入 路径 非常 长， 不易 于 使用。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1648</div><div class='noteText'>替换。 这种 依赖 管理 的 方法 不需要 重写 工程 内 代码 的 导入 路径。 而且 导入 路径 依旧 通过 go get 和 GOPATH 工作 空间 来 管理。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1685</div><div class='noteText'>这些 特点， 让 gb 成为 社区 里 解决 可 重复 构建 的 流行 工具。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1686</div><div class='noteText'>gb 工程 与 Go 官方 工具 链（ 包括 go get） 并不 兼容。 因为 gb 不需要 设置 GOPATH， 而 Go 工具 链 无法 理解 gb 工程 的 目录 结构， 所以 无法 用 Go 工具 链 构建、 测试 或者 获取 代码。 构建（ 如 代码 清单 3- 16 所示） 和 测试 gb 工程 需要 先 进入$ PROJECT 目录， 并使 用 gb 工具。</div>
+<div class='sectionHeading'>第4章 数组、切片和映射</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.1 数组的内部实现和基础功能 &gt; 位置 1714</div><div class='noteText'>在 Go 语言 里， 数组 是一 个 长度 固定 的 数据 类型， 用于 存储 一段 具有 相同 的 类型 的 元素 的 连续 块。 数组 存储 的 类型 可以 是 内置 类型， 如 整型 或者 字符串， 也可以 是 某种 结构 类型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1848</div><div class='noteText'>切片 是一 种数 据 结构， 这种 数据 结构 便于 使用 和 管理 数据 集合。 切片 是 围绕 动态 数组 的 概念 构建 的， 可以 按 需 自动 增长 和 缩小。 切片 的 动态 增长 是 通过 内置 函数 append 来 实现 的。 这个 函数 可以 快速 且 高效 地 增长 切片。 还可以 通过 对 切片 再次 切片 来 缩小 一个 切片 的 大小。 因为 切片 的 底层 内存 也是 在 连续 块 中 分配 的， 所以 切片 还能 获得 索引、 迭代 以及 为 垃圾 回收 优化 的 好处。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1874</div><div class='noteText'>如果 基于 这个 切片 创建 新的 切片， 新 切片 会 和 原有 切片 共享 底层 数组， 也能 通过 后期 操作 来访 问 多余 容量 的 元素。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1887</div><div class='noteText'>当 使用 切片 字面 量 时， 可以 设置 初始 长度 和 容量。 要做 的 就是 在 初始化 时 给出 所需 的 长度 和 容量 作为 索引。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1892</div><div class='noteText'>记住， 如果 在[] 运算符 里 指定 了 一个 值， 那么 创建 的 就是 数组 而 不是 切片。 只有 不 指定 值 的 时候， 才会 创建 切片，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1930</div><div class='noteText'>切片 之所以 被称为 切片， 是因为 创建 一个 新的 切片 就是 把 底层 数组 切 出 一部分，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1945</div><div class='noteText'>可以 计算 出任 意 切片 的 长度 和 容量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1952</div><div class='noteText'>对 底层 数组 容量 是 5 的 切片 slice[ 1: 3] 来说</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1968</div><div class='noteText'>与 切片 的 容量 相 关联 的 元素 只能 用于 增长 切片。 在使 用 这部 分 元素 前， 必须 将其 合并 到 切片 的 长度 里。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1975</div><div class='noteText'>切片 有 额外 的 容量 是 很好， 但是 如果不 能把 这些 容量 合并 到 切片 的 长度 里， 这些 容量 就 没有 用处。 好在 可 以用 Go 语言 的 内置 函数 append 来做 这种 合并 很容易。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1998</div><div class='noteText'>如果 切片 的 底层 数组 没有 足够 的 可用 容量， append 函数 会 创建 一个 新的 底层 数组， 将被 引用 的 现 有的 值 复制 到 新 数组 里， 再 追加 新的 值，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2006</div><div class='noteText'>这个 数组 的 容量 是 原来 的 两倍（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2010</div><div class='noteText'>函数 append 会 智能 地处 理 底层 数组 的 容量 增长。 在 切片 的 容量 小于 1000 个 元素 时， 总是 会 成倍 地 增加 容量。 一旦 元素 个数 超过 1000， 容量 的 增长 因子 会 设为 1. 25， 也就是 会 每次 增加 25% 的 容量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2045</div><div class='noteText'>我们 之前 讨论 过， 内置 函数 append 会首 先使 用 可用 容量。 一旦 没有 可用 容量， 会 分配 一个 新的 底层 数组。 这 导致 很容易 忘记 切片 间 正在 共享 同一个 底层 数组。 一旦 发生 这种 情况， 对 切片 进行 修改， 很可能 会 导致 随机 且 奇怪 的 问题。 对 切片 内容 的 修改 会 影响 多个 切片， 却 很难 找到 问题 的 原因。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2048</div><div class='noteText'>如果 在 创建 切片 时 设置 切片 的 容量 和 长度 一样， 就可以 强制 让 新 切片 的 第一个 append 操作 创建 新的 底层 数组， 与 原有 的 底层 数组 分离。 新 切片 与 原有 的 底层 数组 分离 后， 可以 安全 地 进行 后续 修改，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2070</div><div class='noteText'>内置 函数 append 也是 一个 可变 参数 的 函数。 这 意味着 可以 在 一次 调用 传递 多个 追加 的 值。 如果 使用... 运算符， 可以 将 一个 切片 的 所有 元素 追加 到 另一个 切片 里，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2095</div><div class='noteText'>需要 强调 的 是， range 创建 了 每个 元素 的 副本， 而 不是 直接 返回 对 该 元素 的 引用，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2104</div><div class='noteText'>因为 迭代 返回 的 变量 是一 个 迭代 过程中 根据 切片 依次 赋值 的 新 变量， 所以 value 的 地址 总是 相同 的。 要想 获取 每个 元素 的 地址， 可以 使用 切片 变量 和 索引 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2121</div><div class='noteText'>有两 个 特殊 的 内置 函数 len 和 cap， 可以 用于 处理 数组、 切片 和 通道。 对于 切片， 函数 len 返回 切片 的 长度， 函数 cap 返回 切片 的 容量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2150</div><div class='noteText'>即便 是 这么 简单 的 多维 切片， 操作 时 也会 涉及 众多 布局 和 值。 看起来 在 函数 间 像这样 传递 数据 结构 也会 很复杂。 不过 切片 本身 结构 很 简单， 可以 以 很小 的 成本 在 函数 间 传递。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2159</div><div class='noteText'>在 64 位 架构 的 机器 上， 一个 切片 需要 24 字节 的 内存： 指针 字段 需要 8 字节， 长度 和 容量 字段 分别 需要 8 字节。 由于 与 切片 关联 的 数据 包含 在 底层 数组 里， 不属于 切片 本身， 所以 将 切片 复制 到任 意 函数 的 时候， 对 底层 数组 大小 都不 会有 影响。 复制 时 只会 复制 切片 本身， 不会 涉及 底层 数组（</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2164</div><div class='noteText'>在 函数 间 传递 24 字节 的 数据 会 非常 快速、 简单。 这也 是 切片 效率 高的 地方。 不需要 传递 指针 和 处理 复杂 的 语法， 只需 要 复制 切片， 按 想要 的 方式 修改 数据， 然后 传递 回 一份 新的 切片 副本。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2173</div><div class='noteText'>即便 使用 同样 的 顺序 保存 键值 对， 每次 迭代 映射 的 时候 顺序 也可能 不一样。 无序 的 原因 是 映射 的 实现 使 用了 散 列表，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2178</div><div class='noteText'>随着 映射 存储 的 增加， 索引 分布 越 均匀， 访问 键值 对的 速度 就 越快。 如果 你在 映射 里 存储 了 10 000 个 元素， 你 不 希望 每次 查找 都要 访问 10 000 个 键值 对 才能 找到 需要 的 元素， 你 希望 查找 键值 对的 次数 越少 越好。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2180</div><div class='noteText'>对于 有 10 000 个 元素 的 映射， 每次 查找 只需 要 查找 8 个 键值 对 才是 一个 分布 得比 较好 的 映射。 映射 通过 合理 数量 的 桶 来 平衡 键值 对的 分布。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2183</div><div class='noteText'>这些 字符串 会 转换 为 一个 数值（ 散 列 值）。 这个 数值 落在 映射 已有 桶 的 序号 范围内 表示 一个 可以 用于 存储 的 桶 的 序号。 之后， 这个 数值 就被 用于 选择 桶， 用于 存储 或者 查找 指定 的 键值 对。 对 Go 语言 的 映射 来说， 生成 的 散 列 键 的 一部分， 具体来说 是 低 位（ LOB）， 被用 来 选择 桶。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2202</div><div class='noteText'>映射 的 键 可以 是 任何 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2202</div><div class='noteText'>这个 值 的 类型 可以 是 内置 的 类型， 也可以 是 结构 类型， 只要 这个 值 可以 使用== 运算符 做 比较。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2204</div><div class='noteText'>切片、 函数 以及 包含 切片 的 结构 类型 这些 类型 由于 具有 引用 语义， 不能 作为 映射 的 键，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2241</div><div class='noteText'>在 Go 语言 里， 通过 键 来 索引 映射 时， 即便 这个 键 不存在 也 总会 返回 一个 值。 在 这种 情况下， 返回 的 是 该 值 对应 的 类型 的 零值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2258</div><div class='noteText'>在 函数 间 传递 映射 并不 会 制 造出 该 映射 的 一个 副本。 实际上， 当 传递 映射 给 一个 函数， 并对 这个 映射 做了 修改 时， 所有 对这 个 映射 的 引用 都会 察觉到 这个 修改，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.4 小结 &gt; 位置 2285</div><div class='noteText'>将 切片 或者 映射 传递 给 函数 成本 很小， 并且 不会 复制 底层 的 数据 结构。</div>
+<div class='sectionHeading'>第5章 Go语言的类型系统</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2290</div><div class='noteText'>Go 语言 是一 种 静态 类型 的 编程 语言。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2291</div><div class='noteText'>编译器 需要 在 编译 时 知晓 程序 里 每个 值 的 类型。 如果 提前 知道 类型 信息， 编译器 就可以 确保 程序 合理 地 使用 值。 这有 助于 减少 潜在 的 内存 异常 和 bug， 并且 使 编译器 有机 会对 代码 进行 一些 性能 优化， 提高 执行 效率。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2302</div><div class='noteText'>还有 一些 与 体系 结构 相关 的 类型， 如 Go 语言 里 的 所有 引用 类型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2302</div><div class='noteText'>好在 创建 和 使用 这些 类型 的 值 的 时候， 不需要 了解 这些 与 体系 结构 相关 的 信息。 但是， 如果 编译器 不知道 这些 信息， 就 无法 阻止 用户 做 一些 导致 程序 受损 甚至 机器 故障 的 事情。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2306</div><div class='noteText'>Go 语言 里 声明 用户 定义 的 类型 有两 种 方法。 最 常用 的 方法 是 使用 关键字 struct， 它 可以 让 用户 创建 一个 结构 类型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2322</div><div class='noteText'>关键字 var 创建 了 类型 为 user 且 名为 bill 的 变量。 当声 明 变量 时， 这个 变量 对应 的 值 总是 会被 初始化。 这个 值 要么 用指 定的 值 初始化， 要么 用 零值（ 即 变量 类型 的 默认值） 做 初始化。 对数 值 类型 来说， 零值 是 0； 对 字符串 来说， 零值 是 空 字符串； 对 布尔 类型， 零值 是 false。 对这 个 例子 里 的 结构， 结构 里 每个 字段 都会 用 零值 初始化。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2328</div><div class='noteText'>任何时候， 创建 一个 变量 并 初始化 为 其 零值， 习惯 是 使用 关键字 var。 这种 用法 是 为了 更 明确 地表 示 一个 变量 被 设置 为 零值。 如果 变量 被 初始 化为 某个 非 零值， 就 配合 结构 字面 量 和 短 变量 声明 操作 符 来 创建 变量。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2345</div><div class='noteText'>结构 字面 量 可以 对 结构 类型 采用 两种 形式。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2347</div><div class='noteText'>第二 种 形式 没有 字段 名， 只 声明 对应 的 值，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2351</div><div class='noteText'>每个 值 也可以 分别 占 一行， 不过 习惯上 这种 形式 会 写在 一行 里， 结尾 不需要 逗号。 这种 形式 下， 值 的 顺序 很重 要， 必须 要和 结构 声明 中 字段 的 顺序 一致。 当声 明 结构 类型 时， 字段 的 类型 并不 限制 在内 置 类型， 也可以 使用 其他 用户 定义 的 类型，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2373</div><div class='noteText'>另一种 声明 用户 定义 的 类型 的 方法 是， 基于 一个 已有 的 类型， 将其 作为 新 类型 的 类型 说明。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2405</div><div class='noteText'>方法 能 给用户 定义 的 类型 添加 新的 行为。 方法 实际上 也是 函数， 只是 在 声明 时， 在 关键字 func 和 方法 名 之间 增加 了 一个 参数，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2420</div><div class='noteText'>关键字 func 和 函数 名 之间 的 参数 被 称作 接收者， 将 函数 与 接收者 的 类型 绑在 一起。 如果 一个 函数 有 接收者， 这个 函数 就被 称为 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2435</div><div class='noteText'>Go 语言 里 有两 种 类型 的 接收者： 值 接收者 和 指针 接收者。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2441</div><div class='noteText'>如果 使用 值 接收者 声明 方法， 调用 时会 使用 这个 值 的 一个 副本 来 执行。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2459</div><div class='noteText'>方法 notify 会 接收 到 bill 的 值 的 一个 副本。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2460</div><div class='noteText'>也可以 使用 指针 来 调用 使用 值 接收者 声明 的 方法，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2474</div><div class='noteText'>了 Go 编译器 为了 支持 这种 方法 调用 背后 做 的 事情。 指针 被 解 引 用为 值， 这样 就 符合 了 值 接收者 的 要求。 再 强调 一次， notify 操作 的 是一 个 副本， 只不过 这次 操作 的 是 从 lisa 指针 指向 的 值 的 副本。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2477</div><div class='noteText'>也可以 使用 指针 接收者 声明 方法，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2483</div><div class='noteText'>这个 方法 使用 指针 接收者 声明。 这个 接收者 的 类型 是 指向 user 类型 值 的 指针， 而 不是 user 类型 的 值。 当 调用 使用 指针 接收者 声明 的 方法 时， 这个 方法 会 共享 调用 方法 时 接收者 所 指向 的 值，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2495</div><div class='noteText'>值 接收者 使用 值 的 副本 来 调用 方法， 而 指针 接受者 使用 实际 值 来 调用 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2504</div><div class='noteText'>Go 语言 再一次 对 值 做了 调整， 使之 符合 函数 的 接收者， 进行 调用，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2508</div><div class='noteText'>Go 编译器 为了 支持 这种 方法 调用 在 背后 做 的 事情。 在这 个 例子 里， 首先 引用 bill 值得 到 一个 指针， 这样 这个 指针 就能 够 匹配 方法 的 接收者 类型， 再进 行 调用。 Go 语言 既 允许 使用 值， 也 允许 使用 指针</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2510</div><div class='noteText'>来 调用 方法， 不必 严格 符合 接收者 的 类型。 这个 支持 非常 方便 开发者 编写 程序。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2514</div><div class='noteText'>在 声明 一个 新 类型 之后， 声明 一个 该 类型 的 方法 之前， 需要 先 回答 一个 问题： 这个 类型 的 本质 是什么。 如果 给 这个 类型 增加 或者 删除 某个 值， 是要 创建 一个 新 值， 还是 要 更改 当前 的 值？ 如果 是要 创建 一个 新 值， 该 类型 的 方法 就 使用 值 接收者。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2516</div><div class='noteText'>如果 是要 修改 当前 值， 就 使用 指针 接收者。 这个 答案 也会 影响 程序 内部 传递 这个 类型 的 值 的 方式： 是按 值 做 传递， 还是 按 指针 做 传递。 保持 传递 的 一致性 很重 要。 这个 背后 的 原则 是， 不要 只 关注 某个 方法 是 如何 处理 这个 值， 而是 要 关注 这个 值 的 本质 是什么。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2548</div><div class='noteText'>Go 语言 里 的 引用 类型 有如 下 几个： 切片、 映射、 通道、 接口 和 函数 类型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2548</div><div class='noteText'>当声 明 上述 类型 的 变量 时， 创建 的 变量 被 称作 标 头（ header） 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2550</div><div class='noteText'>每个 引用 类型 创建 的 标 头 值 是 包含 一个 指向 底层 数据 结构 的 指针。 每个 引用 类型 还 包含 一组 独特 的 字段， 用于 管理 底层 数据 结构。 因为 标 头 值 是 为 复制 而 设计 的， 所以 永远 不需要 共享 一个 引用 类型 的 值。 标 头 值 里 包含 一个 指针， 因此 通过 复制 来 传递 一个 引用 类型 的 值 的 副本， 本质上 就是 在 共享 底层 数据 结构。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2558</div><div class='noteText'>当 要 围绕 相关 的 内置 类型 或者 引用 类型 来 声明 用户 定义 的 行为 时， 直接 基于 已有 类型 来 声明 用户 定义 的 类型 会很 好用。 编译器 只 允许 为 命名 的 用户 定义 的 类型 声明 方法，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2567</div><div class='noteText'>一个 值 接收者， 正像 预期 的 那样 通过 复制 来 传递 引用， 从而 不需要 通过 指针 来 共享 引用 类型 的 值。 这种 传递 方法 也可以 应用 到 函数 或者 方法 的 参数 传递，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2575</div><div class='noteText'>你 可以 看到 调用 者 传入 的 是 这个 引用 类型 的 值， 而 不是 通过 引用 共享 给 这个 函数。 调 用者 将 引用 类型 的 值 的 副本 传入 这个 函数。 这种 方法 也 适用于 函数 的 返回 值。 最后 要 说的 是， 引用 类型 的 值 在 其他 方面 像 原始 的 数据 类型 的 值 一样 对待。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2608</div><div class='noteText'>中的 Add 方法 是 展示 标准 库 如何 将 Time 类型 作为 本质 是 原始 的 类型 的 绝佳 例子。 这个 方法 使用 值 接收者， 并 返回 了 一个 新的 Time 值。 该 方法 操作 的 是 调用 者 传入 的 Time 值 的 副本， 并且 给 调用 者 返回 了 一个 方法 内 的 Time 值 的 副本。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2615</div><div class='noteText'>大多数 情况下， 结构 类型 的 本质 并不是 原始 的， 而是 非 原始 的。 这种 情况下， 对这 个 类型 的 值 做 增加 或者 删除 的 操作 应该 更改 值 本身。 当 需要 修改 值 本身 时， 在 程序 中 其他 地方， 需要 使用 指针 来 共享 这个 值。 让 我们 看 一个 由 标准 库 中 实现 的 具有 非 原始 本质 的 结构 类型 的 例子，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2626</div><div class='noteText'>这个 类型 的 本质 是非 原始 的。 这个 类型 的 值 实际上 不能 安全 复制。 对 内部 未 公开 的 类型 的 注释， 解释 了 不安全 的 原因。 因为 没有 方法 阻止 程序员 进行 复制， 所以 File 类型 的 实现 使用 了 一个 嵌入 的 指针， 指向 一个 未 公开 的 类型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2639</div><div class='noteText'>如果 一个 创建 用的 工厂 函数 返回 了 一个 指针， 就 表示 这个 被 返回 的 值 的 本质 是非 原始 的。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2640</div><div class='noteText'>即便 函数 或者 方法 没有 直接 改变 非 原始 的 值 的 状态， 依旧 应该 使用 共享 的 方式 传递，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2647</div><div class='noteText'>即使 没有 修改 接收者 的 值， 依然是</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2647</div><div class='noteText'>依然是 用 指针 接收者 来 声明 的。 因为 File 类型 的 值 具备 非 原始 的 本质， 所以 总是 应该 被 共享， 而 不是 被 复制。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2649</div><div class='noteText'>是 使用 值 接收者 还是 指针 接收者， 不应该 由该 方法 是否 修改 了 接 收到 的 值 来 决定。 这个 决策 应该 基于 该 类型 的 本质。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2650</div><div class='noteText'>规则 的 一个 例外 是， 需要 让 类型 值 符合 某个 接口 的 时候， 即便 类型 的 本质 是非 原始 本质 的， 也可以 选择 使用 值 接收者 声明 方法。 这样做 完全符合 接口 值 调用 方法 的 机制。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2653</div><div class='noteText'>多 态 是指 代码 可以 根据 类型 的 具体 实现 采取 不同 行为 的 能力。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2689</div><div class='noteText'>接口。 当 我们将 Body 和 Stdout 这 两个 值 传给 io. Copy 函数 后， 这个 函数 会把 服务器 的 数据 分成 小 段， 源源不断 地 传给 终端 窗口， 直到 最后 一个 片段 读取 并 写入 终端， io. Copy 函数 才 返回。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2694</div><div class='noteText'>io. Copy 函数 可以 以 这种 工作 流的 方式 处理 很多 标准 库里 已有 的 类型，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2721</div><div class='noteText'>接口 是 用来 定义 行为 的 类型。 这些 被 定义 的 行为 不由 接口 直接 实现， 而是 通过 方法 由 用户 定义 的 类型 实现。 如果 用户 定义 的 类型 实现 了 某个 接口 类型 声明 的 一组 方法， 那么 这个 用户 定义 的 类型 的 值 就可以 赋 给 这个 接口 类型 的 值。 这个 赋值 会把 用户 定义 的 类型 的 值 存入 接口 类型 的 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2724</div><div class='noteText'>对 接口 值 方法 的 调用 会 执行 接口 值 里 存储 的 用户 定义 的 类型 的 值 对应 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2725</div><div class='noteText'>因为 任何 用户 定义 的 类型 都可以 实现 任何 接口， 所以 对 接口 值 方法 的 调用 自然 就是 一种 多 态。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2725</div><div class='noteText'>在这 个 关系 里， 用户 定义 的 类型 通常 叫作 实体 类型， 原因 是 如果 离开 内部 存储 的 用户 定义 的 类型 的 值 的 实现， 接口 值 并没有 具体 的 行为。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2731</div><div class='noteText'>接口 值 是一 个 两个 字 长度 的 数据 结构， 第一个 字 包含 一个 指向 内部 表 的 指针。 这个 内部 表 叫作 iTable， 包含 了 所 存储 的 值 的 类型 信息。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2732</div><div class='noteText'>信息。 iTable 包含 了 已 存储 的 值 的 类型 信息 以及 与 这个 值 相 关联 的 一组 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2733</div><div class='noteText'>第二个 字 是一 个 指向 所 存储 值 的 指针。 将 类型 信息 和 指针 组合 在一起， 就 将 这 两个 值 组成 了 一种 特殊 的 关系。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2739</div><div class='noteText'>方法 集 定义 了 接口 的 接受 规则。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2796</div><div class='noteText'>要 了解 用 指针 接收者 来 实现 接口 时为 什么 user 类型 的 值 无法 实现 该 接口， 需要 先 了解 方法 集。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2798</div><div class='noteText'>方法 集 定义 了 一组 关联 到 给定 类型 的 值 或者 指针 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2798</div><div class='noteText'>定义 方法 时 使用 的 接收者 的 类型 决定了 这个 方法 是 关联 到 值， 还是 关联 到 指针， 还是 两个 都 关联。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2806</div><div class='noteText'>T 类型 的 值 的 方法 集 只 包含 值 接收者 声明 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2806</div><div class='noteText'>而 指向 T 类型 的 指针 的 方法 集 既 包含 值 接收者 声明 的 方法， 也 包含 指针 接收者 声明 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2813</div><div class='noteText'>这个 规则 说， 如果 使用 指针 接收者 来 实现 一个 接口， 那么 只有 指向 那个 类型 的 指针 才能 够 实现 对应 的 接口。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2814</div><div class='noteText'>如果 使用 值 接收者 来 实现 一个 接口， 那么 那个 类型 的 值 和 指针 都能 够 实现 对应 的 接口。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2823</div><div class='noteText'>我们 使用 指针 接收者 实现 了 接口， 但是 试图 将 user 类型 的 值 传给 sendNotification 方法。 代码 清单 5- 44 的 第 30 行 和 第 32 行 清晰 地 展示 了 这个 问题。 但是， 如果 传递 的 是 user 值 的 地址， 整个 程序 就能 通过 编译， 并且 能够 工作 了，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2831</div><div class='noteText'>里， 这个 程序 终于 可以 编译 并且 运行。 因为 使用 指针 接收者 实现 的 接口， 只有 user 类型 的 指针 可以 传给 sendNotification 函数。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2834</div><div class='noteText'>现在 的 问题是， 为什么 会有 这种 限制？ 事实上， 编译器 并不是 总能 自动 获得 一个 值 的 地址，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2849</div><div class='noteText'>因为 不是 总能 获取 一个 值 的 地址， 所以 值 的 方法 集 只 包括了 使用 值 接收者 实现 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2891</div><div class='noteText'>Go 语言 允许 用户 扩展 或者 修改 已有 类型 的 行为。 这个 功能 对 代码 复 用 很重 要， 在 修改 已有 类型 以 符合 新 类型 的 时候 也 很重 要。 这个 功能 是 通过 嵌入 类型（ type embedding） 完成 的。 嵌入 类型 是将 已有 的 类型 直接 声明 在 新的 结构 类型 里。 被 嵌入 的 类型 被称为 新的 外部 类型 的 内部 类型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2894</div><div class='noteText'>通过 嵌入 类型， 与 内部 类型 相关 的 标识符 会 提升 到 外部 类型 上。 这些 被 提升 的 标识符 就 像 直接 声明 在外 部 类型 里 的 标识符 一样， 也是 外部 类型 的 一部分。 这样 外部 类型 就 组合 了 内部 类型 包含 的 所有 属性， 并且 可以 添加 新的 字段 和 方法。 外部 类型 也可以 通过 声明 与 内部 类型 标识符 同名 的 标识符 来 覆盖 内部 标识符 的 字段 或者 方法。 这就 是 扩展 或者 修改 已有 类型 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2922</div><div class='noteText'>注意 声明 字段 和 嵌入 类型 在 语 法上 的 不同。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2923</div><div class='noteText'>一旦 我们将 user 类型 嵌入 admin， 我们 就 可以说 user 是 外部 类型 admin 的 内部 类型。 有了 内部 类型 和 外部 类型 这 两个 概念， 就能 更容易 地 理解 这 两种 类型 之间 的 关系。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2944</div><div class='noteText'>内部 类型 的 初始化 是 用 结构 字面 量 完成 的。 通过 内部 类型 的 名字 可以 访问 内部 类型，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2945</div><div class='noteText'>对外 部类 型 来说， 内部 类型 总是 存在 的。 这就 意味着， 虽然 没有 指定 内部 类型 对应 的 字段 名， 还是 可以 使用 内部 类型 的 类型 名， 来访 问到 内部 类型 的 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 3000</div><div class='noteText'>由于 内部 类型 的 提升， 内部 类型 实现 的 接口 会 自动 提升 到 外部 类型。 这 意味着 由于 内部 类型 的 实现， 外部 类型 也 同样 实现 了 这个 接口。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 3060</div><div class='noteText'>如果 外部 类型 实现 了 notify 方法， 内部 类型 的 实现 就不 会被 提升。 不过 内部 类型 的 值 一直 存在， 因此 还可以 通过 直接 访问 内部 类型 的 值， 来 调用 没有 被 提升 的 内部 类型 实现 的 方法。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3063</div><div class='noteText'>要想 设计 出 好的 API， 需要 使用 某种 规则 来 控制 声明 后的 标识符 的 可见 性。 Go 语言 支持 从 包里 公开 或者 隐藏 标识符。 通过 这个 功能， 让 用户 能 按照 自己的 规则 控制 标识符 的 可见 性。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3095</div><div class='noteText'>当 一个 标识符 的 名字 以 小写 字母 开头 时， 这个 标识符 就是 未 公开 的， 即 包 外 的 代码 不 可见。 如果 一个 标识符 以 大写字母 开头， 这个 标识符 就是 公开 的， 即被 包 外 的 代码 可见。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3143</div><div class='noteText'>将 工厂 函数 命名为 New 是 Go 语言 的 一个 习惯。 这个 New 函数 做了 些 有意思 的 事情： 它 创建 了 一个 未 公开 的 类型 的 值， 并将 这个 值 返回 给 调用 者。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3158</div><div class='noteText'>要 让 这个 行为 可行， 需要 两个 理由。 第一， 公开 或者 未 公开 的 标识符， 不是 一个 值。 第二， 短 变量 声明 操作 符， 有能力 捕获 引用 的 类型， 并 创建 一个 未 公开 的 类型 的 变量。 永远 不能 显 式 创建 一个 未 公开 的 类型 的 变量， 不过 短 变量 声明 操作 符 可以 这么 做。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3195</div><div class='noteText'>第 16 行的 代码 试图 初始化 未 公开 的 字段 email， 所以 编译器 抱怨 这是 个 未知 的 字段。 因为 email 这个 标识符 未 公开， 所以 它不 能在 entities 包 外 被 访问。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3233</div><div class='noteText'>由于 内部 类型 user 是 未 公开 的， 这段 代码 无法 直接 通过 结构 字面 量 的 方式 初始化 该 内部 类型。 不过， 即便 内部 类型 是 未 公开 的， 内部 类型 里 声明 的 字段 依旧 是 公开 的。 既然 内部 类型 的 标识符 提升 到了 外部 类型， 这些 公开 的 字段 也可以 通过 外部 类型 的 字段 的 值 来 访问。</div>
+<div class='sectionHeading'>第6章 并发</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 3251</div><div class='noteText'>Go 语言 的 语法 和 运行时 直接 内置 了 对 并发 的 支持。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 3252</div><div class='noteText'>Go 语言 里 的 并发 指的 是 能 让 某个 函数 独立 于 其他 函数 运行 的 能力。 当 一个 函数 创建 为 goroutine 时， Go 会 将其 视为 一个 独立 的 工作 单元。 这个 单元 会被 调度 到 可用 的 逻辑 处理器 上 执行。 Go 语言 运行时 的 调度 器 是一 个 复杂 的 软件， 能 管理 被 创建 的 所有 goroutine 并为 其 分配 执行 时间。 这个 调度 器 在 操作系统 之上， 将 操作系统 的 线程 与 语言 运行时 的 逻辑 处理器 绑 定， 并在 逻辑 处理器 上 运行 goroutine。 调度 器 在任 何 给定 的 时间， 都会 全面 控制 哪个 goroutine 要在 哪个 逻辑 处理器 上 运行。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 3256</div><div class='noteText'>Go 语言 的 并发 同步 模型 来自 一个 叫作 通信 顺序 进程（ Communicating Sequential Processes， CSP） 的 范 型（ paradigm）。 CSP 是一 种 消息 传递 模型， 通过 在 goroutine 之间 传递 数据 来 传递 消息， 而 不是 对数 据 进行 加锁 来 实现 同步 访问。 用于 在 goroutine 之间 同步 和 传递 数据 的 关键 数据 类型 叫作 通道（ channel）。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3266</div><div class='noteText'>这些 资源 包括 但不 限于 内存 地址 空间、 文件 和 设备 的 句柄 以及 线程。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3266</div><div class='noteText'>一个 线程 是一 个 执行 空间， 这个 空间 会被 操作系统 调度 来 运行 函数 中 所写 的 代码。 每个 进程 至少 包含 一个 线程， 每个 进程 的 初始 线程 被 称作 主 线程。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3273</div><div class='noteText'>操作系统 会在 物理 处理器 上调 度 线程 来 运行， 而 Go 语言 的 运行时 会在 逻辑 处理器 上 调度 goroutine 来 运行。 每个 逻辑 处理器 都 分别 绑 定 到 单个 操作系统 线程。 在 1. 5 版本 ① 上， Go 语言 的 运行时 默认 会为 每个 可用 的 物理 处理器 分配 一个 逻辑 处理器。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3282</div><div class='noteText'>有时， 正在 运行 的 goroutine 需要 执行 一个 阻塞 的 系统 调用， 如 打开 一个 文件。 当 这类 调用 发生 时， 线程 和 goroutine 会 从 逻辑 处理器 上 分离， 该 线程 会 继续 阻塞， 等待 系统 调用 的 返回。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3289</div><div class='noteText'>调度 器 对 可以 创建 的 逻辑 处理器 的 数量 没有 限制， 但 语言 运行时 默认 限制 每个 程序 最多 创建 10 000 个 线程。 这个 限制 值 可以 通过 调用 runtime/ debug 包 的 SetMaxThreads 方法 来 更改。 如果 程序 试图 使用 更多 的 线程， 就会 崩溃。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3293</div><div class='noteText'>并发（ concurrency） 不是 并行（ parallelism）。 并行 是 让 不同 的 代码 片段 同时 在 不同 的 物理 处理器 上 执行。 并行 的 关键 是 同时 做 很多 事情， 而并 发 是指 同时 管理 很多 事情， 这些 事情 可能 只做 了 一半 就被 暂停 去做 别的 事情 了。 在 很多 情况下， 并发 的 效果 比 并行 好， 因为 操作系统 和 硬件 的 总 资源 一般 很少， 但能 支持 系统 同时 做 很多 事情。 这种“ 使用 较少 的 资源 做 更多 的 事情” 的 哲学， 也是 指导 Go 语言 设计 的 哲学。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3301</div><div class='noteText'>调度 器 包含 一些 聪明 的 算法， 这些 算法 会 随着 Go 语言 的 发布 被 更新 和 改进， 所以 不 推荐 盲目 修改 语言 运行时 对 逻辑 处理器 的 默认 设置。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3323</div><div class='noteText'>调用 了 runtime 包 的 GOMAXPROCS 函数。 这个 函数 允许 程序 更改 调度 器 可以 使用 的 逻辑 处理器 的 数量。 如果不 想在 代码 里 做 这个 调用， 也可以 通过 修改 和 这个 函数 名字 一样 的 环境 变量 的 值 来 更改 逻辑 处理器 的 数量。 给 这个 函数 传入 1， 是 通知 调度 器 只 能为 该 程序 使用 一个 逻辑 处理器。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3336</div><div class='noteText'>第一个 goroutine 完成 所有 显示 需要 花 时间 太短 了， 以至于 在 调度 器 切换 到 第二个 goroutine 之前， 就 完成 了 所有 任务。 这也 是 为什么 会 看到 先 输出 了 所有 的 大写字母， 之后 才 输出 小写 字母。 我们 创建 的 两个 goroutine 一个 接 一个 地 并发 运行， 独立 完成 显示 字母表 的 任务。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3363</div><div class='noteText'>基于 调度 器 的 内部 算法， 一个 正 运行 的 goroutine 在 工作 结束 前， 可以 被 停止 并重 新 调度。 调度 器 这样做 的 目的 是 防止 某个 goroutine 长时间 占用 逻辑 处理器。 当 goroutine 占用 时间 过长 时， 调度 器 会 停止 当前 正 运行 的 goroutine， 并给 其他 可 运行 的 goroutine 运行 的 机会。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3408</div><div class='noteText'>包 runtime 提供 了 修改 Go 语言 运行时 配置 参数 的 能力。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3410</div><div class='noteText'>函数 NumCPU 返回 可以 使用 的 物理 处理器 的 数量。 因此， 调用 GOMAXPROCS 函数 就为 每个 可用 的 物理 处理器 创建 一个 逻辑 处理器。 需要 强调 的 是， 使用 多个 逻辑 处理器 并不 意味着 性能 更好。 在 修改 任何 语言 运行时 配置 参数 的 时候， 都 需要 配合 基准 测试 来 评估 程序 的 运行 效果。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.3 竞争状态 &gt; 位置 3485</div><div class='noteText'>Go 语言 有一个 特别 的 工具， 可以 在 代码 里 检测 竞争 状态。 在 查找 这类 错误 的 时候， 这个 工具 非常 好用， 尤其 是在 竞争 状态 并不 像 这个 例子 里 这么 明显 的 时候。 让 我们 用 这个 竞争 检测器 来 检测 一下 我们 的 例子 代码，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.3 竞争状态 &gt; 位置 3502</div><div class='noteText'>一种 修正 代码、 消除 竞争 状态 的 办法 是， 使用 Go 语言 提供 的 锁 机制， 来 锁住 共享 资源， 从而 保证 goroutine 的 同步 状态。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3503</div><div class='noteText'>Go 语言 提供 了 传统 的 同步 goroutine 的 机制， 就是 对 共享 资源 加锁。 如果 需要 顺序 访问 一个 整型 变量 或者 一段 代码， atomic 和 sync 包里 的 函数 提供 了 很好 的 解决 方案。 下面 我们 了解 一下 atomic 包里 的 几个 函数 以及 sync 包里 的 mutex 类型。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3509</div><div class='noteText'>原子 函数 能够 以 很 底层 的 加锁 机制 来 同步 访问 整型 变量 和 指针。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3526</div><div class='noteText'>用了 atmoic 包 的 AddInt64 函数。 这个 函数 会同 步 整型 值 的 加法， 方法 是 强制 同一 时刻 只能 有一个 goroutine 运行 并 完成 这个 加法 操作。 当 goroutine 试图 去 调用 任何 原子 函数 时， 这些 goroutine 都会 自动 根据 所 引用 的 变量 做 同步 处理。 现在 我们 得到 了 正确 的 值 4。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3530</div><div class='noteText'>另外 两个 有用 的 原子 函数 是 LoadInt64 和 StoreInt64。 这 两个 函数 提供 了 一种 安全 地 读 和 写 一个 整型 值 的 方式。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3559</div><div class='noteText'>另一种 同步 访问 共享 资源 的 方式 是 使用 互斥 锁（ mutex）。 互斥 锁 这个 名字 来自 互斥（ mutual exclusion） 的 概念。 互斥 锁 用于 在 代码 上 创建 一个 临界 区， 保证 同一时间 只有 一个 goroutine 可以 执行 这个 临界 区 代码。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3579</div><div class='noteText'>对 counter 变量 的 操 作在 第 46 行 和 第 60 行的 Lock() 和 Unlock() 函数 调用 定义 的 临界 区里 被 保护 起来。 使用 大 括号 只是 为了 让 临界 区 看起来 更 清晰， 并不是 必需 的。 同一 时刻 只有 一个 goroutine 可以 进入 临界 区。 之后， 直到 调用 Unlock() 函数 之后， 其他 goroutine 才能 进入 临界 区。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3589</div><div class='noteText'>当 一个 资源 需要 在 goroutine 之间 共享 时， 通道 在 goroutine 之间 架起 了 一个 管道， 并 提供 了 确保 同步 交换 数据 的 机制。 声明 通道 时， 需要 指定 将要 被 共享 的 数据 的 类型。 可以 通过 通道 共享 内置 类型、 命名 类型、 结构 类型 和 引用 类型 的 值 或者 指针。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3601</div><div class='noteText'>向 通道 发送 值 或者 指针 需要 用到&lt;- 操作 符，</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3617</div><div class='noteText'>无 缓冲 的 通道（ unbuffered channel） 是指 在 接收 前 没有 能力 保存 任何 值 的 通道。 这种 类型 的 通道 要求 发送 goroutine 和 接收 goroutine 同时 准备好， 才能 完成 发送 和 接收 操作。 如果 两个 goroutine 没有 同时 准备好， 通道 会 导致 先 执行 发送 或 接收 操作 的 goroutine 阻塞 等待。 这种 对 通道 进行 发送 和 接收 的 交互 行为 本身 就是 同步 的。 其中 任意 一个 操作 都无 法 离开 另一个 操作 单独 存在。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3710</div><div class='noteText'>有 缓冲 的 通道（ buffered channel） 是一 种在 被 接收 前 能 存储 一个 或者 多个 值 的 通道。 这种 类型 的 通道 并不 强制 要求 goroutine 之间 必须 同时 完成 发送 和 接收。 通道 会 阻塞 发送 和 接收 动作 的 条件 也会 不同。 只有 在 通道 中 没有 要 接收 的 值 时， 接收 动作 才会 阻塞。 只有 在 通道 没有 可用 缓冲区 容纳 被 发送 的 值 时， 发送 动作 才会 阻塞。 这 导致 有 缓冲 的 通道 和 无 缓冲 的 通道 之间 的 一个 很大 的 不同： 无 缓冲 的 通道 保证 进行 发送 和 接收 的 goroutine 会在 同一时间 进行 数据 交换； 有 缓冲 的 通道 没有 这种 保证。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3761</div><div class='noteText'>当 通道 关闭 后， goroutine 依旧 可以 从 通道 接收 数据， 但是 不能 再向 通道 里 发送 数据。 能够 从 已经 关闭 的 通道 接收 数据 这一点 非常 重要， 因为 这 允许 通道 关闭 后 依旧 能 取出 其中 缓冲 的 全部 值， 而 不会有 数据 丢失。</div>
+<div class='sectionHeading'>第7章 并发模式</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1 runner &gt; 位置 3865</div><div class='noteText'>这个 通道 用来 管理 执行任务 的 时间。 如果 从这 个 通道 接收 到 一个 time. Time 的 值， 这个 程序 就会 试图 清理 状态 并 停止工作。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1 runner &gt; 位置 3911</div><div class='noteText'>最后 一个 通道 timeout 是 用 time 包 的 After 函数 初始化 的。 After 函数 返回 一个 time. Time 类型 的 通道。 语言 运行时 会在 指定 的 duration 时间 到期 之后， 向这 个 通道 发送 一个 time. Time 的 值。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.3 work &gt; 位置 4296</div><div class='noteText'>无 缓冲 的 通道 保证 两个 goroutine 之间 的 数据 交换。 这种 使用 无 缓冲 的 通道 的 方法 允许 使用者 知道 什么时候 goroutine 池 正在 执行 工作， 而且 如果 池 里 的 所有 goroutine 都忙， 无法 接受 新的 工作 的 时候， 也能 及时 通过 通道 来 通知 调用 者。 使用 无 缓冲 的 通道 不会有 工作 在 队列 里 丢失 或者 卡住， 所有 工作 都会 被 处理。</div>
+<div class='sectionHeading'>第8章 标准库</div><div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 4464</div><div class='noteText'>Go 语言 社区 的 开发者 会 比 其他 语言 的 开发者 更 依赖 这些 标准 库里 的 包 的 原因 是， 标准 库 本身 是 经过 良好 设计 的， 并且 比 其他 语言 的 标准 库 提供 了 更多 的 功能。 社 区里 的 Go 开发者 会 依赖 这些 标准 库里 的 包 做 更多 其他 语言 中 开发者 无法 做 的 事情， 例如， 网络、 HTTP、 图像 处理、 加密 等。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.2 记录日志 &gt; 位置 4566</div><div class='noteText'>关键字 iota 在 常量 声明 区里 有 特殊 的 作用。 这个 关键字 让 编译器 为 每个 常量 复制 相同 的 表达式， 直到 声明 区 结束， 或者 遇到 一个 新的 赋值 语句。 关键字 iota 的 另一个 功能 是， iota 的 初始 值 为 0， 之后 iota 的 值 在 每次 处理 为 常量 后， 都会 自 增 1。</div>
+<div class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.2 记录日志 &gt; 位置 4619</div><div class='noteText'>log 包 有一个 很 方便 的 地方 就是， 这些 日志 记录器 是 多 goroutine 安全 的。 这 意味着 在 多个 goroutine 可以 同时 调用 来自 同一个 日志 记录器 的 这些 函数， 而 不会有 彼此 间的 写 冲突。 标准 日志 记录器 具有 这一 性质， 用户 定制 的 日志 记录器 也应该 满足 这一 性质。</div>
+</div> 
+</body> 
+</html> 
