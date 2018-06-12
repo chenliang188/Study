@@ -4,6 +4,8 @@
 - [Markdown Basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
+## [WuShu](https://github.com/dhcn/study/blob/master/Wushu.md)
+
 ## GitHub
 
 - [awesome](https://github.com/sindresorhus/awesome)
