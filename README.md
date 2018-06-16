@@ -108,6 +108,7 @@
 
 - SDN
 - Container
+- OpenStack
 
 ## Big Data
 
