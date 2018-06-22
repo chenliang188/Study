@@ -172,6 +172,7 @@
 ### Pose Estimation
 
 - [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+- [DensePose](https://github.com/facebookresearch/DensePose)
 
 ### Action Recognition
 
