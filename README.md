@@ -23,6 +23,7 @@
 - 《深入理解ES6》
 - [Understanding ECMAScript 6](https://github.com/nzakas/understandinges6)
 - 《Mastering Node.js》
+- [Redux](http://www.redux.org.cn/)
 
 ## Angular
 
