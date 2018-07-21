@@ -179,7 +179,7 @@
 - [Total Capture](http://www.cs.cmu.edu/~hanbyulj/totalcapture/)
 - [SMPL](http://smpl.is.tue.mpg.de/)
 - http://eehoeskrap.tistory.com/236
--[六种人体姿态估计的深度学习模型和代码总结](https://zhuanlan.zhihu.com/p/38597956)
+- [六种人体姿态估计的深度学习模型和代码总结](https://zhuanlan.zhihu.com/p/38597956)
 
 ### Action Recognition
 
