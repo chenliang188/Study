@@ -182,6 +182,10 @@
 
 - [《Human Action Recognition with Depth Cameras》](http://www.doc88.com/p-0959082506295.html)
 - [《Two-Stream Convolutional Networks for Action Recognition in Videos》](https://arxiv.org/abs/1406.2199)
+- 《基于机器学习的行为识别技术研究》
+- 《复杂场景下人体动作识别》
+- *Computer Vision and Action Recognition: A Guide for Image Processing and Computer Vision Community for Action Understanding*
+- *Motion History Images for Action Recognition and Understanding*
 
 ### 三维人体重建
 
