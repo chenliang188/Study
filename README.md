@@ -172,12 +172,14 @@
 
 ### Pose Estimation
 
+- [Model Zoo](https://modelzoo.co/)
 - [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 - [DensePose](https://github.com/facebookresearch/DensePose)
 - [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose)
 - [Total Capture](http://www.cs.cmu.edu/~hanbyulj/totalcapture/)
 - [SMPL](http://smpl.is.tue.mpg.de/)
 - http://eehoeskrap.tistory.com/236
+-[六种人体姿态估计的深度学习模型和代码总结](https://zhuanlan.zhihu.com/p/38597956)
 
 ### Action Recognition
 
