@@ -170,7 +170,7 @@
 - [2017 A Year in Computer Vision](http://www.themtank.org/a-year-in-computer-vision)
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
 
-### Pose Estimation
+## Pose Estimation
 
 - [Model Zoo](https://modelzoo.co/)
 - [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
@@ -181,7 +181,7 @@
 - http://eehoeskrap.tistory.com/236
 - [六种人体姿态估计的深度学习模型和代码总结](https://zhuanlan.zhihu.com/p/38597956)
 
-### Action Recognition
+## Action Recognition
 
 - [《Human Action Recognition with Depth Cameras》](http://www.doc88.com/p-0959082506295.html)
 - [《Two-Stream Convolutional Networks for Action Recognition in Videos》](https://arxiv.org/abs/1406.2199)
@@ -189,6 +189,10 @@
 - 《复杂场景下人体动作识别》
 - *Computer Vision and Action Recognition: A Guide for Image Processing and Computer Vision Community for Action Understanding*
 - *Motion History Images for Action Recognition and Understanding*
+
+### 步态识别
+
+### 手势识别
 
 ### 三维人体重建
 
