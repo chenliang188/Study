@@ -189,6 +189,7 @@
 - 《复杂场景下人体动作识别》
 - *Computer Vision and Action Recognition: A Guide for Image Processing and Computer Vision Community for Action Understanding*
 - *Motion History Images for Action Recognition and Understanding*
+- *Introduction to Pattern Recognition : Statistical, Structural, Neural and Fuzzy Logic Approaches*
 
 ### 步态识别
 
