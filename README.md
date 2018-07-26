@@ -8,6 +8,14 @@
 
 - [WuShu](https://github.com/dhcn/study/blob/master/Wushu.md)
 
+## Business
+
+- 《西方商业的历史:金钱与权力》
+- 《光荣与梦想》
+- 《被夸大的使命》
+
+## Management
+
 
 ## GitHub
 
