@@ -115,7 +115,7 @@
 - [Enterprise Cybersecurity: How to Build a Successful Cyberdefense Program Against Advanced Threats](http://www.doc88.com/p-6931509206647.html)
 - [Enterprise Security: A Data-Centric Approach to Securing the Enterprise](http://www.doc88.com/p-0932024381827.html)
 
-### open enterprise architecture frameworks
+### Open Enterprise Architecture Frameworks
 
 - SABSA framework and methodology
 - The U.S. Department of Defense (DoD) Architecture Framework (DoDAF)
