@@ -16,6 +16,9 @@
 
 ## Management
 
+- 《重新定义公司》
+- 《生命中最重要的:如何将个人和组织的价值发挥到极致》
+
 
 ## GitHub
 
@@ -153,59 +156,14 @@
 
 - 《数据挖掘导论》
 
-## Machine Learning
-
-- [《统计学习方法》](https://www.amazon.cn/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%8E%E8%88%AA/dp/B00EE5IAHW/)
-- [《机器学习》](https://book.douban.com/subject/26708119/)
-- [Stanford DAWN](http://dawn.cs.stanford.edu/)
-
-## Deep Learning
-
-- [《深度学习》](https://www.amazon.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Ian-Goodfellow/dp/B074TBNZLK/)
-- [Deep Learning Book Chinese Translation](https://exacity.github.io/deeplearningbook-chinese/)
-- [PyTorch](http://pytorch.org/tutorials/)
-- [Stanford Deeplearning Wiki](http://deeplearning.stanford.edu/wiki/index.php/Main_Page)
-- [deeplearning.ai](https://www.deeplearning.ai/)
-
-
 ## NLP
 
 - [《统计自然语言处理》](https://www.amazon.cn/dp/B00P7UETQY/)
 - [《自然语言计算机形式分析的理论与方法》](https://book.douban.com/subject/27019157/)
 
-## CV
 
-- [2017 A Year in Computer Vision](http://www.themtank.org/a-year-in-computer-vision)
-- [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
+## [ARE相关资料](https://github.com/dhcn/ARE/blob/master/usr.md)
 
-## Pose Estimation
-
-- [Model Zoo](https://modelzoo.co/)
-- [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-- [DensePose](https://github.com/facebookresearch/DensePose)
-- [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose)
-- [Total Capture](http://www.cs.cmu.edu/~hanbyulj/totalcapture/)
-- [SMPL](http://smpl.is.tue.mpg.de/)
-- http://eehoeskrap.tistory.com/236
-- [六种人体姿态估计的深度学习模型和代码总结](https://zhuanlan.zhihu.com/p/38597956)
-
-## Action Recognition
-
-- [《Human Action Recognition with Depth Cameras》](http://www.doc88.com/p-0959082506295.html)
-- [《Two-Stream Convolutional Networks for Action Recognition in Videos》](https://arxiv.org/abs/1406.2199)
-- 《基于机器学习的行为识别技术研究》
-- 《复杂场景下人体动作识别》
-- *Computer Vision and Action Recognition: A Guide for Image Processing and Computer Vision Community for Action Understanding*
-- *Motion History Images for Action Recognition and Understanding*
-- *Introduction to Pattern Recognition : Statistical, Structural, Neural and Fuzzy Logic Approaches*
-
-### 步态识别
-
-### 手势识别
-
-### 三维人体重建
-
-- [《基于Kinect的人体三维重建研究》](http://www.doc88.com/p-7045099385918.html)
 
 ### Sensors
 
