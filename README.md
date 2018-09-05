@@ -105,6 +105,15 @@
 
 ## Sec
 
+### Security Architecture
+
+- [Securing Systems: Applied Security Architecture and Threat Models]
+- [Threat Modeling: Designing for Security]
+- [Enterprise Security Architecture: A Business-Driven Approach]
+- [Official (ISC)2 Guide to the ISSAP CBK ((ISC)2 Press)](http://www.doc88.com/p-9592391830250.html)
+
+### PenTest
+
 - http://www.pentest-standard.org : http://pentest-standard.readthedocs.io/en/latest/
 - [Penetration Testing Framework](http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html)
 - [The PenTesters Framework](https://www.trustedsec.com/pentesters-framework/)
@@ -115,7 +124,7 @@
 - [Nmap参考指南](https://nmap.org/man/zh/)
 - [Nmap Network Scanning](https://nmap.org/book/toc.html)
 - [vulscan](https://github.com/scipag/vulscan)
--[Official (ISC)2 Guide to the ISSAP CBK ((ISC)2 Press)](http://www.doc88.com/p-9592391830250.html)
+
 
 ## Cloud Data Center
 
