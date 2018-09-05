@@ -6,7 +6,7 @@
 
 ## Sports
 
-- [WuShu](https://github.com/dhcn/study/blob/master/Wushu.md)
+- [武术与运动](https://github.com/dhcn/ARE/blob/master/ws.md)
 
 ## Business
 
@@ -162,12 +162,8 @@
 - [《自然语言计算机形式分析的理论与方法》](https://book.douban.com/subject/27019157/)
 
 
-## [ARE相关资料](https://github.com/dhcn/ARE/blob/master/usr.md)
+## [ARE相关资料](https://github.com/dhcn/ARE/blob/master/tsr.md)
 
-
-### Sensors
-
-- [《Time-of-Flight and Structured Light Depth Cameras Technology and Applications》](http://www.doc88.com/p-5408951004705.html)
 
 ## Accounting
 
