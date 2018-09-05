@@ -112,6 +112,24 @@
 - [Enterprise Security Architecture: A Business-Driven Approach](http://www.doc88.com/p-9387651654245.html)
 - [Official (ISC)2 Guide to the ISSAP CBK ((ISC)2 Press)](http://www.doc88.com/p-9592391830250.html)
 - [Enterprise information security architecture](https://en.wikipedia.org/wiki/Enterprise_information_security_architecture)
+- [Enterprise Cybersecurity: How to Build a Successful Cyberdefense Program Against Advanced Threats](http://www.doc88.com/p-6931509206647.html)
+- [Enterprise Security: A Data-Centric Approach to Securing the Enterprise](http://www.doc88.com/p-0932024381827.html)
+
+### open enterprise architecture frameworks
+
+- SABSA framework and methodology
+- The U.S. Department of Defense (DoD) Architecture Framework (DoDAF)
+- Extended Enterprise Architecture Framework (E2AF) from the Institute For Enterprise Architecture Developments.
+- Federal Enterprise Architecture of the United States Government (FEA)
+- Capgemini's Integrated Architecture Framework[2]
+- The UK Ministry of Defence (MOD) Architecture Framework (MODAF)
+- NIH Enterprise Architecture Framework[3]
+- Open Security Architecture[4]
+- Information Assurance Enterprise Architectural Framework (IAEAF)
+- Service-Oriented Modeling Framework (SOMF)
+- The Open Group Architecture Framework (TOGAF)
+- Zachman Framework
+
 
 ### PenTest
 
