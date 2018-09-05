@@ -115,7 +115,7 @@
 - [Enterprise Cybersecurity: How to Build a Successful Cyberdefense Program Against Advanced Threats](http://www.doc88.com/p-6931509206647.html)
 - [Enterprise Security: A Data-Centric Approach to Securing the Enterprise](http://www.doc88.com/p-0932024381827.html)
 - [OPEN ENTERPRISE SECURITY ARCHITECTURE (O-ESA): A FRAMEWORK AND TEMPLATE FOR POLICY-DRIVEN SECURITY](https://publications.opengroup.org/g112)
-- [Security Engineering](http://www.doc88.com/p-7428995558432.html)
+- [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html)
 
 #### Open Enterprise Architecture Frameworks
 
