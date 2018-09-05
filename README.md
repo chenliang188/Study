@@ -115,6 +115,7 @@
 - [Nmap参考指南](https://nmap.org/man/zh/)
 - [Nmap Network Scanning](https://nmap.org/book/toc.html)
 - [vulscan](https://github.com/scipag/vulscan)
+-[Official (ISC)2 Guide to the ISSAP CBK ((ISC)2 Press)](http://www.doc88.com/p-9592391830250.html)
 
 ## Cloud Data Center
 
