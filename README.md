@@ -130,6 +130,8 @@
 - The Open Group Architecture Framework (TOGAF)
 - Zachman Framework
 
+### Enterprise architecture framework(https://en.wikipedia.org/wiki/Enterprise_architecture_framework)
+
 
 ### PenTest
 
