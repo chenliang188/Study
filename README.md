@@ -120,18 +120,18 @@
 
 #### Open Enterprise Architecture Frameworks
 
-- SABSA framework and methodology
-- The U.S. Department of Defense (DoD) Architecture Framework (DoDAF)
-- Extended Enterprise Architecture Framework (E2AF) from the Institute For Enterprise Architecture Developments.
-- Federal Enterprise Architecture of the United States Government (FEA)
-- Capgemini's Integrated Architecture Framework[2]
-- The UK Ministry of Defence (MOD) Architecture Framework (MODAF)
-- NIH Enterprise Architecture Framework[3]
-- Open Security Architecture[4]
+- [SABSA framework and methodology](https://sabsa.org)
+- [The U.S. Department of Defense (DoD) Architecture Framework (DoDAF)](https://dodcio.defense.gov/Library/DoD-Architecture-Framework/)
+- [Extended Enterprise Architecture Framework (E2AF) from the Institute For Enterprise Architecture Developments.](https://en.wikipedia.org/wiki/Jaap_Schekkerman#Extended_Enterprise_Architecture_Framework)
+- [Federal Enterprise Architecture of the United States Government (FEA)](https://en.wikipedia.org/wiki/Federal_enterprise_architecture)
+- [Capgemini's Integrated Architecture Framework](https://en.wikipedia.org/wiki/Integrated_Architecture_Framework)
+- [The UK Ministry of Defence (MOD) Architecture Framework (MODAF)](https://www.gov.uk/guidance/mod-architecture-framework)
+- [NIH Enterprise Architecture Framework](https://hr.nih.gov/competency/enterprise-architecture)
+- [Open Security Architecture](http://www.opensecurityarchitecture.org/cms/index.php)
 - Information Assurance Enterprise Architectural Framework (IAEAF)
-- Service-Oriented Modeling Framework (SOMF)
-- The Open Group Architecture Framework (TOGAF)
-- Zachman Framework
+- [Service-Oriented Modeling Framework (SOMF)](https://www.ibm.com/developerworks/library/ws-soad1/index.html)
+- [The Open Group Architecture Framework (TOGAF)](http://www.opengroup.org/subjectareas/enterprise/togaf/)
+- [Zachman Framework](https://www.zachman.com/about-the-zachman-framework)
 
 ### [Enterprise architecture framework](https://en.wikipedia.org/wiki/Enterprise_architecture_framework)
 
