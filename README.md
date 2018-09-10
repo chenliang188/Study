@@ -120,6 +120,7 @@
 - [Static Analysis of Software: The Abstract Interpretation](http://www.doc88.com/p-5844725473630.html)
 - [Business Data Networks and Security, Global Edition,10ed](http://www.doc88.com/p-4012504737110.html)
 - [Cloud Computing Security: Foundations and Challenges](http://www.doc88.com/p-9159772322059.html)
+- [Hands-On Cybersecurity for Architects: Plan and design robust security architectures](https://www.amazon.cn/dp/B07C5X8PPF)
 
 ### Open Enterprise Architecture Frameworks
 
