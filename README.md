@@ -118,6 +118,7 @@
 - [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html)
 - CCSP (ISC)2 Certified Cloud Security Professional Official Study Guide [part-1](http://www.doc88.com/p-5098682746655.html),[part-2](http://www.doc88.com/p-6354904789948.html)
 - [Static Analysis of Software: The Abstract Interpretation](http://www.doc88.com/p-5844725473630.html)
+- [Business Data Networks and Security, Global Edition,10ed](http://www.doc88.com/p-4012504737110.html)
 
 ### Open Enterprise Architecture Frameworks
 
@@ -133,6 +134,7 @@
 - [Service-Oriented Modeling Framework (SOMF)](https://www.ibm.com/developerworks/library/ws-soad1/index.html)
 - [The Open Group Architecture Framework (TOGAF)](http://www.opengroup.org/subjectareas/enterprise/togaf/)
 - [Zachman Framework](https://www.zachman.com/about-the-zachman-framework)
+
 
 ### [Enterprise architecture framework](https://en.wikipedia.org/wiki/Enterprise_architecture_framework)
 
