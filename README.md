@@ -121,6 +121,8 @@
 - [Business Data Networks and Security, Global Edition,10ed](http://www.doc88.com/p-4012504737110.html)
 - [Cloud Computing Security: Foundations and Challenges](http://www.doc88.com/p-9159772322059.html)
 - [Hands-On Cybersecurity for Architects: Plan and design robust security architectures](https://www.amazon.cn/dp/B07C5X8PPF)
+- [Security Operations Center Guidebook: A Practical Guide for a Successful SOC]
+- [Security Operations Center - SIEM Use Cases and Cyber Threat Intelligence]
 
 ### Open Enterprise Architecture Frameworks
 
