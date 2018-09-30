@@ -122,6 +122,8 @@
 - [Cloud Computing Security: Foundations and Challenges](http://www.doc88.com/p-9159772322059.html)
 - [Hands-On Cybersecurity for Architects: Plan and design robust security architectures](https://www.amazon.cn/dp/B07C5X8PPF)
 - [Security Operations Center Guidebook: A Practical Guide for a Successful SOC]
+- [Security Operations Center: Building, Operating, and Maintaining your SOC]
+- [Security Operations Management]
 - [Security Operations Center - SIEM Use Cases and Cyber Threat Intelligence]
 
 ### Open Enterprise Architecture Frameworks
