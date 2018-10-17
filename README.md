@@ -43,6 +43,9 @@
 - [Angular官方文档](https://angular.cn/docs)
 - [ng-book](https://www.ng-book.com/2/)
 
+## React
+- 《React设计模式与最佳实践》
+
 ## TypeScript
 
 - [中文官方文档](https://www.tslang.cn/docs/home.html)
