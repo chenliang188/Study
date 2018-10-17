@@ -4,9 +4,9 @@
 - [Markdown Basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-## Sports
+## [运动健康](https://github.com/dhcn/HARE/blob/master/ws.md)
 
-- [武术与运动](https://github.com/dhcn/ARE/blob/master/ws.md)
+## [HARE相关资料](https://github.com/dhcn/HARE/blob/master/tsr.md)
 
 ## Business
 
@@ -203,9 +203,6 @@
 
 - [《统计自然语言处理》](https://www.amazon.cn/dp/B00P7UETQY/)
 - [《自然语言计算机形式分析的理论与方法》](https://book.douban.com/subject/27019157/)
-
-
-## [ARE相关资料](https://github.com/dhcn/ARE/blob/master/tsr.md)
 
 
 ## Accounting
