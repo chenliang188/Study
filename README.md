@@ -121,7 +121,7 @@
 - [Enterprise Security: A Data-Centric Approach to Securing the Enterprise](http://www.doc88.com/p-0932024381827.html)
 - [OPEN ENTERPRISE SECURITY ARCHITECTURE (O-ESA): A FRAMEWORK AND TEMPLATE FOR POLICY-DRIVEN SECURITY](https://publications.opengroup.org/g112)
 - [Security Engineering](https://www.cl.cam.ac.uk/~rja14/book.html)
-- CCSP (ISC)2 Certified Cloud Security Professional Official Study Guide [part-1](http://www.doc88.com/p-5098682746655.html),[part-2](http://www.doc88.com/p-6354904789948.html)
+- [CCSP (ISC)2 Certified Cloud Security Professional Official Study Guide part-1](http://www.doc88.com/p-5098682746655.html),[part-2](http://www.doc88.com/p-6354904789948.html)
 - [Static Analysis of Software: The Abstract Interpretation](http://www.doc88.com/p-5844725473630.html)
 - [Business Data Networks and Security, Global Edition,10ed](http://www.doc88.com/p-4012504737110.html)
 - [Cloud Computing Security: Foundations and Challenges](http://www.doc88.com/p-9159772322059.html)
