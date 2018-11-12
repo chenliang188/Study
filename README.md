@@ -136,6 +136,8 @@
 
 ### Security Architecture
 
+- [国际云安全联盟CSA](https://cloudsecurityalliance.org/)
+- [美国国家标准与技术研究院](https://www.nist.gov/)
 - Securing Systems: Applied Security Architecture and Threat Models
 - [Threat Modeling: Designing for Security](http://www.doc88.com/p-0641405880761.html)
 - [Enterprise Security Architecture: A Business-Driven Approach](http://www.doc88.com/p-9387651654245.html)
