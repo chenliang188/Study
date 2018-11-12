@@ -156,7 +156,7 @@
 - [Security Operations Center: Building, Operating, and Maintaining your SOC]
 - [Security Operations Management Old Version](http://www.doc88.com/p-168101421230.html)
 - [Security Operations Center - SIEM Use Cases and Cyber Threat Intelligence]
-
+- [Cloud Computing Security: Foundations and Challenges]
 
 
 
