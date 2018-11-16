@@ -140,6 +140,7 @@
 - [Implementing Azure Cloud Design Patterns: Implement efficient design patterns for data management, high availability, monitoring and other popular patterns on your Azure Cloud](http://www.doc88.com/p-3965042256700.html)
 - [Cloud Native Architectures: Design high-availability and cost-effective applications for the cloud]
 - [杨卫华高可用系列](https://www.amazon.cn/s/ref=dp_byline_sr_ebooks_1?ie=UTF8&field-author=%E6%9D%A8%E5%8D%AB%E5%8D%8E&search-alias=digital-text&text=%E6%9D%A8%E5%8D%AB%E5%8D%8E&sort=relevancerank)
+- [Oracle® High Availability Architecture and Best Practices](https://docs.oracle.com/cd/B13789_01/server.101/b10726/toc.htm)
 
 ## Sec
 
