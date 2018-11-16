@@ -145,6 +145,7 @@
 - [Designing High Availability Systems: DFSS and Classical Reliability Techniques with Practical Real Life Examples](http://www.doc88.com/p-9425254743161.html)
 - [Blueprints for High Availability: Designing Resilient Distributed Systems](http://www.doc88.com/p-6048199820307.html)
 - [The Disaster Recovery Handbook: A Step-by-Step Plan to Ensure Business Continuity and Protect Vital Operations, Facilities, and Assets](http://www.doc88.com/p-0179911646198.html)
+- [Fault Tolerance: Principles and Practice (Dependable Computing and Fault-Tolerant Systems) (Volume 3)](http://www.doc88.com/p-6701256733421.html)
 
 ## Sec
 
