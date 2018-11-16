@@ -142,6 +142,9 @@
 - [杨卫华高可用系列](https://www.amazon.cn/s/ref=dp_byline_sr_ebooks_1?ie=UTF8&field-author=%E6%9D%A8%E5%8D%AB%E5%8D%8E&search-alias=digital-text&text=%E6%9D%A8%E5%8D%AB%E5%8D%8E&sort=relevancerank)
 - [Oracle® High Availability Architecture and Best Practices](https://docs.oracle.com/cd/B13789_01/server.101/b10726/toc.htm)
 - [High Availability Architectures and Best Practices](https://www.evidian.com/products/high-availability-software-for-application-clustering/high-availability-architectures-and-best-practices/)
+- [Designing High Availability Systems: DFSS and Classical Reliability Techniques with Practical Real Life Examples](http://www.doc88.com/p-9425254743161.html)
+- [Blueprints for High Availability: Designing Resilient Distributed Systems](http://www.doc88.com/p-6048199820307.html)
+- [The Disaster Recovery Handbook: A Step-by-Step Plan to Ensure Business Continuity and Protect Vital Operations, Facilities, and Assets](http://www.doc88.com/p-0179911646198.html)
 
 ## Sec
 
