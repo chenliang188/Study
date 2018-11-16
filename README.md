@@ -131,6 +131,9 @@
 
 ### Application Architecture
 
+### High Availability Architecture
+
+- [可伸缩架构:面向增长应用的高可用](https://www.amazon.cn/dp/B071XD67SC/)
 
 ## Sec
 
