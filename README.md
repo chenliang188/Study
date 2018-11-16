@@ -135,6 +135,8 @@
 
 - [可伸缩架构:面向增长应用的高可用](https://www.amazon.cn/dp/B071XD67SC/)
 - [OpenStack高可用集群](https://www.amazon.cn/dp/B076C18LQK/)
+- [High Availability and Disaster Recovery: Concepts, Design, Implementation](http://www.doc88.com/p-589937090401.html)
+- [Network Infrastructure and Architecture: Designing High-Availability Networks](http://www.doc88.com/p-1806595377274.html)
 
 ## Sec
 
