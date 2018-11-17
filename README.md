@@ -188,6 +188,14 @@
 - [Nmap Network Scanning](https://nmap.org/book/toc.html)
 - [vulscan](https://github.com/scipag/vulscan)
 
+### Honeypot
+
+- [Honeypots: Tracking Hackers]
+- [Virtual Honeypots: From Botnet Tracking to Intrusion DetectionJul]
+- [Honeypot Frameworks and Their Applications: A New Framework (SpringerBriefs on Cyber Security Systems and Networks) ]
+- [Honeypots and Routers: Collecting Internet Attacks]
+
+
 
 ## Cloud Data Center
 
