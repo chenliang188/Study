@@ -147,6 +147,12 @@
 - [The Disaster Recovery Handbook: A Step-by-Step Plan to Ensure Business Continuity and Protect Vital Operations, Facilities, and Assets](http://www.doc88.com/p-0179911646198.html)
 - [Fault Tolerance: Principles and Practice (Dependable Computing and Fault-Tolerant Systems) (Volume 3)](http://www.doc88.com/p-6701256733421.html)
 
+### multi-cloud
+
+- HashiCorp
+- Rancher
+- lstio
+
 ## Sec
 
 ### Security Architecture
