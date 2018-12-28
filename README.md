@@ -255,6 +255,12 @@
 - IASB
 - IFRS
 
+### Tax Planning
+- [Taxes & Business Strategy (5th Edition)]
+- [Cut Your Clients Tax Bill: Individual Tax Planning Tips and Strategies (AICPA)]
+- [Tools & Techniques of Income Tax Planning 5th edition]
+- [Income Tax Planning]
+
 ## Audit
 
 - [PCAOB](https://pcaobus.org//)
