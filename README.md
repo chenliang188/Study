@@ -256,7 +256,7 @@
 - IFRS
 
 ### Tax Planning
-- [Taxes & Business Strategy (5th Edition)]
+- [Taxes & Business Strategy (5th Edition)](http://www.doc88.com/p-4909738412328.html)
 - [Cut Your Clients Tax Bill: Individual Tax Planning Tips and Strategies (AICPA)]
 - [Tools & Techniques of Income Tax Planning 5th edition]
 - [Income Tax Planning]
