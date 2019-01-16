@@ -57,6 +57,7 @@
 - 《Learning Python中文版》
 - 《流畅的Python》
 - [Hitchhiker's Guide to Python](https://github.com/kennethreitz/python-guide)
+- [Python Decompiler](https://github.com/rocky/python-uncompyle6)
 
 ## Django
 
