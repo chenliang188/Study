@@ -4,9 +4,9 @@
 - [Markdown Basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-## [运动健康](https://github.com/dhcn/HARE/blob/master/ws.md)
+## [运动健康](https://github.com/dhcn/Study/blob/master/wushu.md)
 
-## [HARE相关资料](https://github.com/dhcn/HARE/blob/master/tsr.md)
+## [HARE相关资料](https://github.com/dhcn/Study/blob/master/are.md)
 
 ## Business
 
