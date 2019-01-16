@@ -56,6 +56,7 @@
 - [官网文档](https://docs.python.org/3/)
 - 《Learning Python中文版》
 - 《流畅的Python》
+- [Python Guide](https://github.com/realpython/python-guide)
 - [Hitchhiker's Guide to Python](https://github.com/kennethreitz/python-guide)
 - [Python Decompiler](https://github.com/rocky/python-uncompyle6)
 
