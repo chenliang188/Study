@@ -5,9 +5,9 @@
 
 ##### 计算
 
--Nova:虚拟化设施资源管理
--ZUN:容器管理
--QINLING:Serveless Function
+- Nova:虚拟化设施资源管理
+- ZUN:容器管理
+- QINLING:Serveless Function
 
 ##### 裸金属
 - IRONIC:裸金属资源管理
