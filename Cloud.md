@@ -8,6 +8,7 @@
 - [OpenStack](https://github.com/dhcn/Study/blob/master/cloud/openstack.md)
 ## Private Cloud
 - [DC/OS](https://dcos.io/)
+## Hybrid Cloud
 ## Multi Cloud
 
 
