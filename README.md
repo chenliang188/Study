@@ -111,6 +111,10 @@
 
 ## Architecture
 
+### Big Data Application
+
+- [《Designing Data-Intensive Application》社区汉化版](https://vonng.gitbooks.io/ddia-cn/content/)
+
 ### Open Enterprise Architecture Frameworks
 
 - [SABSA framework and methodology](https://sabsa.org)
