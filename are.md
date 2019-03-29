@@ -29,6 +29,7 @@
 - Human Action Recognition with Depth Cameras：http://www.doc88.com/p-0959082506295.html
 - Kinect开发文章目录:http://www.cnblogs.com/yangecnu/p/Learning-KinectSDK.html
 - Hololens-Kinect:https://github.com/michell3/Hololens-Kinect
+- [Computer Vision, Fifth Edition: Principles, Algorithms, Applications, Learning](http://www.doc88.com/p-9455018105283.html)
 
 
 ### Pose Estimation
