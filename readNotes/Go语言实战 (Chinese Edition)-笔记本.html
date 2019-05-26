@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "XHTML1-s.dtd" >
+<html xmlns="http://www.w3.org/TR/1999/REC-html-in-xml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+<style>
+.bodyContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.notebookFor {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    margin: 24px 0px 0px;
+    padding: 0px;
+}
+
+.bookTitle {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+    margin-top: 22px;
+    padding: 0px;
+}
+
+.authors {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    margin-top: 22px;
+    margin-bottom: 24px; 
+    padding: 0px;
+}
+
+.sectionHeading {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 24px;
+    padding: 0px;
+}
+
+.noteHeading {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.noteText {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    margin: 2px 0px 0px;
+    padding: 0px;
+}
+
+.highlight_blue {
+    color: rgb(178, 205, 251);
+}
+
+.highlight_orange {
+    color: #ffd7ae;
+}
+
+.highlight_pink {
+    color: rgb(255, 191, 206);
+}
+
+.highlight_yellow {
+    color: rgb(247, 206, 0);
+}
+
+.notebookGraphic {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.notebookGraphic img {
+    -o-box-shadow:      0px 0px 5px #888;
+    -icab-box-shadow:   0px 0px 5px #888;
+    -khtml-box-shadow:  0px 0px 5px #888;
+    -moz-box-shadow:    0px 0px 5px #888;
+    -webkit-box-shadow: 0px 0px 5px #888;
+    box-shadow:         0px 0px 5px #888; 
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 0px none;
+    height: 1px;
+    background: none repeat scroll 0% 0% rgb(221, 221, 221);
+}
+</style>
+</head>
+<body>
+<div class='bodyContainer'>
+<h1><div class='notebookFor'>注释和标注：</div><div class='bookTitle'>《Go语言实战 (Chinese Edition)》
+</div><div class='authors'>
+作者：[美]威廉·肯尼迪（William Kennedy）布赖恩·克特森（Brian Ketelsen）埃里克·圣马丁（Erik St. Martin）
+</div></h1><hr/>
+
+<h2 class='sectionHeading'>第1章 关于Go语言的介绍</h2><h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 272</div><div class='noteText'>编 译 器 只 会 关 注 那 些 直 接 被 引 用 的 库</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 299</div><div class='noteText'>关 键 字 g o 是 唯 一 需 要 去 编 写 的 代 码 ， 调 度 l o g 函 数 作 为 独 立 的 g o r o u t i n e 去 运 行 ， 以 便 与 其 他 g o r o u t i n e 并 行 执 行 。 这 意 味 着 应 用 程 序 的 其 余 部 分 会 与 记 录 日 志 并 行 执 行 ， 通 常 这 种 并 行 能 让 最 终 用 户 觉 得 性 能 更 好 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 304</div><div class='noteText'>通 道 可 以 帮 用 户 避 免 其 他 语 言 里 常 见 的 共 享 内 存 访 问 的 问 题 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 305</div><div class='noteText'>并 发 的 最 难 的 部 分 就 是 要 确 保 其 他 并 发 运 行 的 进 程 、 线 程 或 g o r o u t i n e 不 会 意 外 修 改 用 户 的 数 据 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 317</div><div class='noteText'>通 道 并 不 提 供 跨 g o r o u t i n e 的 数 据 访 问 保 护 机 制 。 如 果 通 过 通 道 传 输 数 据 的 一 份 副 本 ， 那 么 每 个 g o r o u t i n e 都 持 有 一 份 副 本 ， 各 自 对 自 己 的 副 本 做 修 改 是 安 全 的 。 当 传 输 的 是 指 向 数 据 的 指 针 时 ， 如 果 读 和 写 是 由 不 同 的 g o r o u t i n e 完 成 的 ， 每 个 g o r o u t i n e 依 旧 需 要 额 外 的 同 步 动 作 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 320</div><div class='noteText'>G o 语 言 提 供 了 灵 活 的 、 无 继 承 的 类 型 系 统 ， 无 需 降 低 运 行 性 能 就 能 最 大 程 度 上 复 用 代 码 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 322</div><div class='noteText'>G o 开 发 者 使 用 组 合 （ c o m p o s i t i o n ） 设 计 模 式 ， 只 需 简 单 地 将 一 个 类 型 嵌 入 到 另 一 个 类 型 ， 就 能 复 用 所 有 的 功 能</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 323</div><div class='noteText'>其 他 语 言 也 能 使 用 组 合 ， 但 是 不 得 不 和 继 承 绑 在 一 起 使 用 ， 结 果 使 整 个 用 法 非 常 复 杂 ， 很 难 使 用 。 在 G o 语 言 中 ， 一 个 类 型 由 其 他 更 微 小 的 类 型 组 合 而 成 ， 避 免 了 传 统 的 基 于 继 承 的 模 型 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 332</div><div class='noteText'>不 过 G o 语 言 的 类 型 可 以 声 明 操 作 该 类 型 数 据 的 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 334</div><div class='noteText'>然 后 把 这 些 小 类 型 组 合 成 更 大 的 类 型 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 337</div><div class='noteText'>接 口 用 于 描 述 类 型 的 行 为 。 如 果 一 个 类 型 的 实 例 实 现 了 一 个 接 口 ， 意 味 着 这 个 实 例 可 以 执 行 一 组 特 定 的 行 为 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 338</div><div class='noteText'>你 甚 至 不 需 要 去 声 明 这 个 实 例 实 现 某 个 接 口 ， 只 需 要 实 现 这 组 行 为 就 好 。 其 他 的 语 言 把 这 个 特 性 叫 作 鸭 子 类 型 — — 如 果 它 叫 起 来 像 鸭 子 ， 那 它 就 可 能 是 只 鸭 子 。 G o 语 言 的 接 口 也 是 这 么 做 的 。 在 G o 语 言 中 ， 如 果 一 个 类 型 实 现 了 一 个 接 口 的 所 有 方 法 ， 那 么 这 个 类 型 的 实 例 就 可 以 存 储 在 这 个 接 口 类 型 的 实 例 中 ， 不 需 要 额 外 声 明 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 347</div><div class='noteText'>而 G o 语 言 的 接 口 一 般 只 会 描 述 一 个 单 一 的 动 作 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 347</div><div class='noteText'>G o 语 言 中 ， 最 常 使 用 的 接 口 之 一 是 i o . R e a d e r 。 这 个 接 口 提 供 了 一 个 简 单 的 方 法 ， 用 来 声 明 一 个 类 型 有 数 据 可 以 读 取 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 1.1 用Go解决现代编程难题 &gt; 位置 355</div><div class='noteText'>这 和 传 统 的 面 向 对 象 编 程 语 言 的 接 口 系 统 有 本 质 的 区 别 。 G o 语 言 的 接 口 更 小 ， 只 倾 向 于 定 义 一 个 单 一 的 动 作 。 实 际 使 用 中 ， 这 更 有 利 于 使 用 组 合 来 复 用 代 码 。</h3>
+<h2 class='sectionHeading'>第2章 快速开始一个Go程序</h2><h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 位置 395</div><div class='noteText'>G o 语 言 的 设 计 者 们 从 编 程 效 率 出 发 设 计 了 这 门 语 言 ， 但 又 不 会 丢 掉 访 问 底 层 程 序 结 构 的 能 力 。 设 计 者 们 通 过 一 组 最 少 的 关 键 字 、 内 置 的 方 法 和 语 法 ， 最 终 平 衡 了 这 两 方 面 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 396</div><div class='noteText'>标 准 库 提 供 了 构 建 实 际 的 基 于 W e b 和 基 于 网 络 的 程 序 所 需 的 所 有 核 心 库 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 435</div><div class='noteText'>每 个 可 执 行 的 G o 程 序 都 有 两 个 明 显 的 特 征 。 一 个 特 征 是 第 1 8 行 声 明 的 名 为 m a i n 的 函 数 。 构 建 程 序 在 构 建 可 执 行 文 件 时 ， 需 要 找 到 这 个 已 经 声 明 的 m a i n 函 数 ， 把 它 作 为 程 序 的 入 口 。 第 二 个 特 征 是 程 序 的 第 0 1 行 的 包 名 m a i n ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 459</div><div class='noteText'>所 有 处 于 同 一 个 文 件 夹 里 的 代 码 文 件 ， 必 须 使 用 同 一 个 包 名 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 460</div><div class='noteText'>按 照 惯</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 460</div><div class='noteText'>例 ， 包 和 文 件 夹 同 名 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 467</div><div class='noteText'>这 个 技 术 是 为 了 让 G o 语 言 对 包 做 初 始 化 操 作 ， 但 是 并 不 使 用 包 里 的 标 识 符 。 为 了 让 程 序 的 可 读 性 更 强 ， G o 编 译 器 不 允 许 声 明 导 入 某 个 包 却 不 使 用 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 469</div><div class='noteText'>下 划 线 让 编 译 器 接 受 这 类 导 入 ， 并 且 调 用 对 应 包 内 的 所 有 代 码 文 件 里 定 义 的 i n i t 函 数 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.2 main包 &gt; 位置 478</div><div class='noteText'>程 序 中 每 个 代 码 文 件 里 的 i n i t 函 数 都 会 在 m a i n 函 数 执 行 前 调 用</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 535</div><div class='noteText'>在 G o 语 言 里 ， 标 识 符 要 么 从 包 里 公 开 ， 要 么 不 从 包 里 公 开 。 当 代 码 导 入 了 一 个 包 时 ， 程 序 可 以 直 接 访 问 这 个 包 中 任 意 一 个 公 开 的 标 识 符</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 536</div><div class='noteText'>这 些</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 536</div><div class='noteText'>标 识 符 以 大 写 字 母 开 头 。 以 小 写 字 母 开 头 的 标 识 符 是 不 公 开 的 ， 不 能 被 其 他 包 中 的 代 码 直 接 访 问 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 544</div><div class='noteText'>m a p 是 G o 语 言 里 的 一 个 引 用 类 型 ， 需 要 使 用 m a k e 来 构 造 。 如 果 不 先 构 造 m a p 并 将 构 造 后 的 值 赋 值 给 变 量 ， 会 在 试 图 使 用 这 个 m a p 变 量 时 收 到 出 错 信 息 。 这 是 因 为 m a p 变 量 默 认 的 零 值 是 n i l 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 549</div><div class='noteText'>在 G o 语 言 中 ， 所 有 变 量 都 被 初 始 化 为 其 零 值 。 对 于 数 值 类 型 ， 零 值 是 0 ； 对 于 字 符 串 类 型 ， 零 值 是 空 字 符 串 ； 对 于 布 尔 类 型 ， 零 值 是 f a l s e ； 对 于 指 针 ， 零 值 是 n i l 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 624</div><div class='noteText'>我 们 使 用 简 化 变 量 声 明 运 算 符 ， 在 调 用 m a k e 的 同 时 声 明 并 初 始 化 该 通 道 变 量 。 根 据 经 验 ， 如 果 需 要 声 明 初 始 值 为 零 值 的 变 量 ， 应 该 使 用 v a r 关 键 字 声 明 变 量</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 627</div><div class='noteText'>如 果 提 供 确 切 的 非 零 值 初 始 化 变 量 或 者 使 用 函 数 返 回 值 创 建 变 量 ， 应 该 使 用 简 化 变 量 声 明 运 算 符 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 628</div><div class='noteText'>在 G o 语 言 中 ， 通 道 （ c h a n n e l ） 和 映 射 （ m a p ） 与 切 片 （ s l i c e ） 一 样 ， 也 是 引 用 类 型 ， 不 过 通 道 本 身 实 现 的 是 一 组 带 类 型 的 值 ， 这 组 值 用 于 在 g o r o u t i n e 之 间 传 递 数 据 。 通 道 内 置 同 步 机 制 ， 从 而 保 证 通 信 安 全 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 638</div><div class='noteText'>写 并 发 程 序 的 时 候 ， 最 佳 做 法 是 ， 在 m a i n 函 数 返 回 前 ， 清 理 并 终 止 所 有 之 前 启 动 的 g o r o u t i n e 。 编 写 启 动 和 终 止 时 的 状 态 都 很 清 晰 的 程 序 ， 有 助 减 少 b u g ， 防 止 资 源 异 常 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 642</div><div class='noteText'>非 常 推 荐 使 用 W a i t G r o u p 来 跟 踪 g o r o u t i n e 的 工 作 是 否 完 成 。 W a i t G r o u p 是 一 个 计 数 信 号 量 ， 我 们 可 以 利 用 它 来 统 计 所 有 的 g o r o u t i n e 是 不 是 都 完 成 了 工 作 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 674</div><div class='noteText'>如 果 要 调 用 的 函 数 返 回 多 个 值 ， 而 又 不 需 要 其 中 的 某 个 值 ， 就 可 以 使 用 下 划 线 标 识 符 将 其 忽 略 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 701</div><div class='noteText'>现 在 只 要 知 道 ， 一 个 g o r o u t i n e 是 一 个 独 立 于 其 他 函 数 运 行 的 函 数 。 使 用 关 键 字 g o 启 动 一 个 g o r o u t i n e ， 并 对 这 个 g o r o u t i n e 做 并 发 调 度 。 在 第 3 8 行 ， 我 们 使 用 关 键 字 g o 启 动 了 一 个 匿 名 函 数 作 为 g o r o u t i n e 。 匿 名 函 数 是 指 没 有 明 确 声 明 名 字 的 函 数 。 在 f o r r a n g e 循 环 里 ， 我 们 为 每 个 数 据 源 ， 以 g o r o u t i n e 的 方 式 启 动 了 一 个 匿 名 函 数 。 这 样 可 以 并 发 地 独 立 处 理 每 个 数 据 源 的 数 据 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 710</div><div class='noteText'>指 针 变 量 可 以 方 便 地 在 函 数 之 间 共 享 数 据 。 使 用 指 针 变 量 可 以 让 函 数 访 问 并 修 改 一 个 变 量 的 状 态 ， 而 这 个 变 量 可 以 在 其 他 函 数 甚 至 是 其 他 g o r o u t i n e 的 作 用 域 里 声 明 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 713</div><div class='noteText'>在 G o 语 言 中 ， 所 有 的 变 量 都 以 值 的 方 式 传 递 。 因 为 指 针 变 量 的 值 是 所 指 向 的 内 存 地 址 ， 在 函 数 间 传 递 指 针 变 量 ， 是 在 传 递 这 个 地 址 值 ， 所 以 依 旧 被 看 作 以 值 的 方 式 在 传 递 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 732</div><div class='noteText'>G o 语 言 支 持 闭 包 ， 这 里 就 应 用 了 闭 包 。 实 际 上 ， 在 匿 名 函 数 内 访 问 s e a r c h T e r m 和 r e s u l t s 变 量 ， 也 是 通 过 闭 包 的 形 式 访 问 的 。 因 为 有 了 闭 包 ， 函 数 可 以 直 接 访 问 到 那 些 没 有 作 为 参 数 传 入 的 变 量 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 736</div><div class='noteText'>因 为 m a t c h e r 和 f e e d 变 量 每 次 调 用 时 值 不 相 同 ， 所 以 并 没 有 使 用 闭 包 的 方 式 访 问 这 两 个 变 量</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 746</div><div class='noteText'>除 非 我 们 以 函 数 参 数 的 形 式 传 值 给 函 数 ， 否 则 绝 大 部 分 g o r o u t i n e 最 终 都 会 使 用 同 一 个 m a t c h e r 来 处 理 同 一 个 f e e d — — 这 个 值 很 有 可 能 是 f e e d s 切 片 的 最 后 一 个 值 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 817</div><div class='noteText'>每 个 字 段 的 声 明 最 后 ` 引 号 里 的 部 分 被 称 作 标 记 （ t a g ） 。 这 个 标 记 里 描 述 了 J S O N 解 码 的 元 数 据 ， 用 于 创 建 F e e d 类 型 值 的 切 片 。 每 个 标 记 将 结 构 类 型 里 字 段 对 应 到 J S O N 文 档 里 指 定 名 字 的 字 段 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 833</div><div class='noteText'>第 二 个 返 回 值 是 一 个 e r r o r 类 型 的 值 ， 用 来 表 示 函 数 是 否 调 用 成 功 。 在 这 个 代 码 示 例 里 ， 会 经 常 看 到 返 回 e r r o r 类 型 值 来 表 示 函 数 是 否 调 用 成 功 。 这 种 用 法 在 标 准 库 里 也 很 常 见 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 848</div><div class='noteText'>关 键 字 d e f e r 会 安 排 随 后 的 函 数 调 用 在 函 数 返 回 时 才 执 行 。 在 使 用 完 文 件 后 ， 需 要 主 动 关 闭 文 件 。 使 用 关 键 字 d e f e r 来 安 排 调 用 C l o s e 方 法 ， 可 以 保 证 这 个 函 数 一 定 会 被 调 用 。 哪 怕 函 数 意 外 崩 溃 终 止 ， 也 能 保 证 关 键 字 d e f e r 安 排 调 用 的 函 数 会 被 执 行 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 878</div><div class='noteText'>i n t e r f a c e { } 的 值 作 为 参 数 。 这 个 类 型 在 G o 语 言 里 很 特 殊 ， 一 般 会 配 合 r e f l e c t 包 里 提 供 的 反 射 功 能 一 起 使 用 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 897</div><div class='noteText'>让 这 段 代 码 起 作 用 的 关 键 是 这 个 架 构 使 用 一 个 接 口 类 型 来 匹 配 并 执 行 具 有 特 定 实 现 的 匹 配 器 。 这 样 ， 就 能 使 用 这 段 代 码 ， 以 一 致 且 通 用 的 方 法 ， 来 处 理 不 同 类 型 的 匹 配 器 值 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 917</div><div class='noteText'>命 名 接 口 的 时 候 ， 也 需 要 遵 守 G o 语 言 的 命 名 惯 例 。 如 果 接 口 类 型 只 包 含 一 个 方 法 ， 那 么 这 个 类 型 的 名 字 以 e r 结 尾 。 我 们 的 例 子 里 就 是 这 么 做 的 ， 所 以 这 个 接 口 的 名 字 叫 作 M a t c h e r 。 如 果 接 口 类 型 内 部 声 明 了 多 个 方 法 ， 其 名 字 需 要 与 其 行 为 关 联 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 942</div><div class='noteText'>如 果 声 明 函 数 的 时 候 带 有 接 收 者 ， 则 意 味 着 声 明 了 一 个 方 法 。 这 个 方 法 会 和 指 定 的 接 收 者 的 类 型 绑 在 一 起 。 在 我 们 的 例 子 里 ， S e a r c h 方 法 与 d e f a u l t M a t c h e r 类 型 的 值 绑 在 一 起 。 这 意 味 着 我 们 可 以 使 用 d e f a u l t M a t c h e r 类 型 的 值 或 者 指 向 这 个 类 型 值 的 指 针 来 调 用 S e a r c h 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 946</div><div class='noteText'>无 论 我 们 是 使 用 接 收 者 类 型 的 值 来 调 用 这 个 方 ， 还 是 使 用 接 收 者 类 型 值 的 指 针 来 调 用 这 个 方 法 ， 编 译 器 都 会 正 确 地 引 用 或 者 解 引 用 对 应 的 值 ， 作 为 接 收 者 传 递 给 S e a r c h 方 法</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 956</div><div class='noteText'>因 为 大 部 分 方 法 在 被 调 用 后 都 需 要 维 护 接 收 者 的 值 的 状 态 ， 所 以 ， 一 个 最 佳 实 践 是 ， 将 方 法 的 接 收 者 声 明 为 指 针 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.3 search包 &gt; 位置 958</div><div class='noteText'>使 用 值 作 为 接 收 者 是 因 为 创 建 一 个 d e f a u l t M a t c h e r 类 型 的 值 不 需 要 分 配 内 存 。 由 于 d e f a u l t M a t c h e r 不 需 要 维 护 状 态 ， 所 以 不 需 要 指 针 形 式 的 接 收 者 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 960</div><div class='noteText'>与 直 接 通 过 值 或 者 指 针 调 用 方 法 不 同 ， 如 果 通 过 接 口 类 型 的 值 调 用 方 法 ， 规 则 有 很 大 不 同 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 2.3 search包 &gt; 位置 961</div><div class='noteText'>使 用 指 针 作 为 接 收 者 声 明 的 方 法 ， 只 能 在 接 口 类 型 的 值 是 一 个 指 针 的 时 候 被 调 用 。 使 用 值 作 为 接 收 者 声 明 的 方 法 ， 在 接 口 类 型 的 值 为 值 或 者 指 针 时 ， 都 可 以 被 调 用 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 2.4 RSS匹配器 &gt; 位置 1258</div><div class='noteText'>这 个 值 直 接 使 用 字 面 声 明 的 方 式 ， 初 始 化 为 R e s u l t 类 型 的 值 。 之 后 使 用 取 地 址 运 算 符 （ &amp; ） ， 获 得 这 个 新 值 的 地 址 。 最 终 将 这 个 指 针 存 入 了 切 片 。</h3>
+<h2 class='sectionHeading'>第3章 打包和工具链</h2><h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 位置 1274</div><div class='noteText'>在 G o 语 言 里 ， 包 是 个 非 常 重 要 的 概 念 。 其 设 计 理 念 是 使 用 包 来 封 装 不 同 语 义 单 元 的 功 能 。 这 样 做 ， 能 够 更 好 地 复 用 代 码 ， 并 对 每 个 包 内 的 数 据 的 使 用 有 更 好 的 控 制 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.1 包 &gt; 位置 1290</div><div class='noteText'>每 个 包 都 在 一 个 单 独 的 目 录 里 。 不 能 把 多 个 包 放 到 同 一 个 目 录 中 ， 也 不 能 把 同 一 个 包 的 文 件 分 拆 到 多 个 不 同 目 录 中 。 这 意 味 着 ， 同 一 个 目 录 下 的 所 有 . g o 文 件 必 须 声 明 同 一 个 包 名 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.1 包 &gt; 位置 1299</div><div class='noteText'>记 住 ， 并 不 需 要 所 有 包 的 名 字 都 与 别 的 包 不 同 ， 因 为 导 入 包 时 是 使 用 全 路 径 的 ， 所 以 可 以 区 分 同 名 的 不 同 包 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.2 导入 &gt; 位置 1345</div><div class='noteText'>编 译 器 会 使 用 G o 环 境 变 量 设 置 的 路 径 ， 通 过 引 入 的 相 对 路 径 来 查 找 磁 盘 上 的 包 。 标 准 库 中 的 包 会 在 安 装 G o 的 位 置 找 到 。 G o 开 发 者 创 建 的 包 会 在 G O P A T H 环 境 变 量 指 定 的 目 录 里 查 找 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2 导入 &gt; 位置 1356</div><div class='noteText'>编 译 器 会 首 先 查 找 G o 的 安 装 目 录 ， 然 后 才 会 按 顺 序 查 找 G O P A T H 变 量 里 列 出 的 目 录 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.2 导入 &gt; 位置 1378</div><div class='noteText'>重 名 的 包 可 以 通 过 命 名 导 入 来 导 入 。 命 名 导 入 是 指 ， 在 i m p o r t 语 句 给 出 的 包 路 径 的 左 侧 定 义 一 个 名 字 ， 将 导 入 的 包 命 名 为 新 名 字 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2 导入 &gt; 位置 1391</div><div class='noteText'>而 G o 开 发 团 队 认 为 ， 与 其 让 编 译 器 告 警 ， 不 如 直 接 失 败 更 有 意 义 。 每 个 编 译 过 大 型 C 程 序 的 人 都 知 道 ， 在 浩 如 烟 海 的 编 译 器 警 告 里 找 到 一 条 有 用 的 信 息 是 多 么 困 难 的 一 件 事 。 这 种 情 况 下 编 译 失 败 会 更 加 明 确 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.2 导入 &gt; 位置 1393</div><div class='noteText'>有 时 ， 用 户 可 能 需 要 导 入 一 个 包 ， 但 是 不 需 要 引 用 这 个 包 的 标 识 符 。 在 这 种 情 况 ， 可 以 使 用 空 白 标 识 符 _ 来 重 命 名 这 个 导 入 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.3 函数init &gt; 位置 1399</div><div class='noteText'>每 个 包 可 以 包 含 任 意 多 个 i n i t 函 数 ， 这 些 函 数 都 会 在 程 序 执 行 开 始 的 时 候 被 调 用 。 所 有 被 编 译 器 发 现 的 i n i t 函 数 都 会 安 排 在 m a i n 函 数 之 前 执 行 。 i n i t 函 数 用 在 设 置 包 、 初 始 化 变 量 或 者 其 他 要 在 程 序 运 行 前 优 先 完 成 的 引 导 工 作 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.3 函数init &gt; 位置 1420</div><div class='noteText'>使 用 空 白 标 识 符 重 命 名 这 个 导 入 可 以 让 i n i t 函 数 发 现 并 被 调 度 运 行 ， 让 编 译 器 不 会 因 为 包 未 被 使 用 而 产 生 错 误 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.5 进一步介绍Go开发工具 &gt; 位置 1559</div><div class='noteText'>G o 文 档 工 具 最 棒 的 地 方 在 于 ， 它 也 支 持 开 发 人 员 自 己 写 的 代 码 。 如 果 开 发 人 员 遵 从 一 个 简 单 的 规 则 来 写 代 码 ， 这 些 代 码 就 会 自 动 包 含 在 g o d o c 生 成 的 文 档 里 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.5 进一步介绍Go开发工具 &gt; 位置 1561</div><div class='noteText'>为 了 在 g o d o c 生 成 的 文 档 里 包 含 自 己 的 代 码 文 档 ， 开 发 人 员 需 要 用 下 面 的 规 则 来 写 代 码 和 注 释 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 3.7 依赖管理 &gt; 位置 1604</div><div class='noteText'>像 g o d e p 和 v e n d e r 这 种 社 区 工 具 已 经 使 用 第 三 方 （ v e r d o r i n g ） 导 入 路 径 重 写 这 种 特 性 解 决 了 依 赖 问 题 。 其 思 想 是 把 所 有 的 依 赖 包 复 制 到 工 程 代 码 库 中 的 目 录 里 ， 然 后 使 用 工 程 内 部 的 依 赖 包 所 在 目 录 来 重 写 所 有 的 导 入 路 径 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1629</div><div class='noteText'>&quot; g i t h u b . a r d a n s t u d i o s . c o m / m y p r o j e c t / G o d e p s / _ w o r k s p a c e / s r c / 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 　 b i t b u c k e t . o r g / w w / g o a u t o n e g &quot;</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1632</div><div class='noteText'>在 路 径 重 写 之 前 ， i m p o r t 语 句 使 用 的 是 包 的 正 常 路 径 。 包 对 应 的 代 码 存 放 在 G O P A T H 所 指 定 的 磁 盘 目 录 里 。 在 依 赖 管 理 之 后 ， 导 入 路 径 需 要 重 写 成 工 程 内 部 依 赖 包 的 路 径 。 可 以 看 到 这 些 导 入 路 径 非 常 长 ， 不 易 于 使 用 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1649</div><div class='noteText'>。 这 种 依 赖 管 理 的 方 法 不 需 要 重 写 工 程 内 代 码 的 导 入 路 径 。 而 且 导 入 路 径 依 旧 通 过 g o g e t 和 G O P A T H 工 作 空 间 来 管 理 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1686</div><div class='noteText'>这 些 特 点 ， 让 g b 成 为 社 区 里 解 决 可 重 复 构 建 的 流 行 工 具 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 3.7 依赖管理 &gt; 位置 1687</div><div class='noteText'>g b 工 程 与 G o 官 方 工 具 链 （ 包 括 g o g e t ） 并 不 兼 容 。 因 为 g b 不 需 要 设 置 G O P A T H ， 而 G o 工 具 链 无 法 理 解 g b 工 程 的 目 录 结 构 ， 所 以 无 法 用 G o 工 具 链 构 建 、 测 试 或 者 获 取 代 码 。 构 建 （ 如 代 码 清 单 3 1 6 所 示 ） 和 测 试 g b 工 程 需 要 先 进 入 $ P R O J E C T 目 录 ， 并 使 用 g b 工 具 。</h3>
+<h2 class='sectionHeading'>第4章 数组、切片和映射</h2><h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.1 数组的内部实现和基础功能 &gt; 位置 1715</div><div class='noteText'>在 G o 语 言 里 ， 数 组 是 一 个 长 度 固 定 的 数 据 类 型 ， 用 于 存 储 一 段 具 有 相 同 的 类 型 的 元 素 的 连 续 块 。 数 组 存 储 的 类 型 可 以 是 内 置 类 型 ， 如 整 型 或 者 字 符 串 ， 也 可 以 是 某 种 结 构 类 型 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1849</div><div class='noteText'>切 片 是 一 种 数 据 结 构 ， 这 种 数 据 结 构 便 于 使 用 和 管 理 数 据 集 合 。 切 片 是 围 绕 动 态 数 组 的 概 念 构 建 的 ， 可 以 按 需 自 动 增 长 和 缩 小 。 切 片 的 动 态 增 长 是 通 过 内 置 函 数 a p p e n d 来 实 现 的 。 这 个 函 数 可 以 快 速 且 高 效 地 增 长 切 片 。 还 可 以 通 过 对 切 片 再 次 切 片 来 缩 小 一 个 切 片 的 大 小 。 因 为 切 片 的 底 层 内 存 也 是 在 连 续 块 中 分 配 的 ， 所 以 切 片 还 能 获 得 索 引 、 迭 代 以 及 为 垃 圾 回 收 优 化 的 好 处 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1875</div><div class='noteText'>如 果 基 于 这 个 切 片 创 建 新 的 切 片 ， 新 切 片 会 和 原 有 切 片 共 享 底 层 数 组 ， 也 能 通 过 后 期 操 作 来 访 问 多 余 容 量 的 元 素 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1888</div><div class='noteText'>当 使 用 切 片 字 面 量 时 ， 可 以 设 置 初 始 长 度 和 容 量 。 要 做 的 就 是 在 初 始 化 时 给 出 所 需 的 长 度 和 容 量 作 为 索 引</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1893</div><div class='noteText'>记 住 ， 如 果 在 [ ] 运 算 符 里 指 定 了 一 个 值 ， 那 么 创 建 的 就 是 数 组 而 不 是 切 片 。 只 有 不 指 定 值 的 时 候 ， 才 会 创 建 切 片 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1931</div><div class='noteText'>切 片 之 所 以 被 称 为 切 片 ， 是 因 为 创 建 一 个 新 的 切 片 就 是 把 底 层 数 组 切 出 一 部 分</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1945</div><div class='noteText'>可 以 计 算 出 任 意 切 片 的 长 度 和 容 量 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1953</div><div class='noteText'>对 底 层 数 组 容 量 是 5 的 切 片 s l i c e [ 1 : 3 ] 来 说</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1969</div><div class='noteText'>与 切 片 的 容 量 相 关 联 的 元 素 只 能 用 于 增 长 切 片 。 在 使 用 这 部 分 元 素 前 ， 必 须 将 其 合 并 到 切 片 的 长 度 里 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1976</div><div class='noteText'>切 片 有 额 外 的 容 量 是 很 好 ， 但 是 如 果 不 能 把 这 些 容 量 合 并 到 切 片 的 长 度 里 ， 这 些 容 量 就 没 有 用 处 。 好 在 可 以 用 G o 语 言 的 内 置 函 数 a p p e n d 来 做 这 种 合 并 很 容 易 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 1999</div><div class='noteText'>如 果 切 片 的 底 层 数 组 没 有 足 够 的 可 用 容 量 ， a p p e n d 函 数 会 创 建 一 个 新 的 底 层 数 组 ， 将 被 引 用 的 现 有 的 值 复 制 到 新 数 组 里 ， 再 追 加 新 的 值</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2007</div><div class='noteText'>这 个 数 组 的 容 量 是 原 来 的 两 倍</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2011</div><div class='noteText'>函 数 a p p e n d 会 智 能 地 处 理 底 层 数 组 的 容 量 增 长 。 在 切 片 的 容 量 小 于 1 0 0 0 个 元 素 时 ， 总 是 会 成 倍 地 增 加 容 量 。 一 旦 元 素 个 数 超 过 1 0 0 0 ， 容 量 的 增 长 因 子 会 设 为 1 . 2 5 ， 也 就 是 会 每 次 增 加 2 5 % 的 容 量 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2046</div><div class='noteText'>我 们 之 前 讨 论 过 ， 内 置 函 数 a p p e n d 会 首 先 使 用 可 用 容 量 。 一 旦 没 有 可 用 容 量 ， 会 分 配 一 个 新 的 底 层 数 组 。 这 导 致 很 容 易 忘 记 切 片 间 正 在 共 享 同 一 个 底 层 数 组 。 一 旦 发 生 这 种 情 况 ， 对 切 片 进 行 修 改 ， 很 可 能 会 导 致 随 机 且 奇 怪 的 问 题 。 对 切 片 内 容 的 修 改 会 影 响 多 个 切 片 ， 却 很 难 找 到 问 题 的 原 因 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2049</div><div class='noteText'>如 果 在 创 建 切 片 时 设 置 切 片 的 容 量 和 长 度 一 样 ， 就 可 以 强 制 让 新 切 片 的 第 一 个 a p p e n d 操 作 创 建 新 的 底 层 数 组 ， 与 原 有 的 底 层 数 组 分 离 。 新 切 片 与 原 有 的 底 层 数 组 分 离 后 ， 可 以 安 全 地 进 行 后 续 修 改</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2071</div><div class='noteText'>内 置 函 数 a p p e n d 也 是 一 个 可 变 参 数 的 函 数 。 这 意 味 着 可 以 在 一 次 调 用 传 递 多 个 追 加 的 值 。 如 果 使 用 . . . 运 算 符 ， 可 以 将 一 个 切 片 的 所 有 元 素 追 加 到 另 一 个 切 片 里 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2096</div><div class='noteText'>需 要 强 调 的 是 ， r a n g e 创 建 了 每 个 元 素 的 副 本 ， 而 不 是 直 接 返 回 对 该 元 素 的 引 用</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2105</div><div class='noteText'>因 为 迭 代 返 回 的 变 量 是 一 个 迭 代 过 程 中 根 据 切 片 依 次 赋 值 的 新 变 量 ， 所 以 v a l u e 的 地 址 总 是 相 同 的 。 要 想 获 取 每 个 元 素 的 地 址 ， 可 以 使 用 切 片 变 量 和 索 引 值 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2122</div><div class='noteText'>有 两 个 特 殊 的 内 置 函 数 l e n 和 c a p ， 可 以 用 于 处 理 数 组 、 切 片 和 通 道 。 对 于 切 片 ， 函 数 l e n 返 回 切 片 的 长 度 ， 函 数 c a p 返 回 切 片 的 容 量 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2151</div><div class='noteText'>即 便 是 这 么 简 单 的 多 维 切 片 ， 操 作 时 也 会 涉 及 众 多 布 局 和 值 。 看 起 来 在 函 数 间 像 这 样 传 递 数 据 结 构 也 会 很 复 杂 。 不 过 切 片 本 身 结 构 很 简 单 ， 可 以 以 很 小 的 成 本 在 函 数 间 传 递 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2160</div><div class='noteText'>在 6 4 位 架 构 的 机 器 上 ， 一 个 切 片 需 要 2 4 字 节 的 内 存 ： 指 针 字 段 需 要 8 字 节 ， 长 度 和 容 量 字 段 分 别 需 要 8 字 节 。 由 于 与 切 片 关 联 的 数 据 包 含 在 底 层 数 组 里 ， 不 属 于 切 片 本 身 ， 所 以 将 切 片 复 制 到 任 意 函 数 的 时 候 ， 对 底 层 数 组 大 小 都 不 会 有 影 响 。 复 制 时 只 会 复 制 切 片 本 身 ， 不 会 涉 及 底 层 数 组</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.2 切片的内部实现和基础功能 &gt; 位置 2165</div><div class='noteText'>在 函 数 间 传 递 2 4 字 节 的 数 据 会 非 常 快 速 、 简 单 。 这 也 是 切 片 效 率 高 的 地 方 。 不 需 要 传 递 指 针 和 处 理 复 杂 的 语 法 ， 只 需 要 复 制 切 片 ， 按 想 要 的 方 式 修 改 数 据 ， 然 后 传 递 回 一 份 新 的 切 片 副 本 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2174</div><div class='noteText'>即 便 使 用 同 样 的 顺 序 保 存 键 值 对 ， 每 次 迭 代 映 射 的 时 候 顺 序 也 可 能 不 一 样 。 无 序 的 原 因 是 映 射 的 实 现 使 用 了 散 列 表</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2179</div><div class='noteText'>随 着 映 射 存 储 的 增 加 ， 索 引 分 布 越 均 匀 ， 访 问 键 值 对 的 速 度 就 越 快 。 如 果 你 在 映 射 里 存 储 了 1 0 0 0 0 个 元 素 ， 你 不 希 望 每 次 查 找 都 要 访 问 1 0 0 0 0 个 键 值 对 才 能 找 到 需 要 的 元 素 ， 你 希 望 查 找 键 值 对 的 次 数 越 少 越 好</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2181</div><div class='noteText'>对 于 有 1 0 0 0 0 个 元 素 的 映 射 ， 每 次 查 找 只 需 要 查 找 8 个 键 值 对 才 是 一 个 分 布 得 比 较 好 的 映 射 。 映 射 通 过 合 理 数 量 的 桶 来 平 衡 键 值 对 的 分 布 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2184</div><div class='noteText'>这 些 字 符 串 会 转 换 为 一 个 数 值 （ 散 列 值 ） 。 这 个 数 值 落 在 映 射 已 有 桶 的 序 号 范 围 内 表 示 一 个 可 以 用 于 存 储 的 桶 的 序 号 。 之 后 ， 这 个 数 值 就 被 用 于 选 择 桶 ， 用 于 存 储 或 者 查 找 指 定 的 键 值 对 。 对 G o 语 言 的 映 射 来 说 ， 生 成 的 散 列 键 的 一 部 分 ， 具 体 来 说 是 低 位 （ L O B ） ， 被 用 来 选 择 桶 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2203</div><div class='noteText'>映 射 的 键 可 以 是 任 何 值</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2203</div><div class='noteText'>这 个 值 的 类 型 可 以 是 内 置 的 类 型 ， 也 可 以 是 结 构 类 型 ， 只 要 这 个 值 可 以 使 用 = = 运 算 符 做 比 较</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2205</div><div class='noteText'>切 片 、 函 数 以 及 包 含 切 片 的 结 构 类 型 这 些 类 型 由 于 具 有 引 用 语 义 ， 不 能 作 为 映 射 的 键</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2242</div><div class='noteText'>在 G o 语 言 里 ， 通 过 键 来 索 引 映 射 时 ， 即 便 这 个 键 不 存 在 也 总 会 返 回 一 个 值 。 在 这 种 情 况 下 ， 返 回 的 是 该 值 对 应 的 类 型 的 零 值 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.3 映射的内部实现和基础功能 &gt; 位置 2259</div><div class='noteText'>在 函 数 间 传 递 映 射 并 不 会 制 造 出 该 映 射 的 一 个 副 本 。 实 际 上 ， 当 传 递 映 射 给 一 个 函 数 ， 并 对 这 个 映 射 做 了 修 改 时 ， 所 有 对 这 个 映 射 的 引 用 都 会 察 觉 到 这 个 修 改</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 4.4 小结 &gt; 位置 2286</div><div class='noteText'>将 切 片 或 者 映 射 传 递 给 函 数 成 本 很 小 ， 并 且 不 会 复 制 底 层 的 数 据 结 构 。</h3>
+<h2 class='sectionHeading'>第5章 Go语言的类型系统</h2><h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2291</div><div class='noteText'>G o 语 言 是 一 种 静 态 类 型 的 编 程 语 言</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2292</div><div class='noteText'>编 译 器 需 要 在 编 译 时 知 晓 程 序 里 每 个 值 的 类 型 。 如 果 提 前 知 道 类 型 信 息 ， 编 译 器 就 可 以 确 保 程 序 合 理 地 使 用 值 。 这 有 助 于 减 少 潜 在 的 内 存 异 常 和 b u g ， 并 且 使 编 译 器 有 机 会 对 代 码 进 行 一 些 性 能 优 化 ， 提 高 执 行 效 率 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2303</div><div class='noteText'>还 有 一 些 与 体 系 结 构 相 关 的 类 型 ， 如 G o 语 言 里 的 所 有 引 用 类 型</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 2303</div><div class='noteText'>好 在 创 建 和 使 用 这 些 类 型 的 值 的 时 候 ， 不 需 要 了 解 这 些 与 体 系 结 构 相 关 的 信 息 。 但 是 ， 如 果 编 译 器 不 知 道 这 些 信 息 ， 就 无 法 阻 止 用 户 做 一 些 导 致 程 序 受 损 甚 至 机 器 故 障 的 事 情 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2307</div><div class='noteText'>G o 语 言 里 声 明 用 户 定 义 的 类 型 有 两 种 方 法 。 最 常 用 的 方 法 是 使 用 关 键 字 s t r u c t ， 它 可 以 让 用 户 创 建 一 个 结 构 类 型 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2323</div><div class='noteText'>关 键 字 v a r 创 建 了 类 型 为 u s e r 且 名 为 b i l l 的 变 量 。 当 声 明 变 量 时 ， 这 个 变 量 对 应 的 值 总 是 会 被 初 始 化 。 这 个 值 要 么 用 指 定 的 值 初 始 化 ， 要 么 用 零 值 （ 即 变 量 类 型 的 默 认 值 ） 做 初 始 化 。 对 数 值 类 型 来 说 ， 零 值 是 0 ； 对 字 符 串 来 说 ， 零 值 是 空 字 符 串 ； 对 布 尔 类 型 ， 零 值 是 f a l s e 。 对 这 个 例 子 里 的 结 构 ， 结 构 里 每 个 字 段 都 会 用 零 值 初 始 化 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2329</div><div class='noteText'>任 何 时 候 ， 创 建 一 个 变 量 并 初 始 化 为 其 零 值 ， 习 惯 是 使 用 关 键 字 v a r 。 这 种 用 法 是 为 了 更 明 确 地 表 示 一 个 变 量 被 设 置 为 零 值 。 如 果 变 量 被 初 始 化 为 某 个 非 零 值 ， 就 配 合 结 构 字 面 量 和 短 变 量 声 明 操 作 符 来 创 建 变 量 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2346</div><div class='noteText'>结 构 字 面 量 可 以 对 结 构 类 型 采 用 两 种 形 式</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2348</div><div class='noteText'>第 二 种 形 式 没 有 字 段 名 ， 只 声 明 对 应 的 值</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2352</div><div class='noteText'>每 个 值 也 可 以 分 别 占 一 行 ， 不 过 习 惯 上 这 种 形 式 会 写 在 一 行 里 ， 结 尾 不 需 要 逗 号 。 这 种 形 式 下 ， 值 的 顺 序 很 重 要 ， 必 须 要 和 结 构 声 明 中 字 段 的 顺 序 一 致 。 当 声 明 结 构 类 型 时 ， 字 段 的 类 型 并 不 限 制 在 内 置 类 型 ， 也 可 以 使 用 其 他 用 户 定 义 的 类 型</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.1 用户定义的类型 &gt; 位置 2374</div><div class='noteText'>另 一 种 声 明 用 户 定 义 的 类 型 的 方 法 是 ， 基 于 一 个 已 有 的 类 型 ， 将 其 作 为 新 类 型 的 类 型 说 明</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2406</div><div class='noteText'>方 法 能 给 用 户 定 义 的 类 型 添 加 新 的 行 为 。 方 法 实 际 上 也 是 函 数 ， 只 是 在 声 明 时 ， 在 关 键 字 f u n c 和 方 法 名 之 间 增 加 了 一 个 参 数</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2421</div><div class='noteText'>关 键 字 f u n c 和 函 数 名 之 间 的 参 数 被 称 作 接 收 者 ， 将 函 数 与 接 收 者 的 类 型 绑 在 一 起 。 如 果 一 个 函 数 有 接 收 者 ， 这 个 函 数 就 被 称 为 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2436</div><div class='noteText'>G o 语 言 里 有 两 种 类 型 的 接 收 者 ： 值 接 收 者 和 指 针 接 收 者</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2442</div><div class='noteText'>如 果 使 用 值 接 收 者 声 明 方 法 ， 调 用 时 会 使 用 这 个 值 的 一 个 副 本 来 执 行</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2460</div><div class='noteText'>方 法 n o t i f y 会 接 收 到 b i l l 的 值 的 一 个 副 本</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2461</div><div class='noteText'>也 可 以 使 用 指 针 来 调 用 使 用 值 接 收 者 声 明 的 方 法</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2475</div><div class='noteText'>了 G o 编 译 器 为 了 支 持 这 种 方 法 调 用 背 后 做 的 事 情 。 指 针 被 解 引 用 为 值 ， 这 样 就 符 合 了 值 接 收 者 的 要 求 。 再 强 调 一 次 ， n o t i f y 操 作 的 是 一 个 副 本 ， 只 不 过 这 次 操 作 的 是 从 l i s a 指 针 指 向 的 值 的 副 本 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2478</div><div class='noteText'>也 可 以 使 用 指 针 接 收 者 声 明 方 法</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2484</div><div class='noteText'>这 个 方 法 使 用 指 针 接 收 者 声 明 。 这 个 接 收 者 的 类 型 是 指 向 u s e r 类 型 值 的 指 针 ， 而 不 是 u s e r 类 型 的 值 。 当 调 用 使 用 指 针 接 收 者 声 明 的 方 法 时 ， 这 个 方 法 会 共 享 调 用 方 法 时 接 收 者 所 指 向 的 值 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2496</div><div class='noteText'>值 接 收 者 使 用 值 的 副 本 来 调 用 方 法 ， 而 指 针 接 受 者 使 用 实 际 值 来 调 用 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2505</div><div class='noteText'>G o 语 言 再 一 次 对 值 做 了 调 整 ， 使 之 符 合 函 数 的 接 收 者 ， 进 行 调 用 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2509</div><div class='noteText'>G o 编 译 器 为 了 支 持 这 种 方 法 调 用 在 背 后 做 的 事 情 。 在 这 个 例 子 里 ， 首 先 引 用 b i l l 值 得 到 一 个 指 针 ， 这 样 这 个 指 针 就 能 够 匹 配 方 法 的 接 收 者 类 型 ， 再 进 行 调 用 。 G o 语 言 既 允 许 使 用 值 ， 也 允 许 使 用 指 针</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.2 方法 &gt; 位置 2511</div><div class='noteText'>来 调 用 方 法 ， 不 必 严 格 符 合 接 收 者 的 类 型 。 这 个 支 持 非 常 方 便 开 发 者 编 写 程 序 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2515</div><div class='noteText'>在 声 明 一 个 新 类 型 之 后 ， 声 明 一 个 该 类 型 的 方 法 之 前 ， 需 要 先 回 答 一 个 问 题 ： 这 个 类 型 的 本 质 是 什 么 。 如 果 给 这 个 类 型 增 加 或 者 删 除 某 个 值 ， 是 要 创 建 一 个 新 值 ， 还 是 要 更 改 当 前 的 值 ？ 如 果 是 要 创 建 一 个 新 值 ， 该 类 型 的 方 法 就 使 用 值 接 收 者</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2517</div><div class='noteText'>如 果 是 要 修 改 当 前 值 ， 就 使 用 指 针 接 收 者 。 这 个 答 案 也 会 影 响 程 序 内 部 传 递 这 个 类 型 的 值 的 方 式 ： 是 按 值 做 传 递 ， 还 是 按 指 针 做 传 递 。 保 持 传 递 的 一 致 性 很 重 要 。 这 个 背 后 的 原 则 是 ， 不 要 只 关 注 某 个 方 法 是 如 何 处 理 这 个 值 ， 而 是 要 关 注 这 个 值 的 本 质 是 什 么</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2549</div><div class='noteText'>G o 语 言 里 的 引 用 类 型 有 如 下 几 个 ： 切 片 、 映 射 、 通 道 、 接 口 和 函 数 类 型</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2549</div><div class='noteText'>当 声 明 上 述 类 型 的 变 量 时 ， 创 建 的 变 量 被 称 作 标 头 （ h e a d e r ） 值 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2551</div><div class='noteText'>每 个 引 用 类 型 创 建 的 标 头 值 是 包 含 一 个 指 向 底 层 数 据 结 构 的 指 针 。 每 个 引 用 类 型 还 包 含 一 组 独 特 的 字 段 ， 用 于 管 理 底 层 数 据 结 构 。 因 为 标 头 值 是 为 复 制 而 设 计 的 ， 所 以 永 远 不 需 要 共 享 一 个 引 用 类 型 的 值 。 标 头 值 里 包 含 一 个 指 针 ， 因 此 通 过 复 制 来 传 递 一 个 引 用 类 型 的 值 的 副 本 ， 本 质 上 就 是 在 共 享 底 层 数 据 结 构 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2559</div><div class='noteText'>当 要 围 绕 相 关 的 内 置 类 型 或 者 引 用 类 型 来 声 明 用 户 定 义 的 行 为 时 ， 直 接 基 于 已 有 类 型 来 声 明 用 户 定 义 的 类 型 会 很 好 用 。 编 译 器 只 允 许 为 命 名 的 用 户 定 义 的 类 型 声 明 方 法</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2568</div><div class='noteText'>一 个 值 接 收 者 ， 正 像 预 期 的 那 样 通 过 复 制 来 传 递 引 用 ， 从 而 不 需 要 通 过 指 针 来 共 享 引 用 类 型 的 值 。 这 种 传 递 方 法 也 可 以 应 用 到 函 数 或 者 方 法 的 参 数 传 递 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2576</div><div class='noteText'>你 可 以 看 到 调 用 者 传 入 的 是 这 个 引 用 类 型 的 值 ， 而 不 是 通 过 引 用 共 享 给 这 个 函 数 。 调 用 者 将 引 用 类 型 的 值 的 副 本 传 入 这 个 函 数 。 这 种 方 法 也 适 用 于 函 数 的 返 回 值 。 最 后 要 说 的 是 ， 引 用 类 型 的 值 在 其 他 方 面 像 原 始 的 数 据 类 型 的 值 一 样 对 待 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 5.3 类型的本质 &gt; 位置 2579</div><div class='noteText'>结 构 类 型 可 以 用 来 描 述 一 组 数 据 值 ， 这 组 值 的 本 质 即 可 以 是 原 始 的 ， 也 可 以 是 非 原 始 的 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2609</div><div class='noteText'>的 A d d 方 法 是 展 示 标 准 库 如 何 将 T i m e 类 型 作 为 本 质 是 原 始 的 类 型 的 绝 佳 例 子 。 这 个 方 法 使 用 值 接 收 者 ， 并 返 回 了 一 个 新 的 T i m e 值 。 该 方 法 操 作 的 是 调 用 者 传 入 的 T i m e 值 的 副 本 ， 并 且 给 调 用 者 返 回 了 一 个 方 法 内 的 T i m e 值 的 副 本 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2616</div><div class='noteText'>大 多 数 情 况 下 ， 结 构 类 型 的 本 质 并 不 是 原 始 的 ， 而 是 非 原 始 的 。 这 种 情 况 下 ， 对 这 个 类 型 的 值 做 增 加 或 者 删 除 的 操 作 应 该 更 改 值 本 身 。 当 需 要 修 改 值 本 身 时 ， 在 程 序 中 其 他 地 方 ， 需 要 使 用 指 针 来 共 享 这 个 值 。 让 我 们 看 一 个 由 标 准 库 中 实 现 的 具 有 非 原 始 本 质 的 结 构 类 型 的 例 子</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2627</div><div class='noteText'>这 个 类 型 的 本 质 是 非 原 始 的 。 这 个 类 型 的 值 实 际 上 不 能 安 全 复 制 。 对 内 部 未 公 开 的 类 型 的 注 释 ， 解 释 了 不 安 全 的 原 因 。 因 为 没 有 方 法 阻 止 程 序 员 进 行 复 制 ， 所 以 F i l e 类 型 的 实 现 使 用 了 一 个 嵌 入 的 指 针 ， 指 向 一 个 未 公 开 的 类 型 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 5.3 类型的本质 &gt; 位置 2630</div><div class='noteText'>正 是 这 层 额 外 的 内 嵌 类 型 阻 止 了 复 制 。 不 是 所 有 的 结 构 类 型 都 需 要 或 者 应 该 实 现 类 似 的 额 外 保 护 。 程 序 员 需 要 能 识 别 出 每 个 类 型 的 本 质 ， 并 使 用 这 个 本 质 来 决 定 如 何 组 织 类 型 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2640</div><div class='noteText'>如 果 一 个 创 建 用 的 工 厂 函 数 返 回 了 一 个 指 针 ， 就 表 示 这 个 被 返 回 的 值 的 本 质 是 非 原 始 的 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2641</div><div class='noteText'>即 便 函 数 或 者 方 法 没 有 直 接 改 变 非 原 始 的 值 的 状 态 ， 依 旧 应 该 使 用 共 享 的 方 式 传 递 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2648</div><div class='noteText'>即 使 没 有 修 改 接 收 者 的 值 ， 依</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2648</div><div class='noteText'>然 是 用 指 针 接 收 者 来 声 明 的 。 因 为 F i l e 类 型 的 值 具 备 非 原 始 的 本 质 ， 所 以 总 是 应 该 被 共 享 ， 而 不 是 被 复 制 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2650</div><div class='noteText'>是 使 用 值 接 收 者 还 是 指 针 接 收 者 ， 不 应 该 由 该 方 法 是 否 修 改 了 接 收 到 的 值 来 决 定 。 这 个 决 策 应 该 基 于 该 类 型 的 本 质 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.3 类型的本质 &gt; 位置 2651</div><div class='noteText'>规 则 的 一 个 例 外 是 ， 需 要 让 类 型 值 符 合 某 个 接 口 的 时 候 ， 即 便 类 型 的 本 质 是 非 原 始 本 质 的 ， 也 可 以 选 择 使 用 值 接 收 者 声 明 方 法 。 这 样 做 完 全 符 合 接 口 值 调 用 方 法 的 机 制 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2654</div><div class='noteText'>多 态 是 指 代 码 可 以 根 据 类 型 的 具 体 实 现 采 取 不 同 行 为 的 能 力</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2690</div><div class='noteText'>。 当 我 们 将 B o d y 和 S t d o u t 这 两 个 值 传 给 i o . C o p y 函 数 后 ， 这 个 函 数 会 把 服 务 器 的 数 据 分 成 小 段 ， 源 源 不 断 地 传 给 终 端 窗 口 ， 直 到 最 后 一 个 片 段 读 取 并 写 入 终 端 ， i o . C o p y 函 数 才 返 回</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2695</div><div class='noteText'>i o . C o p y 函 数 可 以 以 这 种 工 作 流 的 方 式 处 理 很 多 标 准 库 里 已 有 的 类 型 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2722</div><div class='noteText'>接 口 是 用 来 定 义 行 为 的 类 型 。 这 些 被 定 义 的 行 为 不 由 接 口 直 接 实 现 ， 而 是 通 过 方 法 由 用 户 定 义 的 类 型 实 现 。 如 果 用 户 定 义 的 类 型 实 现 了 某 个 接 口 类 型 声 明 的 一 组 方 法 ， 那 么 这 个 用 户 定 义 的 类 型 的 值 就 可 以 赋 给 这 个 接 口 类 型 的 值 。 这 个 赋 值 会 把 用 户 定 义 的 类 型 的 值 存 入 接 口 类 型 的 值 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2725</div><div class='noteText'>对 接 口 值 方 法 的 调 用 会 执 行 接 口 值 里 存 储 的 用 户 定 义 的 类 型 的 值 对 应 的 方 法</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2726</div><div class='noteText'>因 为 任 何 用 户 定 义 的 类 型 都 可 以 实 现 任 何 接 口 ， 所 以 对 接 口 值 方 法 的 调 用 自 然 就 是 一 种 多 态</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2726</div><div class='noteText'>在 这 个 关 系 里 ， 用 户 定 义 的 类 型 通 常 叫 作 实 体 类 型 ， 原 因 是 如 果 离 开 内 部 存 储 的 用 户 定 义 的 类 型 的 值 的 实 现 ， 接 口 值 并 没 有 具 体 的 行 为 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 5.4 接口 &gt; 位置 2732</div><div class='noteText'>接 口 值 是 一 个 两 个 字 长 度 的 数 据 结 构 ， 第 一 个 字 包 含 一 个 指 向 内 部 表 的 指 针 。 这 个 内 部 表 叫 作 i T a b l e ， 包 含 了 所 存 储 的 值 的 类 型 信 息</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2733</div><div class='noteText'>。 i T a b l e 包 含 了 已 存 储 的 值 的 类 型 信 息 以 及 与 这 个 值 相 关 联 的 一 组 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2734</div><div class='noteText'>第 二 个 字 是 一 个 指 向 所 存 储 值 的 指 针 。 将 类 型 信 息 和 指 针 组 合 在 一 起 ， 就 将 这 两 个 值 组 成 了 一 种 特 殊 的 关 系 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2740</div><div class='noteText'>方 法 集 定 义 了 接 口 的 接 受 规 则 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2797</div><div class='noteText'>要 了 解 用 指 针 接 收 者 来 实 现 接 口 时 为 什 么 u s e r 类 型 的 值 无 法 实 现 该 接 口 ， 需 要 先 了 解 方 法 集 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2799</div><div class='noteText'>方 法 集 定 义 了 一 组 关 联 到 给 定 类 型 的 值 或 者 指 针 的 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2799</div><div class='noteText'>定 义 方 法 时 使 用 的 接 收 者 的 类 型 决 定 了 这 个 方 法 是 关 联 到 值 ， 还 是 关 联 到 指 针 ， 还 是 两 个 都 关 联 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2807</div><div class='noteText'>T 类 型 的 值 的 方 法 集 只 包 含 值 接 收 者 声 明 的 方 法</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2807</div><div class='noteText'>而 指 向 T 类 型 的 指 针 的 方 法 集 既 包 含 值 接 收 者 声 明 的 方 法 ， 也 包 含 指 针 接 收 者 声 明 的 方 法</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2814</div><div class='noteText'>这 个 规 则 说 ， 如 果 使 用 指 针 接 收 者 来 实 现 一 个 接 口 ， 那 么 只 有 指 向 那 个 类 型 的 指 针 才 能 够 实 现 对 应 的 接 口</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2815</div><div class='noteText'>如 果 使 用 值 接 收 者 来 实 现 一 个 接 口 ， 那 么 那 个 类 型 的 值 和 指 针 都 能 够 实 现 对 应 的 接 口</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2824</div><div class='noteText'>我 们 使 用 指 针 接 收 者 实 现 了 接 口 ， 但 是 试 图 将 u s e r 类 型 的 值 传 给 s e n d N o t i f i c a t i o n 方 法 。 代 码 清 单 5 4 4 的 第 3 0 行 和 第 3 2 行 清 晰 地 展 示 了 这 个 问 题 。 但 是 ， 如 果 传 递 的 是 u s e r 值 的 地 址 ， 整 个 程 序 就 能 通 过 编 译 ， 并 且 能 够 工 作 了</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2832</div><div class='noteText'>， 这 个 程 序 终 于 可 以 编 译 并 且 运 行 。 因 为 使 用 指 针 接 收 者 实 现 的 接 口 ， 只 有 u s e r 类 型 的 指 针 可 以 传 给 s e n d N o t i f i c a t i o n 函 数 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2835</div><div class='noteText'>现 在 的 问 题 是 ， 为 什 么 会 有 这 种 限 制 ？ 事 实 上 ， 编 译 器 并 不 是 总 能 自 动 获 得 一 个 值 的 地 址 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.4 接口 &gt; 位置 2850</div><div class='noteText'>因 为 不 是 总 能 获 取 一 个 值 的 地 址 ， 所 以 值 的 方 法 集 只 包 括 了 使 用 值 接 收 者 实 现 的 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2892</div><div class='noteText'>G o 语 言 允 许 用 户 扩 展 或 者 修 改 已 有 类 型 的 行 为 。 这 个 功 能 对 代 码 复 用 很 重 要 ， 在 修 改 已 有 类 型 以 符 合 新 类 型 的 时 候 也 很 重 要 。 这 个 功 能 是 通 过 嵌 入 类 型 （ t y p e e m b e d d i n g ） 完 成 的 。 嵌 入 类 型 是 将 已 有 的 类 型 直 接 声 明 在 新 的 结 构 类 型 里 。 被 嵌 入 的 类 型 被 称 为 新 的 外 部 类 型 的 内 部 类 型 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2895</div><div class='noteText'>通 过 嵌 入 类 型 ， 与 内 部 类 型 相 关 的 标 识 符 会 提 升 到 外 部 类 型 上 。 这 些 被 提 升 的 标 识 符 就 像 直 接 声 明 在 外 部 类 型 里 的 标 识 符 一 样 ， 也 是 外 部 类 型 的 一 部 分 。 这 样 外 部 类 型 就 组 合 了 内 部 类 型 包 含 的 所 有 属 性 ， 并 且 可 以 添 加 新 的 字 段 和 方 法 。 外 部 类 型 也 可 以 通 过 声 明 与 内 部 类 型 标 识 符 同 名 的 标 识 符 来 覆 盖 内 部 标 识 符 的 字 段 或 者 方 法 。 这 就 是 扩 展 或 者 修 改 已 有 类 型 的 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2923</div><div class='noteText'>注 意 声 明 字 段 和 嵌 入 类 型 在 语 法 上 的 不 同 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2924</div><div class='noteText'>一 旦 我 们 将 u s e r 类 型 嵌 入 a d m i n ， 我 们 就 可 以 说 u s e r 是 外 部 类 型 a d m i n 的 内 部 类 型 。 有 了 内 部 类 型 和 外 部 类 型 这 两 个 概 念 ， 就 能 更 容 易 地 理 解 这 两 种 类 型 之 间 的 关 系 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2945</div><div class='noteText'>内 部 类 型 的 初 始 化 是 用 结 构 字 面 量 完 成 的 。 通 过 内 部 类 型 的 名 字 可 以 访 问 内 部 类 型</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 2946</div><div class='noteText'>对 外 部 类 型 来 说 ， 内 部 类 型 总 是 存 在 的 。 这 就 意 味 着 ， 虽 然 没 有 指 定 内 部 类 型 对 应 的 字 段 名 ， 还 是 可 以 使 用 内 部 类 型 的 类 型 名 ， 来 访 问 到 内 部 类 型 的 值 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 3001</div><div class='noteText'>由 于 内 部 类 型 的 提 升 ， 内 部 类 型 实 现 的 接 口 会 自 动 提 升 到 外 部 类 型 。 这 意 味 着 由 于 内 部 类 型 的 实 现 ， 外 部 类 型 也 同 样 实 现 了 这 个 接 口 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.5 嵌入类型 &gt; 位置 3061</div><div class='noteText'>如 果 外 部 类 型 实 现 了 n o t i f y 方 法 ， 内 部 类 型 的 实 现 就 不 会 被 提 升 。 不 过 内 部 类 型 的 值 一 直 存 在 ， 因 此 还 可 以 通 过 直 接 访 问 内 部 类 型 的 值 ， 来 调 用 没 有 被 提 升 的 内 部 类 型 实 现 的 方 法 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3064</div><div class='noteText'>要 想 设 计 出 好 的 A P I ， 需 要 使 用 某 种 规 则 来 控 制 声 明 后 的 标 识 符 的 可 见 性 。 G o 语 言 支 持 从 包 里 公 开 或 者 隐 藏 标 识 符 。 通 过 这 个 功 能 ， 让 用 户 能 按 照 自 己 的 规 则 控 制 标 识 符 的 可 见 性 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3096</div><div class='noteText'>当 一 个 标 识 符 的 名 字 以 小 写 字 母 开 头 时 ， 这 个 标 识 符 就 是 未 公 开 的 ， 即 包 外 的 代 码 不 可 见 。 如 果 一 个 标 识 符 以 大 写 字 母 开 头 ， 这 个 标 识 符 就 是 公 开 的 ， 即 被 包 外 的 代 码 可 见 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3144</div><div class='noteText'>将 工 厂 函 数 命 名 为 N e w 是 G o 语 言 的 一 个 习 惯 。 这 个 N e w 函 数 做 了 些 有 意 思 的 事 情 ： 它 创 建 了 一 个 未 公 开 的 类 型 的 值 ， 并 将 这 个 值 返 回 给 调 用 者 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3159</div><div class='noteText'>要 让 这 个 行 为 可 行 ， 需 要 两 个 理 由 。 第 一 ， 公 开 或 者 未 公 开 的 标 识 符 ， 不 是 一 个 值 。 第 二 ， 短 变 量 声 明 操 作 符 ， 有 能 力 捕 获 引 用 的 类 型 ， 并 创 建 一 个 未 公 开 的 类 型 的 变 量 。 永 远 不 能 显 式 创 建 一 个 未 公 开 的 类 型 的 变 量 ， 不 过 短 变 量 声 明 操 作 符 可 以 这 么 做 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3196</div><div class='noteText'>第 1 6 行 的 代 码 试 图 初 始 化 未 公 开 的 字 段 e m a i l ， 所 以 编 译 器 抱 怨 这 是 个 未 知 的 字 段 。 因 为 e m a i l 这 个 标 识 符 未 公 开 ， 所 以 它 不 能 在 e n t i t i e s 包 外 被 访 问</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 5.6 公开或未公开的标识符 &gt; 位置 3234</div><div class='noteText'>由 于 内 部 类 型 u s e r 是 未 公 开 的 ， 这 段 代 码 无 法 直 接 通 过 结 构 字 面 量 的 方 式 初 始 化 该 内 部 类 型 。 不 过 ， 即 便 内 部 类 型 是 未 公 开 的 ， 内 部 类 型 里 声 明 的 字 段 依 旧 是 公 开 的 。 既 然 内 部 类 型 的 标 识 符 提 升 到 了 外 部 类 型 ， 这 些 公 开 的 字 段 也 可 以 通 过 外 部 类 型 的 字 段 的 值 来 访 问 。</h3>
+<h2 class='sectionHeading'>第6章 并发</h2><h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 3252</div><div class='noteText'>G o 语 言 的 语 法 和 运 行 时 直 接 内 置 了 对 并 发 的 支 持 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 3253</div><div class='noteText'>G o 语 言 里 的 并 发 指 的 是 能 让 某 个 函 数 独 立 于 其 他 函 数 运 行 的 能 力 。 当 一 个 函 数 创 建 为 g o r o u t i n e 时 ， G o 会 将 其 视 为 一 个 独 立 的 工 作 单 元 。 这 个 单 元 会 被 调 度 到 可 用 的 逻 辑 处 理 器 上 执 行 。 G o 语 言 运 行 时 的 调 度 器 是 一 个 复 杂 的 软 件 ， 能 管 理 被 创 建 的 所 有 g o r o u t i n e 并 为 其 分 配 执 行 时 间 。 这 个 调 度 器 在 操 作 系 统 之 上 ， 将 操 作 系 统 的 线 程 与 语 言 运 行 时 的 逻 辑 处 理 器 绑 定 ， 并 在 逻 辑 处 理 器 上 运 行 g o r o u t i n e 。 调 度 器 在 任 何 给 定 的 时 间 ， 都 会 全 面 控 制 哪 个 g o r o u t i n e 要 在 哪 个 逻 辑 处 理 器 上 运 行 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 3257</div><div class='noteText'>G o 语 言 的 并 发 同 步 模 型 来 自 一 个 叫 作 通 信 顺 序 进 程 （ C o m m u n i c a t i n g S e q u e n t i a l P r o c e s s e s ， C S P ） 的 范 型 （ p a r a d i g m ） 。 C S P 是 一 种 消 息 传 递 模 型 ， 通 过 在 g o r o u t i n e 之 间 传 递 数 据 来 传 递 消 息 ， 而 不 是 对 数 据 进 行 加 锁 来 实 现 同 步 访 问 。 用 于 在 g o r o u t i n e 之 间 同 步 和 传 递 数 据 的 关 键 数 据 类 型 叫 作 通 道 （ c h a n n e l ） 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3267</div><div class='noteText'>这 些 资 源 包 括 但 不 限 于 内 存 地 址 空 间 、 文 件 和 设 备 的 句 柄 以 及 线 程 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3267</div><div class='noteText'>一 个 线 程 是 一 个 执 行 空 间 ， 这 个 空 间 会 被 操 作 系 统 调 度 来 运 行 函 数 中 所 写 的 代 码 。 每 个 进 程 至 少 包 含 一 个 线 程 ， 每 个 进 程 的 初 始 线 程 被 称 作 主 线 程 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3274</div><div class='noteText'>操 作 系 统 会 在 物 理 处 理 器 上 调 度 线 程 来 运 行 ， 而 G o 语 言 的 运 行 时 会 在 逻 辑 处 理 器 上 调 度 g o r o u t i n e 来 运 行 。 每 个 逻 辑 处 理 器 都 分 别 绑 定 到 单 个 操 作 系 统 线 程 。 在 1 . 5 版 本 ① 上 ， G o 语 言 的 运 行 时 默 认 会 为 每 个 可 用 的 物 理 处 理 器 分 配 一 个 逻 辑 处 理 器 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3283</div><div class='noteText'>有 时 ， 正 在 运 行 的 g o r o u t i n e 需 要 执 行 一 个 阻 塞 的 系 统 调 用 ， 如 打 开 一 个 文 件 。 当 这 类 调 用 发 生 时 ， 线 程 和 g o r o u t i n e 会 从 逻 辑 处 理 器 上 分 离 ， 该 线 程 会 继 续 阻 塞 ， 等 待 系 统 调 用 的 返 回</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3290</div><div class='noteText'>调 度 器 对 可 以 创 建 的 逻 辑 处 理 器 的 数 量 没 有 限 制 ， 但 语 言 运 行 时 默 认 限 制 每 个 程 序 最 多 创 建 1 0 0 0 0 个 线 程 。 这 个 限 制 值 可 以 通 过 调 用 r u n t i m e / d e b u g 包 的 S e t M a x T h r e a d s 方 法 来 更 改 。 如 果 程 序 试 图 使 用 更 多 的 线 程 ， 就 会 崩 溃 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3294</div><div class='noteText'>并 发 （ c o n c u r r e n c y ） 不 是 并 行 （ p a r a l l e l i s m ） 。 并 行 是 让 不 同 的 代 码 片 段 同 时 在 不 同 的 物 理 处 理 器 上 执 行 。 并 行 的 关 键 是 同 时 做 很 多 事 情 ， 而 并 发 是 指 同 时 管 理 很 多 事 情 ， 这 些 事 情 可 能 只 做 了 一 半 就 被 暂 停 去 做 别 的 事 情 了 。 在 很 多 情 况 下 ， 并 发 的 效 果 比 并 行 好 ， 因 为 操 作 系 统 和 硬 件 的 总 资 源 一 般 很 少 ， 但 能 支 持 系 统 同 时 做 很 多 事 情 。 这 种 “ 使 用 较 少 的 资 源 做 更 多 的 事 情 ” 的 哲 学 ， 也 是 指 导 G o 语 言 设 计 的 哲 学 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.1 并发与并行 &gt; 位置 3302</div><div class='noteText'>调 度 器 包 含 一 些 聪 明 的 算 法 ， 这 些 算 法 会 随 着 G o 语 言 的 发 布 被 更 新 和 改 进 ， 所 以 不 推 荐 盲 目 修 改 语 言 运 行 时 对 逻 辑 处 理 器 的 默 认 设 置 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3324</div><div class='noteText'>调 用 了 r u n t i m e 包 的 G O M A X P R O C S 函 数 。 这 个 函 数 允 许 程 序 更 改 调 度 器 可 以 使 用 的 逻 辑 处 理 器 的 数 量 。 如 果 不 想 在 代 码 里 做 这 个 调 用 ， 也 可 以 通 过 修 改 和 这 个 函 数 名 字 一 样 的 环 境 变 量 的 值 来 更 改 逻 辑 处 理 器 的 数 量 。 给 这 个 函 数 传 入 1 ， 是 通 知 调 度 器 只 能 为 该 程 序 使 用 一 个 逻 辑 处 理 器 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3337</div><div class='noteText'>第 一 个 g o r o u t i n e 完 成 所 有 显 示 需 要 花 时 间 太 短 了 ， 以 至 于 在 调 度 器 切 换 到 第 二 个 g o r o u t i n e 之 前 ， 就 完 成 了 所 有 任 务 。 这 也 是 为 什 么 会 看 到 先 输 出 了 所 有 的 大 写 字 母 ， 之 后 才 输 出 小 写 字 母 。 我 们 创 建 的 两 个 g o r o u t i n e 一 个 接 一 个 地 并 发 运 行 ， 独 立 完 成 显 示 字 母 表 的 任 务 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3364</div><div class='noteText'>基 于 调 度 器 的 内 部 算 法 ， 一 个 正 运 行 的 g o r o u t i n e 在 工 作 结 束 前 ， 可 以 被 停 止 并 重 新 调 度 。 调 度 器 这 样 做 的 目 的 是 防 止 某 个 g o r o u t i n e 长 时 间 占 用 逻 辑 处 理 器 。 当 g o r o u t i n e 占 用 时 间 过 长 时 ， 调 度 器 会 停 止 当 前 正 运 行 的 g o r o u t i n e ， 并 给 其 他 可 运 行 的 g o r o u t i n e 运 行 的 机 会 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3409</div><div class='noteText'>包 r u n t i m e 提 供 了 修 改 G o 语 言 运 行 时 配 置 参 数 的 能 力 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.2 goroutine &gt; 位置 3411</div><div class='noteText'>函 数 N u m C P U 返 回 可 以 使 用 的 物 理 处 理 器 的 数 量 。 因 此 ， 调 用 G O M A X P R O C S 函 数 就 为 每 个 可 用 的 物 理 处 理 器 创 建 一 个 逻 辑 处 理 器 。 需 要 强 调 的 是 ， 使 用 多 个 逻 辑 处 理 器 并 不 意 味 着 性 能 更 好 。 在 修 改 任 何 语 言 运 行 时 配 置 参 数 的 时 候 ， 都 需 要 配 合 基 准 测 试 来 评 估 程 序 的 运 行 效 果 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.3 竞争状态 &gt; 位置 3486</div><div class='noteText'>G o 语 言 有 一 个 特 别 的 工 具 ， 可 以 在 代 码 里 检 测 竞 争 状 态 。 在 查 找 这 类 错 误 的 时 候 ， 这 个 工 具 非 常 好 用 ， 尤 其 是 在 竞 争 状 态 并 不 像 这 个 例 子 里 这 么 明 显 的 时 候 。 让 我 们 用 这 个 竞 争 检 测 器 来 检 测 一 下 我 们 的 例 子 代 码 ，</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.3 竞争状态 &gt; 位置 3503</div><div class='noteText'>一 种 修 正 代 码 、 消 除 竞 争 状 态 的 办 法 是 ， 使 用 G o 语 言 提 供 的 锁 机 制 ， 来 锁 住 共 享 资 源 ， 从 而 保 证 g o r o u t i n e 的 同 步 状 态 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3504</div><div class='noteText'>G o 语 言 提 供 了 传 统 的 同 步 g o r o u t i n e 的 机 制 ， 就 是 对 共 享 资 源 加 锁 。 如 果 需 要 顺 序 访 问 一 个 整 型 变 量 或 者 一 段 代 码 ， a t o m i c 和 s y n c 包 里 的 函 数 提 供 了 很 好 的 解 决 方 案 。 下 面 我 们 了 解 一 下 a t o m i c 包 里 的 几 个 函 数 以 及 s y n c 包 里 的 m u t e x 类 型 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3510</div><div class='noteText'>原 子 函 数 能 够 以 很 底 层 的 加 锁 机 制 来 同 步 访 问 整 型 变 量 和 指 针 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3527</div><div class='noteText'>了 a t m o i c 包 的 A d d I n t 6 4 函 数 。 这 个 函 数 会 同 步 整 型 值 的 加 法 ， 方 法 是 强 制 同 一 时 刻 只 能 有 一 个 g o r o u t i n e 运 行 并 完 成 这 个 加 法 操 作 。 当 g o r o u t i n e 试 图 去 调 用 任 何 原 子 函 数 时 ， 这 些 g o r o u t i n e 都 会 自 动 根 据 所 引 用 的 变 量 做 同 步 处 理 。 现 在 我 们 得 到 了 正 确 的 值 4 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3531</div><div class='noteText'>另 外 两 个 有 用 的 原 子 函 数 是 L o a d I n t 6 4 和 S t o r e I n t 6 4 。 这 两 个 函 数 提 供 了 一 种 安 全 地 读 和 写 一 个 整 型 值 的 方 式 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 6.4 锁住共享资源 &gt; 位置 3556</div><div class='noteText'>如 果 哪 个 d o W o r k g o r o u t i n e 试 图 在 m a i n 函 数 调 用 S t o r e I n t 6 4 的 同 时 调 用 L o a d I n t 6 4 函 数 ， 那 么 原 子 函 数 会 将 这 些 调 用 互 相 同 步 ， 保 证 这 些 操 作 都 是 安 全 的 ， 不 会 进 入 竞 争 状 态 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3560</div><div class='noteText'>另 一 种 同 步 访 问 共 享 资 源 的 方 式 是 使 用 互 斥 锁 （ m u t e x ） 。 互 斥 锁 这 个 名 字 来 自 互 斥 （ m u t u a l e x c l u s i o n ） 的 概 念 。 互 斥 锁 用 于 在 代 码 上 创 建 一 个 临 界 区 ， 保 证 同 一 时 间 只 有 一 个 g o r o u t i n e 可 以 执 行 这 个 临 界 区 代 码 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.4 锁住共享资源 &gt; 位置 3580</div><div class='noteText'>对 c o u n t e r 变 量 的 操 作 在 第 4 6 行 和 第 6 0 行 的 L o c k ( ) 和 U n l o c k ( ) 函 数 调 用 定 义 的 临 界 区 里 被 保 护 起 来 。 使 用 大 括 号 只 是 为 了 让 临 界 区 看 起 来 更 清 晰 ， 并 不 是 必 需 的 。 同 一 时 刻 只 有 一 个 g o r o u t i n e 可 以 进 入 临 界 区 。 之 后 ， 直 到 调 用 U n l o c k ( ) 函 数 之 后 ， 其 他 g o r o u t i n e 才 能 进 入 临 界 区 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 6.5 通道 &gt; 位置 3587</div><div class='noteText'>原 子 函 数 和 互 斥 锁 都 能 工 作 ， 但 是 依 靠 它 们 都 不 会 让 编 写 并 发 程 序 变 得 更 简 单 ， 更 不 容 易 出 错 ， 或 者 更 有 趣 。 在 G o 语 言 里 ， 你 不 仅 可 以 使 用 原 子 函 数 和 互 斥 锁 来 保 证 对 共 享 资 源 的 安 全 访 问 以 及 消 除 竞 争 状 态 ， 还 可 以 使 用 通 道 ， 通 过 发 送 和 接 收 需 要 共 享 的 资 源 ， 在 g o r o u t i n e 之 间 做 同 步 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3590</div><div class='noteText'>当 一 个 资 源 需 要 在 g o r o u t i n e 之 间 共 享 时 ， 通 道 在 g o r o u t i n e 之 间 架 起 了 一 个 管 道 ， 并 提 供 了 确 保 同 步 交 换 数 据 的 机 制 。 声 明 通 道 时 ， 需 要 指 定 将 要 被 共 享 的 数 据 的 类 型 。 可 以 通 过 通 道 共 享 内 置 类 型 、 命 名 类 型 、 结 构 类 型 和 引 用 类 型 的 值 或 者 指 针 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3602</div><div class='noteText'>向 通 道 发 送 值 或 者 指 针 需 要 用 到 &lt; 操 作 符</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3618</div><div class='noteText'>无 缓 冲 的 通 道 （ u n b u f f e r e d c h a n n e l ） 是 指 在 接 收 前 没 有 能 力 保 存 任 何 值 的 通 道 。 这 种 类 型 的 通 道 要 求 发 送 g o r o u t i n e 和 接 收 g o r o u t i n e 同 时 准 备 好 ， 才 能 完 成 发 送 和 接 收 操 作 。 如 果 两 个 g o r o u t i n e 没 有 同 时 准 备 好 ， 通 道 会 导 致 先 执 行 发 送 或 接 收 操 作 的 g o r o u t i n e 阻 塞 等 待 。 这 种 对 通 道 进 行 发 送 和 接 收 的 交 互 行 为 本 身 就 是 同 步 的 。 其 中 任 意 一 个 操 作 都 无 法 离 开 另 一 个 操 作 单 独 存 在 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3711</div><div class='noteText'>有 缓 冲 的 通 道 （ b u f f e r e d c h a n n e l ） 是 一 种 在 被 接 收 前 能 存 储 一 个 或 者 多 个 值 的 通 道 。 这 种 类 型 的 通 道 并 不 强 制 要 求 g o r o u t i n e 之 间 必 须 同 时 完 成 发 送 和 接 收 。 通 道 会 阻 塞 发 送 和 接 收 动 作 的 条 件 也 会 不 同 。 只 有 在 通 道 中 没 有 要 接 收 的 值 时 ， 接 收 动 作 才 会 阻 塞 。 只 有 在 通 道 没 有 可 用 缓 冲 区 容 纳 被 发 送 的 值 时 ， 发 送 动 作 才 会 阻 塞 。 这 导 致 有 缓 冲 的 通 道 和 无 缓 冲 的 通 道 之 间 的 一 个 很 大 的 不 同 ： 无 缓 冲 的 通 道 保 证 进 行 发 送 和 接 收 的 g o r o u t i n e 会 在 同 一 时 间 进 行 数 据 交 换 ； 有 缓 冲 的 通 道 没 有 这 种 保 证 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 6.5 通道 &gt; 位置 3762</div><div class='noteText'>当 通 道 关 闭 后 ， g o r o u t i n e 依 旧 可 以 从 通 道 接 收 数 据 ， 但 是 不 能 再 向 通 道 里 发 送 数 据 。 能 够 从 已 经 关 闭 的 通 道 接 收 数 据 这 一 点 非 常 重 要 ， 因 为 这 允 许 通 道 关 闭 后 依 旧 能 取 出 其 中 缓 冲 的 全 部 值 ， 而 不 会 有 数 据 丢 失 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 6.5 通道 &gt; 位置 3764</div><div class='noteText'>从 一 个 已 经 关 闭 且 没 有 数 据 的 通 道 里 获 取 数 据 ， 总 会 立 刻 返 回 ， 并 返 回 一 个 通 道 类 型 的 零 值 。 如 果 在 获 取 通 道 时 还 加 入 了 可 选 的 标 志 ， 就 能 得 到 通 道 的 状 态 信 息 。</h3>
+<h2 class='sectionHeading'>第7章 并发模式</h2><h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1 runner &gt; 位置 3866</div><div class='noteText'>这 个 通 道 用 来 管 理 执 行 任 务 的 时 间 。 如 果 从 这 个 通 道 接 收 到 一 个 t i m e . T i m e 的 值 ， 这 个 程 序 就 会 试 图 清 理 状 态 并 停 止 工 作 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.1 runner &gt; 位置 3912</div><div class='noteText'>最 后 一 个 通 道 t i m e o u t 是 用 t i m e 包 的 A f t e r 函 数 初 始 化 的 。 A f t e r 函 数 返 回 一 个 t i m e . T i m e 类 型 的 通 道 。 语 言 运 行 时 会 在 指 定 的 d u r a t i o n 时 间 到 期 之 后 ， 向 这 个 通 道 发 送 一 个 t i m e . T i m e 的 值 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 7.3 work &gt; 位置 4297</div><div class='noteText'>无 缓 冲 的 通 道 保 证 两 个 g o r o u t i n e 之 间 的 数 据 交 换 。 这 种 使 用 无 缓 冲 的 通 道 的 方 法 允 许 使 用 者 知 道 什 么 时 候 g o r o u t i n e 池 正 在 执 行 工 作 ， 而 且 如 果 池 里 的 所 有 g o r o u t i n e 都 忙 ， 无 法 接 受 新 的 工 作 的 时 候 ， 也 能 及 时 通 过 通 道 来 通 知 调 用 者 。 使 用 无 缓 冲 的 通 道 不 会 有 工 作 在 队 列 里 丢 失 或 者 卡 住 ， 所 有 工 作 都 会 被 处 理 。</h3>
+<h2 class='sectionHeading'>第8章 标准库</h2><h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 位置 4465</div><div class='noteText'>G o 语 言 社 区 的 开 发 者 会 比 其 他 语 言 的 开 发 者 更 依 赖 这 些 标 准 库 里 的 包 的 原 因 是 ， 标 准 库 本 身 是 经 过 良 好 设 计 的 ， 并 且 比 其 他 语 言 的 标 准 库 提 供 了 更 多 的 功 能 。 社 区 里 的 G o 开 发 者 会 依 赖 这 些 标 准 库 里 的 包 做 更 多 其 他 语 言 中 开 发 者 无 法 做 的 事 情 ， 例 如 ， 网 络 、 H T T P 、 图 像 处 理 、 加 密 等 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.2 记录日志 &gt; 位置 4506</div><div class='noteText'>日 志 是 一 种 找 到 这 些 b u g ， 更 好 地 了 解 程 序 工 作 状 态 的 方 法 。 日 志 是 开 发 人 员 的 眼 睛 和 耳 朵 ， 可 以 用 来 跟 踪 、 调 试 和 分 析 代 码 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.2 记录日志 &gt; 位置 4567</div><div class='noteText'>关 键 字 i o t a 在 常 量 声 明 区 里 有 特 殊 的 作 用 。 这 个 关 键 字 让 编 译 器 为 每 个 常 量 复 制 相 同 的 表 达 式 ， 直 到 声 明 区 结 束 ， 或 者 遇 到 一 个 新 的 赋 值 语 句 。 关 键 字 i o t a 的 另 一 个 功 能 是 ， i o t a 的 初 始 值 为 0 ， 之 后 i o t a 的 值 在 每 次 处 理 为 常 量 后 ， 都 会 自 增 1 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_orange'>橙色</span>) - 8.2 记录日志 &gt; 位置 4620</div><div class='noteText'>l o g 包 有 一 个 很 方 便 的 地 方 就 是 ， 这 些 日 志 记 录 器 是 多 g o r o u t i n e 安 全 的 。 这 意 味 着 在 多 个 g o r o u t i n e 可 以 同 时 调 用 来 自 同 一 个 日 志 记 录 器 的 这 些 函 数 ， 而 不 会 有 彼 此 间 的 写 冲 突 。 标 准 日 志 记 录 器 具 有 这 一 性 质 ， 用 户 定 制 的 日 志 记 录 器 也 应 该 满 足 这 一 性 质 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.3 编码/解码 &gt; 位置 4894</div><div class='noteText'>其 值 是 i n t e r f a c e { } 类 型 。 这 意 味 着 这 个 m a p 类 型 可 以 使 用 任 意 类 型 的 值 作 为 给 定 键 的 值 。 虽 然 这 种 方 法 为 处 理 J S O N 文 档 带 来 了 很 大 的 灵 活 性 ， 但 是 却 有 一 个 小 缺 点 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.3 编码/解码 &gt; 位置 4910</div><div class='noteText'>使 用 j s o n 包 的 M a r s h a l I n d e n t 函 数 进 行 编 码 。 这 个 函 数 可 以 很 方 便 地 将 G o 语 言 的 m a p 类 型 的 值 或 者 结 构 类 型 的 值 转 换 为 易 读 格 式 的 J S O N 文 档 。 序 列 化 （ m a r s h a l ） 是 指 将 数 据 转 换 为 J S O N 字 符 串 的 过 程 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.4 输入和输出 &gt; 位置 4951</div><div class='noteText'>类 U N I X 的 操 作 系 统 如 此 伟 大 的 一 个 原 因 是 ， 一 个 程 序 的 输 出 可 以 是 另 一 个 程 序 的 输 入 这 一 理 念 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.4 输入和输出 &gt; 位置 4990</div><div class='noteText'>那 么 该 方 法 就 一 定 会 返 回 一 个 错 误 。 返 回 的 写 入 字 节 数 可 能 会 小 于 b y t e 切 片 的 长 度 ， 但 不 会 出 现 大 于 的 情 况 。 最 后 ， 不 管 什 么 情 况 ， 都 不 能 修 改 b y t e 切 片 里 的 数 据 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 8.4 输入和输出 &gt; 位置 5185</div><div class='noteText'>应 该 花 时 间 看 一 下 标 准 库 中 提 供 了 些 什 么 ， 以 及 它 是 如 何 实 现 的 — — 不 仅 要 防 止 重 新 造 轮 子 ， 还 要 理 解 G o 语 言 的 设 计 者 的 习 惯 ， 并 将 这 些 习 惯 应 用 到 自 己 的 包 和 A P I 的 设 计 上 。</h3>
+<h2 class='sectionHeading'>第9章 测试和性能</h2><h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 9.1 单元测试 &gt; 位置 5252</div><div class='noteText'>一 个 测 试 函 数 必 须 是 公 开 的 函 数 ， 并 且 以 T e s t 单 词 开 头 。 不 但 函 数 名 字 要 以 T e s t 开 头 ， 而 且 函 数 的 签 名 必 须 接 收 一 个 指 向 t e s t i n g . T 类 型 的 指 针 ， 并 且 不 返 回 任 何 值 。 如 果 没 有 遵 守 这 些 约 定 ， 测 试 框 架 就 不 会 认 为 这 个 函 数 是 一 个 测 试 函 数 ， 也 不 会 让 测 试 工 具 去 执 行 它 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 9.1 单元测试 &gt; 位置 5388</div><div class='noteText'>模 仿 （ m o c k i n g ） 是 一 个 很 常 用 的 技 术 手 段 ， 用 来 在 运 行 测 试 时 模 拟 访 问 不 可 用 的 资 源 。 包 h t t p t e s t 可 以 让 你 能 够 模 仿 互 联 网 资 源 的 请 求 和 响 应 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 9.2 示例 &gt; 位置 5630</div><div class='noteText'>对 于 示 例 代 码 ， 需 要 遵 守 一 个 规 则 。 示 例 代 码 的 函 数 名 字 必 须 基 于 已 经 存 在 的 公 开 的 函 数 或 者 方 法 。 我 们 的 示 例 的 名 字 基 于 h a n d l e r s 包 里 公 开 的 S e n d J S O N 函 数 。 如 果 没 有 使 用 已 经 存 在 的 函 数 或 者 方 法 ， 这 个 示 例 就 不 会 显 示 在 包 的 G o 文 档 里 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 9.3 基准测试 &gt; 位置 5670</div><div class='noteText'>基 准 测 试 是 一 种 测 试 代 码 性 能 的 方 法 。 想 要 测 试 解 决 同 一 问 题 的 不 同 方 案 的 性 能 ， 以 及 查 看 哪 种 解 决 方 案 的 性 能 更 好 时 ， 基 准 测 试 就 会 很 有 用 。</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 9.3 基准测试 &gt; 位置 5690</div><div class='noteText'>基 准 测 试 函 数 必 须 以 B e n c h m a r k 开 头 ， 接 受 一 个 指 向 t e s t i n g . B 类 型 的 指 针 作 为 唯 一 参 数</h3>
+<h3 class='noteHeading'>标注 (<span class='highlight_yellow'>黄色</span>) - 9.3 基准测试 &gt; 位置 5761</div><div class='noteText'>另 一 个 很 有 用 的 选 项 是 b e n c h m e m 选 项 。 这 个 选 项 可 以 提 供 每 次 操 作 分 配 内 存 的 次 数 ， 以 及 总 共 分 配 内 存 的 字 节 数 。</h3>
+</div> 
+</body> 
+</html> 
